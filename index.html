@@ -75,17 +75,17 @@
     padding:18px 32px;
     max-width:1160px; margin:0 auto;
   }
-  .nav-brand{ display:flex; align-items:center; gap:12px; text-decoration:none; }
+  .nav-brand{ display:flex; align-items:center; gap:12px; text-decoration:none; flex-shrink:0; margin-right:40px; }
   .nav-brand svg{ width:20px; height:28px; flex-shrink:0; }
   .nav-brand-text{
     font-family:var(--serif); font-style:italic; font-weight:600;
     font-size:19px; letter-spacing:0.01em; color:var(--parchment);
     white-space:nowrap;
   }
-  .nav-links{ display:flex; align-items:center; gap:36px; }
+  .nav-links{ display:flex; align-items:center; gap:28px; }
   .nav-links a{
     text-decoration:none; font-size:13px; letter-spacing:0.1em; text-transform:uppercase;
-    color:var(--parchment-dim); transition:color .2s ease;
+    color:var(--parchment-dim); transition:color .2s ease; white-space:nowrap;
   }
   .nav-links a:hover{ color:var(--brass); }
   .nav-cta{
@@ -112,9 +112,10 @@
   header.site-nav.open .nav-toggle .i-close{ display:block; }
   .nav-toggle:focus-visible, .nav-links a:focus-visible{ outline:2px solid var(--brass); outline-offset:3px; }
 
-  /* Bajo 1180px el menú completo no cabe: se pasa al botón ☰ */
-  @media (max-width:1180px){
+  /* Bajo 1260px el menú completo no cabe: se pasa al botón ☰ */
+  @media (max-width:1260px){
     .nav-toggle{ display:flex; }
+    .nav-brand{ margin-right:0; }
     .nav-social{ display:none; }
     .nav-links{
       display:none; position:absolute; top:100%; left:0; right:0;
@@ -1030,7 +1031,7 @@
         "source": "Ministerio de Hacienda / Banco Central de Chile / Emol, BioBioChile",
         "date": "11 nov 2026",
         "analysis": "Una recesión técnica no significa que todo se detenga, pero sí que la economía lleva meses sin avanzar. Para ti, se nota en un mercado laboral más difícil, con el desempleo en 9,8%, y en reajustes más bajos. El dato clave llega el miércoles 18: si el tercer trimestre también cae, la pregunta dejará de ser cuánto crecemos y pasará a ser cuánto tardamos en salir.",
-        "index": "01 / 12"
+        "index": "01 / 13"
       },
       "capsulas": [
         {
@@ -1046,7 +1047,7 @@
           "source": "Ministerio de Hacienda / Banco Central de Chile / Emol, BioBioChile",
           "date": "11 nov 2026",
           "analysis": "Una recesión técnica no significa que todo se detenga, pero sí que la economía lleva meses sin avanzar. Para ti, se nota en un mercado laboral más difícil, con el desempleo en 9,8%, y en reajustes más bajos. El dato clave llega el miércoles 18: si el tercer trimestre también cae, la pregunta dejará de ser cuánto crecemos y pasará a ser cuánto tardamos en salir.",
-          "index": "01/12"
+          "index": "01/13"
         },
         {
           "tag": "Chile",
@@ -1061,7 +1062,7 @@
           "source": "Banco Central de Chile / La Tercera, Diario Financiero",
           "date": "13 nov 2026",
           "analysis": "Un dólar cerca de los $1.000 encarece lo importado: tecnología, repuestos, pasajes y, con algo de rezago, combustibles y alimentos. Si pagas algo en dólares, como suscripciones o compras en el extranjero, ya lo estás pagando más caro. Si necesitas comprar dólares, es más prudente hacerlo de a poco que todo en un día de alza fuerte.",
-          "index": "02/12"
+          "index": "02/13"
         },
         {
           "tag": "Chile",
@@ -1076,7 +1077,7 @@
           "source": "Gobierno de Chile / El Mostrador, Ex-Ante, Canal 9",
           "date": "13 nov 2026",
           "analysis": "Un paro de camiones se siente rápido en el bolsillo: menos abastecimiento y fletes más caros que terminan en el precio de los alimentos. La rebaja de $100 en el diésel puede aliviar los costos de transporte en las próximas semanas. Para la fruta el momento era delicado, porque noviembre marca el inicio de la temporada de exportación de cerezas, que dan empleo a miles de personas.",
-          "index": "03/12"
+          "index": "03/13"
         },
         {
           "tag": "Venezuela",
@@ -1091,7 +1092,7 @@
           "source": "Banco Central de Venezuela / Finanzas Digital",
           "date": "13 nov 2026",
           "analysis": "Cada bolívar más por dólar significa que tu sueldo en bolívares compra un poco menos. Que el euro haya pasado los Bs. 1.000 es simbólico, pero confirma que la depreciación no se detiene. Si recibes ingresos en bolívares, evita dejarlos quietos y lleva tus cuentas con una referencia estable para saber cuánto rinde realmente tu dinero.",
-          "index": "04/12"
+          "index": "04/13"
         },
         {
           "tag": "Venezuela",
@@ -1106,7 +1107,7 @@
           "source": "Banco Central de Venezuela / teleSUR",
           "date": "12 nov 2026",
           "analysis": "Crecer más de 7% es mucho, pero el dato convive con una inflación que, según estimaciones privadas, cerraría el año sobre 200%. Por eso muchas familias no sienten ese crecimiento: la economía produce más, pero los precios suben más rápido que los sueldos. La clave será si este avance se traduce en empleos estables y mejores ingresos.",
-          "index": "05/12"
+          "index": "05/13"
         },
         {
           "tag": "Argentina",
@@ -1121,7 +1122,7 @@
           "source": "INDEC / Chequeado",
           "date": "12 nov 2026",
           "analysis": "Cuando los precios suben más rápido que los sueldos, el dinero rinde menos cada mes. El rebote de octubre muestra que bajar la inflación no es un camino en línea recta, sobre todo cuando se ajustan tarifas como la del gas. Si viajas o haces negocios en Argentina, conviene revisar los precios con más frecuencia de lo habitual.",
-          "index": "06/12"
+          "index": "06/13"
         },
         {
           "tag": "Perú",
@@ -1136,7 +1137,7 @@
           "source": "FMI / La Tercera, Infobae",
           "date": "7 nov 2026",
           "analysis": "Es un cambio de lugar en el tamaño total de la economía, no en cómo vive la gente: el PIB por habitante de Chile (US$17.837 en 2025) casi duplica al de Perú (US$9.938). Lo que sí muestra es que Chile lleva años creciendo poco. Para ti, el estancamiento se nota en el empleo y los sueldos; la comparación con Perú es solo el termómetro.",
-          "index": "07/12"
+          "index": "07/13"
         },
         {
           "tag": "EE.UU.",
@@ -1151,7 +1152,7 @@
           "source": "FAA / Infobae, Emol, CNN en Español",
           "date": "14 nov 2026",
           "analysis": "Todavía no hay una cifra oficial de cuánto costó el día a aerolíneas y pasajeros. Si tienes un viaje a EE.UU., revisa las condiciones de tu aerolínea: LATAM y Copa ofrecieron cambios sin costo para los vuelos afectados. Y que el sistema necesite una renovación de hasta US$50.000 millones, según el secretario de Transporte, avisa que los retrasos podrían repetirse.",
-          "index": "08/12"
+          "index": "08/13"
         },
         {
           "tag": "EE.UU.",
@@ -1166,7 +1167,7 @@
           "source": "BLS / CNBC, CME FedWatch",
           "date": "13 nov 2026",
           "analysis": "Lo que pagan las empresas por producir suele llegar después a los precios finales. Por eso la Fed se prepara para subir la tasa, y cuando eso pasa el dólar se fortalece en todo el mundo, como se vio esta semana en Chile al tocar los $1.000. Para Latinoamérica significa crédito más caro y monedas bajo presión.",
-          "index": "09/12"
+          "index": "09/13"
         },
         {
           "tag": "Chile",
@@ -1181,10 +1182,21 @@
           "source": "Macrotrends (Comex) / Diario Financiero",
           "date": "13 nov 2026",
           "analysis": "El cobre es la principal exportación de Chile: cuando su precio se debilita, entran menos dólares al país y el peso pierde valor. También importa para el Fisco, porque un cobre más bajo significa menos ingresos para financiar el gasto público. Que siga sobre el nivel de hace un año es el lado bueno de la noticia.",
-          "index": "10/12"
+          "index": "10/13"
         },
         {
-          "index": "11/12",
+          "tag": "Infografía",
+          "type": "image",
+          "title": "¿Quién exporta el ron de Latinoamérica?",
+          "body": "República Dominicana lidera y es el 5.º exportador del mundo. Pero en el ron no gana quien vende más litros, sino quien vende más caro.",
+          "image": "5min-economia-infografia-ron-latam-web.jpg",
+          "alt": "Infografía: exportaciones de ron en 2024, en millones de dólares. República Dominicana 118,8 (22,3 millones de litros), Jamaica 56,9, Guatemala 49,2 (23,8 millones de litros), Barbados 40,2, Nicaragua 22,6. Valor por litro: Guyana US$8,33, República Dominicana US$5,32, Nicaragua US$1,49. Venezuela tiene Denominación de Origen desde 2003, pero no reporta exportaciones a Comtrade.",
+          "source": "Banco Mundial (WITS / UN Comtrade)",
+          "date": "nov 2026",
+          "index": "11/13"
+        },
+        {
+          "index": "12/13",
           "tag": "Sitios de interés",
           "type": "links",
           "title": "Visita estos sitios que te pueden interesar",
@@ -1252,7 +1264,7 @@
           "source_label": "Cartas a Lucilio, 71",
           "source": "5 min. de economía",
           "date": "16 nov 2026",
-          "index": "12/12"
+          "index": "13/13"
         }
       ],
       "indicators": {
@@ -1284,7 +1296,9 @@
           }
         ],
         "source": "Fuentes: Banco Central de Chile (dólar observado), SII (UF), Banco Central de Venezuela, Macrotrends/Comex (cobre), Trading Economics (Brent)"
-      }
+      },
+      "video": "5min-economia-228-resumen.mp4",
+      "videoPoster": "5min-economia-228-video-portada.jpg"
     },
     {
       "number": 227,
