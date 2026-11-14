@@ -424,8 +424,8 @@
     color:var(--brass); margin-bottom:8px; font-weight:600;
   }
   .front-analysis p{
-    font-family:var(--serif); font-style:italic; font-size:16px; line-height:1.55;
-    color:rgba(241,231,214,0.88);
+    font-family:var(--sans); font-style:normal; font-weight:400; font-size:17px; line-height:1.6;
+    color:rgba(241,231,214,0.94);
   }
   .front-footer{
     margin-top:36px; padding-top:18px; border-top:1px solid var(--line);
@@ -506,8 +506,8 @@
     color:var(--brass); margin-bottom:5px; font-weight:600;
   }
   .cap-analysis p{
-    font-family:var(--serif); font-style:italic; font-size:15px; line-height:1.5;
-    color:rgba(241,231,214,0.85);
+    font-family:var(--sans); font-style:normal; font-weight:400; font-size:15.5px; line-height:1.6;
+    color:rgba(241,231,214,0.92);
   }
   .cap-footer{
     margin-top:16px; padding-top:12px; border-top:1px solid var(--line);
@@ -536,7 +536,7 @@
   .zoom-stat-label{ margin-top:8px; font-size:clamp(14px,1.8vw,17px); color:var(--parchment-dim); }
   .zoom-analysis{ margin-top:24px; padding:18px 22px; background:rgba(241,231,214,0.05); border-left:3px solid var(--brass); border-radius:0 6px 6px 0; }
   .zoom-analysis .label{ display:block; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:var(--brass); font-weight:600; margin-bottom:6px; }
-  .zoom-analysis p{ font-family:var(--serif); font-style:italic; font-size:clamp(16px,2vw,19px); line-height:1.55; color:rgba(241,231,214,0.9); }
+  .zoom-analysis p{ font-family:var(--sans); font-style:normal; font-weight:400; font-size:clamp(17px,2vw,19px); line-height:1.65; color:rgba(241,231,214,0.95); }
   .zoom-foot{ margin-top:26px; padding-top:16px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(241,231,214,0.5); }
   .zoom-quote-mark{ font-family:var(--serif); font-size:90px; color:var(--brass); line-height:0.6; margin:20px 0; }
   .zoom-quote{ font-family:var(--serif); font-style:italic; font-weight:600; font-size:clamp(28px,5vw,48px); line-height:1.3; }
@@ -562,6 +562,27 @@
   .zoom-full{ display:inline-block; margin-top:18px; padding:10px 18px; border:1px solid var(--brass); border-radius:999px; color:var(--brass); text-decoration:none; font-size:14px; letter-spacing:.06em; }
   .zoom-full:hover{ background:var(--brass); color:var(--ink); }
   .zoom-img{ display:block; width:100%; height:auto; margin-top:22px; border-radius:6px; border:1px solid var(--brass-dim); }
+
+  /* Secciones "Infografías y videos" y "Eventos" (historial que se llena solo desde el JSON) */
+  .section-eventos[hidden]{ display:none; }
+  .arch-sec{ display:block; margin:6px 0 14px; font-size:13px; letter-spacing:.16em; text-transform:uppercase; color:var(--brass); }
+  .arch-grid + .arch-sec{ margin-top:34px; }
+  .arch-grid figure{ cursor:pointer; }
+  .evento{ display:grid; grid-template-columns:minmax(0,300px) 1fr; gap:28px; align-items:start; padding:26px 24px; border:1px solid var(--brass-dim); border-radius:6px; background:linear-gradient(155deg, var(--wine) 0%, var(--wine-deep) 68%, #250408 100%); }
+  .evento + .evento{ margin-top:22px; }
+  .evento video{ display:block; width:100%; max-width:320px; margin:0 auto; background:#000; border-radius:6px; border:1px solid var(--brass-dim); }
+  .evento .zoom-program{ margin-top:16px; }
+  .evento .cap-title{ margin-top:6px; }
+  @media (max-width:860px){ .evento{ grid-template-columns:1fr; } }
+  .arch-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:16px; }
+  .arch-grid figure{ margin:0; }
+  .arch-grid img{ display:block; width:100%; aspect-ratio:4/5; object-fit:cover; object-position:top; border-radius:6px; border:1px solid var(--brass-dim); transition:border-color .2s ease; }
+  .arch-grid a:hover img{ border-color:var(--brass); }
+  .arch-grid video{ display:block; width:100%; aspect-ratio:9/16; background:#000; border-radius:6px; border:1px solid var(--brass-dim); }
+  .arch-grid figcaption{ margin-top:8px; font-size:14px; line-height:1.4; color:rgba(241,231,214,0.85); }
+  .arch-grid figcaption span{ display:block; font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--parchment-dim); margin-bottom:2px; }
+  .arch-grid figcaption a{ color:var(--brass); text-decoration:none; font-size:13px; }
+  @media (max-width:860px){ .arch-mosaic{ grid-template-columns:repeat(3, 1fr); } .arch-grid{ grid-template-columns:repeat(2, 1fr); gap:12px; } }
   .cap-card-links .cap-body{ flex:none; }
   .cap-card-links .cap-links{ flex:1; margin-top:14px; }
   .cap-links{ list-style:none; margin-top:10px; position:relative; }
@@ -747,6 +768,7 @@
       <a href="#portada">Portada</a>
       <a href="#capsulas">Cápsulas</a>
       <a href="#archivo">Archivo</a>
+      <a href="#infografias">Infografías</a>
       <a href="#relanzamiento">De vuelta</a>
       <a href="#autor">Autor</a>
       <a href="#seguir" class="nav-cta">Seguir</a>
@@ -851,6 +873,30 @@
     </div>
   </section>
 
+  <!-- ============ INFOGRAFÍAS Y VIDEOS (historial; se llena solo con cada edición del JSON) ============ -->
+  <section class="section section-multimedia" id="infografias">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Infografías y videos</span>
+        <h2 class="section-title">Todo lo que hemos explicado en imágenes</h2>
+        <p class="section-sub" id="multimedia-sub">Cada infografía y cada video resumen queda guardado aquí. Toca una infografía para verla en grande.</p>
+      </div>
+      <div id="multimedia-content"><!-- rendered from data --></div>
+    </div>
+  </section>
+
+  <!-- ============ EVENTOS (se llena desde "eventos" en los datos; quedan como historial) ============ -->
+  <section class="section section-eventos" id="eventos" hidden>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Eventos</span>
+        <h2 class="section-title">Agenda que vale la pena</h2>
+        <p class="section-sub">Actividades del mundo de la economía que te recomendamos.</p>
+      </div>
+      <div id="eventos-content"><!-- rendered from data --></div>
+    </div>
+  </section>
+
   <!-- ============ RELANZAMIENTO (después del archivo: la noticia de la semana va primero) ============ -->
   <section class="section section-relanzamiento" id="relanzamiento">
     <div class="wrap">
@@ -933,7 +979,313 @@
 <!-- DATA START -->
 <script type="application/json" id="site-data">
 {
+  "multimedia": {
+    "extraVideos": [
+      { "ed": 227, "title": "Resumen de la edición 227", "video": "5min-economia-227-resumen.mp4" }
+    ]
+  },
+  "eventos": [
+    {
+      "id": "faces-68",
+      "tag": "Evento",
+      "title": "FACES‑ULA celebra su 68 aniversario: esta es la programación",
+      "body": "La Facultad de Ciencias Económicas y Sociales de la Universidad de Los Andes (Mérida) celebra 68 años con una semana de actividades, del 16 al 21 de noviembre. El martes 17, Día del Economista, la ponencia central aborda el desafío de recuperar la industria de petróleo y gas en Venezuela.",
+      "video": "5min-economia-faces68-semana.mp4",
+      "poster": "5min-economia-faces68-portada.jpg",
+      "items": [
+        "Lunes 16 · 8:00 a.m. · Izado de la Bandera · Anfiteatro FACES",
+        "Lunes 16 · 9:00 a.m. · Misa de Acción de Gracias · Auditorio B",
+        "Lunes 16 · 10:30 a.m. · Reconocimiento a Estudiantes de Alto Rendimiento · Auditorio B",
+        "Martes 17 · 9:00 a.m. · Premiación del Concurso Adam Smith 250 · Auditorio B",
+        "Martes 17 · 10:30 a.m. · Ponencia Central, Día del Economista: «La Industria de Petróleo y Gas en Venezuela: El Desafío de una Recuperación Sostenida» · Auditorio B",
+        "Miércoles 18 · 10:00 a.m. · Trayectorias Compartidas: encuentro de profesores y egresados · Auditorio B",
+        "Jueves 19 y viernes 20 · Emprendimiento en Acción: un espacio para aprender, conectar y transformar ideas en oportunidades · Auditorio B",
+        "Sábado 21 · 8:00 a.m. · FACES FEST (punto de encuentro) · Estacionamiento FACES ULA"
+      ],
+      "note": "Conexión en línea: reunión 8404933847 · código Faces68",
+      "source": "FACES · Universidad de Los Andes",
+      "date": "16–21 nov 2026"
+    }
+  ],
   "editions": [
+    {
+      "number": 228,
+      "date": "16 de noviembre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Argentina",
+        "Perú",
+        "EE.UU."
+      ],
+      "portada": {
+        "tag": "Chile",
+        "headline": "Hacienda reconoce por primera vez que Chile está en recesión técnica",
+        "body": "El ministro de Hacienda, Jorge Quiroz, admitió ante Bloomberg que la economía chilena atraviesa una recesión técnica, que atribuyó sobre todo a la caída de la producción de cobre. Según las cifras del Banco Central, el PIB cayó 0,3% en el primer trimestre y no varió en el segundo. Quiroz aseguró que será corta y que el PIB crecería cerca de 4% en 2028. El Banco Central publica el PIB del tercer trimestre este miércoles 18.",
+        "stat": {
+          "value": "−0,3%",
+          "direction": "down",
+          "label": "PIB · 1er trimestre 2026 (2º trimestre: 0%)"
+        },
+        "source": "Ministerio de Hacienda / Banco Central de Chile / Emol, BioBioChile",
+        "date": "11 nov 2026",
+        "analysis": "Una recesión técnica no significa que todo se detenga, pero sí que la economía lleva meses sin avanzar. Para ti, se nota en un mercado laboral más difícil, con el desempleo en 9,8%, y en reajustes más bajos. El dato clave llega el miércoles 18: si el tercer trimestre también cae, la pregunta dejará de ser cuánto crecemos y pasará a ser cuánto tardamos en salir.",
+        "index": "01 / 12"
+      },
+      "capsulas": [
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "Hacienda reconoce por primera vez que Chile está en recesión técnica",
+          "body": "El ministro de Hacienda, Jorge Quiroz, admitió ante Bloomberg que la economía chilena atraviesa una recesión técnica, que atribuyó sobre todo a la caída de la producción de cobre. Según las cifras del Banco Central, el PIB cayó 0,3% en el primer trimestre y no varió en el segundo. Quiroz aseguró que será corta y que el PIB crecería cerca de 4% en 2028. El Banco Central publica el PIB del tercer trimestre este miércoles 18.",
+          "stat": {
+            "value": "−0,3%",
+            "direction": "down",
+            "label": "PIB · 1er trimestre 2026 (2º trimestre: 0%)"
+          },
+          "source": "Ministerio de Hacienda / Banco Central de Chile / Emol, BioBioChile",
+          "date": "11 nov 2026",
+          "analysis": "Una recesión técnica no significa que todo se detenga, pero sí que la economía lleva meses sin avanzar. Para ti, se nota en un mercado laboral más difícil, con el desempleo en 9,8%, y en reajustes más bajos. El dato clave llega el miércoles 18: si el tercer trimestre también cae, la pregunta dejará de ser cuánto crecemos y pasará a ser cuánto tardamos en salir.",
+          "index": "01/12"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El dólar toca los $1.000 por primera vez desde abril de 2025",
+          "body": "El viernes 13 el dólar llegó a un máximo de $1.003,65 durante la sesión, pero no logró cerrar sobre esa barrera y terminó en $995, según La Tercera. En la semana subió $20,38. El dólar observado del Banco Central quedó en $992,48. Pesaron el tono duro de la Reserva Federal, el mal momento del cobre y las dudas sobre Medio Oriente.",
+          "stat": {
+            "value": "$992,48",
+            "direction": "up",
+            "label": "Dólar observado · 13 nov (máximo del día: $1.003,65)"
+          },
+          "source": "Banco Central de Chile / La Tercera, Diario Financiero",
+          "date": "13 nov 2026",
+          "analysis": "Un dólar cerca de los $1.000 encarece lo importado: tecnología, repuestos, pasajes y, con algo de rezago, combustibles y alimentos. Si pagas algo en dólares, como suscripciones o compras en el extranjero, ya lo estás pagando más caro. Si necesitas comprar dólares, es más prudente hacerlo de a poco que todo en un día de alza fuerte.",
+          "index": "02/12"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "Termina el paro de camioneros: el diésel baja $100 y la fruta quedó en riesgo",
+          "body": "Los camioneros levantaron el 13 de noviembre el paro que mantenían por el alza del diésel, tras un acuerdo con el Gobierno: una rebaja adicional de $100 por litro y beneficios tributarios para el transporte de carga. Durante los bloqueos, más de US$20 millones en exportaciones de fruta quedaron comprometidos, según El Mercurio, y más de 700 camiones bolivianos quedaron varados en Arica e Iquique. Aún no hay una cifra oficial del costo total del paro.",
+          "stat": {
+            "value": "US$20 millones",
+            "direction": "down",
+            "label": "Exportaciones de fruta en riesgo · El Mercurio"
+          },
+          "source": "Gobierno de Chile / El Mostrador, Ex-Ante, Canal 9",
+          "date": "13 nov 2026",
+          "analysis": "Un paro de camiones se siente rápido en el bolsillo: menos abastecimiento y fletes más caros que terminan en el precio de los alimentos. La rebaja de $100 en el diésel puede aliviar los costos de transporte en las próximas semanas. Para la fruta el momento era delicado, porque noviembre marca el inicio de la temporada de exportación de cerezas, que dan empleo a miles de personas.",
+          "index": "03/12"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El dólar oficial supera los Bs. 910 y el euro pasa los Bs. 1.000",
+          "body": "El Banco Central de Venezuela fijó la tasa oficial en Bs. 911,62 por dólar para el viernes 13 de noviembre, 0,79% más que el día anterior (Bs. 904,45). El euro oficial quedó en Bs. 1.009,34. La brecha con el dólar paralelo ronda 17,7%, según estimaciones privadas.",
+          "stat": {
+            "value": "Bs. 911,62",
+            "direction": "up",
+            "label": "Dólar oficial BCV · 13 nov (12 nov: Bs. 904,45)"
+          },
+          "source": "Banco Central de Venezuela / Finanzas Digital",
+          "date": "13 nov 2026",
+          "analysis": "Cada bolívar más por dólar significa que tu sueldo en bolívares compra un poco menos. Que el euro haya pasado los Bs. 1.000 es simbólico, pero confirma que la depreciación no se detiene. Si recibes ingresos en bolívares, evita dejarlos quietos y lleva tus cuentas con una referencia estable para saber cuánto rinde realmente tu dinero.",
+          "index": "04/12"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "La economía venezolana crece 7,42% y suma 22 trimestres al alza",
+          "body": "El Banco Central de Venezuela informó que el PIB creció 7,42% interanual en el tercer trimestre de 2026, con lo que suma 22 trimestres consecutivos de expansión. El avance fue impulsado principalmente por la actividad no petrolera. En el segundo trimestre, el crecimiento había sido de 7,14%.",
+          "stat": {
+            "value": "7,42%",
+            "direction": "up",
+            "label": "PIB interanual · 3er trimestre 2026 (2º trimestre: 7,14%)"
+          },
+          "source": "Banco Central de Venezuela / teleSUR",
+          "date": "12 nov 2026",
+          "analysis": "Crecer más de 7% es mucho, pero el dato convive con una inflación que, según estimaciones privadas, cerraría el año sobre 200%. Por eso muchas familias no sienten ese crecimiento: la economía produce más, pero los precios suben más rápido que los sueldos. La clave será si este avance se traduce en empleos estables y mejores ingresos.",
+          "index": "05/12"
+        },
+        {
+          "tag": "Argentina",
+          "type": "stat",
+          "title": "La inflación de Argentina sube a 2,2% en octubre, la más alta desde abril",
+          "body": "El INDEC informó que los precios subieron 2,2% en octubre, por encima del 1,8% que esperaban las consultoras y el sondeo del Banco Central (REM). En lo que va del año la inflación acumula 26,3% y en doce meses llega a 33,1%. Los servicios públicos, empujados por el gas, encabezaron las alzas; la inflación núcleo fue de 1,5%.",
+          "stat": {
+            "value": "2,2%",
+            "direction": "up",
+            "label": "IPC mensual · octubre (esperado: 1,8%)"
+          },
+          "source": "INDEC / Chequeado",
+          "date": "12 nov 2026",
+          "analysis": "Cuando los precios suben más rápido que los sueldos, el dinero rinde menos cada mes. El rebote de octubre muestra que bajar la inflación no es un camino en línea recta, sobre todo cuando se ajustan tarifas como la del gas. Si viajas o haces negocios en Argentina, conviene revisar los precios con más frecuencia de lo habitual.",
+          "index": "06/12"
+        },
+        {
+          "tag": "Perú",
+          "type": "stat",
+          "title": "Perú superaría a Chile como cuarta economía de Sudamérica en 2027",
+          "body": "Según las proyecciones del FMI (Perspectivas de la Economía Mundial, octubre de 2026), el PIB de Perú llegaría a US$413.597 millones en 2027, apenas US$154 millones por encima de los US$413.443 millones de Chile. Este año Chile todavía va adelante: US$402.200 millones frente a US$399.600 millones. La diferencia se explica por el mayor crecimiento peruano: 3% en 2026, frente a 0,6% de Chile. Medido en paridad de poder de compra, Chile mantendría el cuarto lugar.",
+          "stat": {
+            "value": "US$154 millones",
+            "direction": "up",
+            "label": "Ventaja de Perú sobre Chile · PIB 2027 proyectado (FMI)"
+          },
+          "source": "FMI / La Tercera, Infobae",
+          "date": "7 nov 2026",
+          "analysis": "Es un cambio de lugar en el tamaño total de la economía, no en cómo vive la gente: el PIB por habitante de Chile (US$17.837 en 2025) casi duplica al de Perú (US$9.938). Lo que sí muestra es que Chile lleva años creciendo poco. Para ti, el estancamiento se nota en el empleo y los sueldos; la comparación con Perú es solo el termómetro.",
+          "index": "07/12"
+        },
+        {
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "EE.UU. detiene todos los despegues por cuatro horas: más de 16.000 vuelos cancelados",
+          "body": "El viernes 13 la Administración Federal de Aviación (FAA) ordenó frenar los despegues en todo el país por «circunstancias extraordinarias», desde poco antes de las 16:00 hasta cerca de las 20:15, hora de Nueva York. Entre el viernes y el sábado se cancelaron más de 16.000 vuelos. LATAM, Azul y Copa cancelaron o reprogramaron rutas desde Latinoamérica. El Gobierno pidió al Congreso US$30.100 millones para modernizar el control aéreo.",
+          "stat": {
+            "value": "16.000",
+            "direction": "up",
+            "label": "Vuelos cancelados · 13 y 14 nov (FAA)"
+          },
+          "source": "FAA / Infobae, Emol, CNN en Español",
+          "date": "14 nov 2026",
+          "analysis": "Todavía no hay una cifra oficial de cuánto costó el día a aerolíneas y pasajeros. Si tienes un viaje a EE.UU., revisa las condiciones de tu aerolínea: LATAM y Copa ofrecieron cambios sin costo para los vuelos afectados. Y que el sistema necesite una renovación de hasta US$50.000 millones, según el secretario de Transporte, avisa que los retrasos podrían repetirse.",
+          "index": "08/12"
+        },
+        {
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "Los precios al productor en EE.UU. suben 6,5% en un año, el mayor alza desde 2022",
+          "body": "Los precios al productor subieron 0,3% en octubre, algo menos que el 0,4% esperado, pero en doce meses avanzan 6,5%, el mayor aumento anual desde noviembre de 2022, según la Oficina de Estadísticas Laborales (BLS). Con este dato, el mercado asigna 93,4% de probabilidad a que la Reserva Federal suba su tasa en 0,25 puntos en su reunión del 8 y 9 de diciembre, según CME.",
+          "stat": {
+            "value": "6,5%",
+            "direction": "up",
+            "label": "Precios al productor · anual, octubre (mensual: 0,3%)"
+          },
+          "source": "BLS / CNBC, CME FedWatch",
+          "date": "13 nov 2026",
+          "analysis": "Lo que pagan las empresas por producir suele llegar después a los precios finales. Por eso la Fed se prepara para subir la tasa, y cuando eso pasa el dólar se fortalece en todo el mundo, como se vio esta semana en Chile al tocar los $1.000. Para Latinoamérica significa crédito más caro y monedas bajo presión.",
+          "index": "09/12"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El cobre pierde fuerza y presiona al peso chileno",
+          "body": "El cobre cerró la semana en torno a US$6,06 la libra en el mercado de Nueva York (Comex), según Macrotrends. Diario Financiero señaló el mal desempeño del metal como uno de los factores que llevaron al dólar a tocar los $1.000. Aun así, el precio sigue cerca de 20% más alto que hace un año, cuando rondaba los US$5,05.",
+          "stat": {
+            "value": "US$6,06",
+            "direction": "down",
+            "label": "Cobre Comex · libra, 13 nov (hace un año: US$5,05)"
+          },
+          "source": "Macrotrends (Comex) / Diario Financiero",
+          "date": "13 nov 2026",
+          "analysis": "El cobre es la principal exportación de Chile: cuando su precio se debilita, entran menos dólares al país y el peso pierde valor. También importa para el Fisco, porque un cobre más bajo significa menos ingresos para financiar el gasto público. Que siga sobre el nivel de hace un año es el lado bueno de la noticia.",
+          "index": "10/12"
+        },
+        {
+          "index": "11/12",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "PIB, dólar observado e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "Tipo de cambio y PIB"
+            },
+            {
+              "name": "INDEC",
+              "url": "https://www.indec.gob.ar",
+              "note": "Inflación de Argentina"
+            },
+            {
+              "name": "BCRP",
+              "url": "https://www.bcrp.gob.pe",
+              "note": "Economía de Perú"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Proyecciones mundiales"
+            },
+            {
+              "name": "BLS",
+              "url": "https://www.bls.gov",
+              "note": "Precios y empleo en EE.UU."
+            },
+            {
+              "name": "FAA",
+              "url": "https://www.faa.gov",
+              "note": "Estado de los vuelos en EE.UU."
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "nov 2026"
+        },
+        {
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "Ningún viento es favorable para quien no sabe a qué puerto se dirige.",
+          "author": "Séneca",
+          "source_label": "Cartas a Lucilio, 71",
+          "source": "5 min. de economía",
+          "date": "16 nov 2026",
+          "index": "12/12"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$992,48",
+            "note": "Observado · 13 nov"
+          },
+          {
+            "label": "UF",
+            "value": "$41.343,55",
+            "note": "16 nov"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 911,62",
+            "note": "Oficial · 13 nov"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,06/lb",
+            "note": "Comex · 13 nov"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$96,08",
+            "note": "Brent · 13 nov"
+          }
+        ],
+        "source": "Fuentes: Banco Central de Chile (dólar observado), SII (UF), Banco Central de Venezuela, Macrotrends/Comex (cobre), Trading Economics (Brent)"
+      }
+    },
     {
       "number": 227,
       "destacado": { "capsula": 10, "kicker": "Destacado · 1958–2026", "titulo": "68 aniversario de FACES‑ULA", "lema": "¡Todos somos FACES!", "texto": "Semana aniversario del 16 al 21 de noviembre: programación completa, ponencia del Día del Economista y conexión en línea.", "imagen": "5min-economia-faces68-portada.jpg", "alt": "Emblema 68 aniversario ULA FACES 1958–2026 · ¡Todos somos FACES!" },
@@ -3777,6 +4129,34 @@
       '</div>';
   }
 
+  // Infografías y videos: reúne todas las infografías (cápsulas "image") y los videos resumen (ed.video)
+  // de todas las ediciones del JSON, más "multimedia" (extraVideos / extraImages). Las próximas entran solas.
+  function collectArchivo(c){
+    c = c || {};
+    var imgs = [], vids = [], seen = {};
+    editions.forEach(function(ed){
+      (ed.capsulas || []).forEach(function(x, k){
+        if (x.type === 'image' && x.image && !seen[x.image]) {
+          seen[x.image] = 1;
+          imgs.push({ ed: ed.number, title: x.title, image: x.image, alt: x.alt || x.title, href: capHash(ed, k) });
+        }
+      });
+      if (ed.video && !seen[ed.video]) {
+        seen[ed.video] = 1;
+        vids.push({ ed: ed.number, title: 'Resumen de la edición ' + ed.number, video: ed.video, poster: ed.videoPoster || '' });
+      }
+    });
+    (c.extraVideos || []).forEach(function(v){
+      if (v.video && !seen[v.video]) { seen[v.video] = 1; vids.push(v); }
+    });
+    (c.extraImages || []).forEach(function(v){
+      if (v.image && !seen[v.image]) { seen[v.image] = 1; imgs.push(v); }
+    });
+    function byEd(a, b){ return (+b.ed || 0) - (+a.ed || 0); }
+    imgs.sort(byEd); vids.sort(byEd);
+    return { imgs: imgs, vids: vids };
+  }
+
   function renderGallery(ed){
     var grid = document.getElementById('gallery-grid');
     if (!grid || !ed.capsulas) return;
@@ -4121,6 +4501,45 @@
         openModal(parseInt(e.target.getAttribute('data-i'), 10));
       }
     });
+  })();
+
+  // Sección "Infografías y videos": historial completo, no depende de la edición elegida
+  (function renderMultimedia(){
+    var box = document.getElementById('multimedia-content');
+    if (!box) return;
+    var A = collectArchivo(data.multimedia);
+    var gi = A.imgs.map(function(x){
+      var link = x.href || x.image;
+      return '<figure><a href="' + esc(link) + '"' + (x.href ? '' : ' target="_blank" rel="noopener"') + '><img src="' + esc(x.image) + '" alt="' + esc(x.alt) + '" loading="lazy"></a>' +
+        '<figcaption><span>Edición ' + esc(x.ed) + '</span>' + esc(x.title) + '</figcaption></figure>';
+    }).join('');
+    var gv = A.vids.map(function(v){
+      return '<figure><video src="' + esc(v.video) + (v.poster ? '' : '#t=0.5') + '"' + (v.poster ? ' poster="' + esc(v.poster) + '"' : '') +
+        ' controls playsinline preload="' + (v.poster ? 'none' : 'metadata') + '"></video>' +
+        '<figcaption><span>Edición ' + esc(v.ed) + '</span>' + esc(v.title) + '</figcaption></figure>';
+    }).join('');
+    box.innerHTML =
+      (gi ? '<span class="arch-sec">Infografías · ' + A.imgs.length + '</span><div class="arch-grid">' + gi + '</div>' : '') +
+      (gv ? '<span class="arch-sec">Videos resumen · ' + A.vids.length + '</span><div class="arch-grid">' + gv + '</div>' : '');
+  })();
+
+  // Sección "Eventos": cada evento se agrega una sola vez en data.eventos y queda guardado
+  (function renderEventos(){
+    var list = data.eventos || [], sec = document.getElementById('eventos'), box = document.getElementById('eventos-content');
+    if (!sec || !box || !list.length) return;
+    sec.hidden = false;
+    box.innerHTML = list.map(function(c){
+      var its = (c.items || []).map(function(x){ return '<li>' + esc(x) + '</li>'; }).join('');
+      return '<article class="evento" id="' + esc(c.id || '') + '">' +
+        (c.video ? '<video src="' + esc(c.video) + '" poster="' + esc(c.poster || '') + '" controls playsinline preload="none"></video>' : '') +
+        '<div><span class="cap-tag">' + esc(c.tag || 'Evento') + '</span>' +
+        '<div class="cap-title">' + esc(c.title) + '</div>' +
+        '<div class="cap-body">' + esc(c.body || '') + '</div>' +
+        (its ? '<div class="zoom-program"><span class="label">Programación</span><ul>' + its + '</ul></div>' : '') +
+        (c.note ? '<p class="zoom-note">' + esc(c.note) + '</p>' : '') +
+        '<div class="cap-footer"><span>' + esc(c.source || '') + '</span><span>' + esc(c.date || '') + '</span></div></div>' +
+        '</article>';
+    }).join('');
   })();
 
   if (editions.length) {
