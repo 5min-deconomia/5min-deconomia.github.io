@@ -2,6 +2,9 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<!-- Seguridad: solo se permiten scripts propios y de GoatCounter, fuentes de Google; sin formularios, iframes ni plugins -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; media-src 'self'; connect-src 'self' https://5mindeconomia.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src https://www.youtube-nocookie.com; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>5 min. de Economía — La economía, explicada en el tiempo que dura tu café</title>
 <meta name="description" content="Una cápsula informativa de economía para Chile, Venezuela y el resto de Latinoamérica. El dato que importa, la cifra exacta y por qué te afecta — en cinco minutos.">
@@ -163,6 +166,10 @@
   .cap-play{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:64px; height:64px; border-radius:50%;
              display:flex; align-items:center; justify-content:center; padding-left:5px; font-size:24px;
              background:rgba(12,8,8,0.72); color:var(--brass); border:2px solid var(--brass); }
+  .cap-vid.yt{ aspect-ratio:16/9; }
+  .zoom-yt{ display:block; width:100%; aspect-ratio:16/9; margin:18px auto 0; border:1px solid var(--brass-dim); border-radius:6px; background:#000; }
+  .zoom-ytcredit{ margin-top:10px; font-size:13px; color:var(--parchment-dim); }
+  .zoom-ytcredit a{ color:var(--brass); }
   .zoom-video{ display:block; width:100%; max-height:70vh; margin:18px auto 0; background:#000; border:1px solid var(--brass-dim); border-radius:6px; }
   .zoom-program{ margin-top:22px; padding:18px 20px; border-left:3px solid var(--brass); background:rgba(0,0,0,0.25); }
   .zoom-program .label{ display:block; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:var(--brass); margin-bottom:10px; }
@@ -371,6 +378,10 @@
   }
   .relanz-media img, .relanz-media video{ width:100%; height:100%; object-fit:cover; display:block; }
   .relanz-media video{ height:auto; aspect-ratio:16/9; object-fit:contain; }
+  .relanz-wide{ grid-column:1 / -1; }
+  .relanz-feature{ position:relative; flex-direction:column; margin:0; border:2px solid var(--brass); box-shadow:0 18px 50px rgba(0,0,0,.45); }
+  .relanz-feature figcaption{ width:100%; padding:14px 18px; font-size:15px; color:var(--parchment-dim); border-top:1px solid var(--brass-dim); text-align:center; }
+  .relanz-badge{ position:absolute; top:14px; left:14px; z-index:2; background:var(--brass); color:#151010; font-weight:700; font-size:13px; letter-spacing:.12em; text-transform:uppercase; padding:6px 14px; border-radius:30px; }
   @media (max-width:860px){ .relanz-grid{ grid-template-columns:1fr; } }
 
   .section-portada{ background:var(--ink); }
@@ -774,7 +785,7 @@
       <a href="#autor">Autor</a>
       <a href="#seguir" class="nav-cta">Seguir</a>
     </nav>
-    <div class="nav-social"><a href="https://www.instagram.com/5min.deconomia/" target="_blank" rel="noopener" aria-label="5 min. de Economía en Instagram" title="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.25.06 2.1.25 2.85.55.77.3 1.42.7 2.07 1.35.65.65 1.05 1.3 1.35 2.07.3.75.49 1.6.55 2.85.06 1.25.07 1.65.07 4.85s0 3.6-.07 4.85c-.06 1.25-.25 2.1-.55 2.85-.3.77-.7 1.42-1.35 2.07-.65.65-1.3 1.05-2.07 1.35-.75.3-1.6.49-2.85.55-1.25.06-1.65.07-4.85.07s-3.6 0-4.85-.07c-1.25-.06-2.1-.25-2.85-.55-.77-.3-1.42-.7-2.07-1.35-.65-.65-1.05-1.3-1.35-2.07-.3-.75-.49-1.6-.55-2.85C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.85c.06-1.25.25-2.1.55-2.85.3-.77.7-1.42 1.35-2.07.65-.65 1.3-1.05 2.07-1.35.75-.3 1.6-.49 2.85-.55C8.4 2.2 8.8 2.2 12 2.2zm0 3.15a6.65 6.65 0 100 13.3 6.65 6.65 0 000-13.3zm0 10.97a4.32 4.32 0 110-8.64 4.32 4.32 0 010 8.64zm6.9-11.24a1.55 1.55 0 11-3.1 0 1.55 1.55 0 013.1 0z"/></svg></a><a href="https://www.facebook.com/profile.php?id=61594516364606" target="_blank" rel="noopener" aria-label="5 min. de Economía en Facebook" title="Facebook"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"/></svg></a><a href="https://x.com/5Deconomia" target="_blank" rel="noopener" aria-label="5 min. de Economía en X (Twitter)" title="X (Twitter)"><svg viewBox="0 0 24 24"><path d="M18.9 3H22l-7.5 8.57L23.3 21h-6.9l-5.4-6.6L4.7 21H1.6l8.05-9.2L1 3h7.1l4.9 6.05L18.9 3zm-1.2 16.2h1.7L7.4 4.7H5.6l12.1 14.5z"/></svg></a><a href="https://www.tiktok.com/@5mindeconomia" target="_blank" rel="noopener" aria-label="5 min. de Economía en TikTok" title="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.3v13.4a2.9 2.9 0 11-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.3 6.3 0 105.3 6.2V8.6a7.9 7.9 0 004.6 1.5V6.8a4.6 4.6 0 01-4.6-4.8z"/></svg></a><a href="https://t.me/5min_deconomia" target="_blank" rel="noopener" aria-label="5 min. de Economía en Telegram" title="Telegram"><svg viewBox="0 0 24 24"><path d="M9.05 15.4l-.35 4.9c.5 0 .72-.22.98-.48l2.35-2.25 4.87 3.57c.9.5 1.53.24 1.77-.83L21.94 5.5c.3-1.24-.45-1.73-1.28-1.42L2.5 11.03c-1.2.47-1.2 1.15-.2 1.45l4.66 1.45L18.1 7.1c.5-.33.96-.15.58.2z"/></svg></a></div>
+    <div class="nav-social"><a href="https://www.instagram.com/5min.deconomia/" target="_blank" rel="noopener noreferrer" aria-label="5 min. de Economía en Instagram" title="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.25.06 2.1.25 2.85.55.77.3 1.42.7 2.07 1.35.65.65 1.05 1.3 1.35 2.07.3.75.49 1.6.55 2.85.06 1.25.07 1.65.07 4.85s0 3.6-.07 4.85c-.06 1.25-.25 2.1-.55 2.85-.3.77-.7 1.42-1.35 2.07-.65.65-1.3 1.05-2.07 1.35-.75.3-1.6.49-2.85.55-1.25.06-1.65.07-4.85.07s-3.6 0-4.85-.07c-1.25-.06-2.1-.25-2.85-.55-.77-.3-1.42-.7-2.07-1.35-.65-.65-1.05-1.3-1.35-2.07-.3-.75-.49-1.6-.55-2.85C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.85c.06-1.25.25-2.1.55-2.85.3-.77.7-1.42 1.35-2.07.65-.65 1.3-1.05 2.07-1.35.75-.3 1.6-.49 2.85-.55C8.4 2.2 8.8 2.2 12 2.2zm0 3.15a6.65 6.65 0 100 13.3 6.65 6.65 0 000-13.3zm0 10.97a4.32 4.32 0 110-8.64 4.32 4.32 0 010 8.64zm6.9-11.24a1.55 1.55 0 11-3.1 0 1.55 1.55 0 013.1 0z"/></svg></a><a href="https://www.facebook.com/profile.php?id=61594516364606" target="_blank" rel="noopener noreferrer" aria-label="5 min. de Economía en Facebook" title="Facebook"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"/></svg></a><a href="https://x.com/5Deconomia" target="_blank" rel="noopener noreferrer" aria-label="5 min. de Economía en X (Twitter)" title="X (Twitter)"><svg viewBox="0 0 24 24"><path d="M18.9 3H22l-7.5 8.57L23.3 21h-6.9l-5.4-6.6L4.7 21H1.6l8.05-9.2L1 3h7.1l4.9 6.05L18.9 3zm-1.2 16.2h1.7L7.4 4.7H5.6l12.1 14.5z"/></svg></a><a href="https://www.tiktok.com/@5mindeconomia" target="_blank" rel="noopener noreferrer" aria-label="5 min. de Economía en TikTok" title="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.3v13.4a2.9 2.9 0 11-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.3 6.3 0 105.3 6.2V8.6a7.9 7.9 0 004.6 1.5V6.8a4.6 4.6 0 01-4.6-4.8z"/></svg></a><a href="https://t.me/5min_deconomia" target="_blank" rel="noopener noreferrer" aria-label="5 min. de Economía en Telegram" title="Telegram"><svg viewBox="0 0 24 24"><path d="M9.05 15.4l-.35 4.9c.5 0 .72-.22.98-.48l2.35-2.25 4.87 3.57c.9.5 1.53.24 1.77-.83L21.94 5.5c.3-1.24-.45-1.73-1.28-1.42L2.5 11.03c-1.2.47-1.2 1.15-.2 1.45l4.66 1.45L18.1 7.1c.5-.33.96-.15.58.2z"/></svg></a></div>
   </div>
 </header>
 
@@ -904,10 +915,15 @@
       <div class="section-head">
         <span class="kicker">De vuelta</span>
         <h2 class="section-title">Nueva imagen, misma esencia</h2>
-        <p class="section-sub">Rediseñamos la cápsula de punta a punta. Mira qué cambió.</p>
+        <p class="section-sub">Rediseñamos la cápsula de punta a punta. Dale play al nuevo video: en 40 segundos te mostramos qué cubrimos, nuestras tres reglas y cómo se ve una cápsula.</p>
       </div>
 
       <div class="relanz-grid">
+        <figure class="relanz-media relanz-wide relanz-feature">
+          <span class="relanz-badge">Nuevo video</span>
+          <video src="5min-economia-promo-2026.mp4" poster="5min-economia-promo-2026-portada.jpg" controls playsinline preload="metadata"></video>
+          <figcaption>Datos con fuente, sin opinión política y al grano. Nuevas cápsulas lunes, miércoles y viernes.</figcaption>
+        </figure>
         <div class="relanz-media">
           <img src="5min-economia-relanzamiento.png" alt="Volvimos, con nueva imagen — 5 min. de Economía" loading="lazy">
         </div>
@@ -954,12 +970,12 @@
       <p class="footer-sub">Sigue la cápsula en tu red favorita — sale todas las semanas.</p>
 
       <div class="social-grid">
-        <a class="social-pill" href="https://5min-deconomia.github.io" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm7.94 9h-3.13a15.5 15.5 0 00-1.09-5.14A8.03 8.03 0 0119.94 11zM12 4.06c.86 1.1 1.94 3.06 2.29 4.94H9.71c.35-1.88 1.43-3.84 2.29-4.94zM4.06 13h3.13c.14 1.87.5 3.6 1.09 5.14A8.03 8.03 0 014.06 13zm3.13-2H4.06a8.03 8.03 0 014.22-5.14A15.5 15.5 0 007.19 11zM9.71 13h4.58c-.35 1.88-1.43 3.84-2.29 4.94-.86-1.1-1.94-3.06-2.29-4.94zm6.94 5.14c.6-1.54.95-3.27 1.09-5.14h3.13a8.03 8.03 0 01-4.22 5.14z"/></svg> 5min-deconomia.github.io</a>
-        <a class="social-pill" href="https://www.instagram.com/5min.deconomia/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.25.06 2.1.25 2.85.55.77.3 1.42.7 2.07 1.35.65.65 1.05 1.3 1.35 2.07.3.75.49 1.6.55 2.85.06 1.25.07 1.65.07 4.85s0 3.6-.07 4.85c-.06 1.25-.25 2.1-.55 2.85-.3.77-.7 1.42-1.35 2.07-.65.65-1.3 1.05-2.07 1.35-.75.3-1.6.49-2.85.55-1.25.06-1.65.07-4.85.07s-3.6 0-4.85-.07c-1.25-.06-2.1-.25-2.85-.55-.77-.3-1.42-.7-2.07-1.35-.65-.65-1.05-1.3-1.35-2.07-.3-.75-.49-1.6-.55-2.85C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.85c.06-1.25.25-2.1.55-2.85.3-.77.7-1.42 1.35-2.07.65-.65 1.3-1.05 2.07-1.35.75-.3 1.6-.49 2.85-.55C8.4 2.2 8.8 2.2 12 2.2zm0 3.15a6.65 6.65 0 100 13.3 6.65 6.65 0 000-13.3zm0 10.97a4.32 4.32 0 110-8.64 4.32 4.32 0 010 8.64zm6.9-11.24a1.55 1.55 0 11-3.1 0 1.55 1.55 0 013.1 0z"/></svg> @5min.deconomia</a>
-        <a class="social-pill" href="https://x.com/5Deconomia" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M18.9 3H22l-7.5 8.57L23.3 21h-6.9l-5.4-6.6L4.7 21H1.6l8.05-9.2L1 3h7.1l4.9 6.05L18.9 3zm-1.2 16.2h1.7L7.4 4.7H5.6l12.1 14.5z"/></svg> @5Deconomia</a>
-        <a class="social-pill" href="https://www.facebook.com/profile.php?id=61594516364606" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"/></svg> 5 min. de Economía</a>
-        <a class="social-pill" href="https://www.tiktok.com/@5mindeconomia" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.3v13.4a2.9 2.9 0 11-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.3 6.3 0 105.3 6.2V8.6a7.9 7.9 0 004.6 1.5V6.8a4.6 4.6 0 01-4.6-4.8z"/></svg> @5mindeconomia</a>
-        <a class="social-pill" href="https://t.me/5min_deconomia" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M9.05 15.4l-.35 4.9c.5 0 .72-.22.98-.48l2.35-2.25 4.87 3.57c.9.5 1.53.24 1.77-.83L21.94 5.5c.3-1.24-.45-1.73-1.28-1.42L2.5 11.03c-1.2.47-1.2 1.15-.2 1.45l4.66 1.45L18.1 7.1c.5-.33.96-.15.58.2z"/></svg> 5min.deconomia</a>
+        <a class="social-pill" href="https://5min-deconomia.github.io" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm7.94 9h-3.13a15.5 15.5 0 00-1.09-5.14A8.03 8.03 0 0119.94 11zM12 4.06c.86 1.1 1.94 3.06 2.29 4.94H9.71c.35-1.88 1.43-3.84 2.29-4.94zM4.06 13h3.13c.14 1.87.5 3.6 1.09 5.14A8.03 8.03 0 014.06 13zm3.13-2H4.06a8.03 8.03 0 014.22-5.14A15.5 15.5 0 007.19 11zM9.71 13h4.58c-.35 1.88-1.43 3.84-2.29 4.94-.86-1.1-1.94-3.06-2.29-4.94zm6.94 5.14c.6-1.54.95-3.27 1.09-5.14h3.13a8.03 8.03 0 01-4.22 5.14z"/></svg> 5min-deconomia.github.io</a>
+        <a class="social-pill" href="https://www.instagram.com/5min.deconomia/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.25.06 2.1.25 2.85.55.77.3 1.42.7 2.07 1.35.65.65 1.05 1.3 1.35 2.07.3.75.49 1.6.55 2.85.06 1.25.07 1.65.07 4.85s0 3.6-.07 4.85c-.06 1.25-.25 2.1-.55 2.85-.3.77-.7 1.42-1.35 2.07-.65.65-1.3 1.05-2.07 1.35-.75.3-1.6.49-2.85.55-1.25.06-1.65.07-4.85.07s-3.6 0-4.85-.07c-1.25-.06-2.1-.25-2.85-.55-.77-.3-1.42-.7-2.07-1.35-.65-.65-1.05-1.3-1.35-2.07-.3-.75-.49-1.6-.55-2.85C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.85c.06-1.25.25-2.1.55-2.85.3-.77.7-1.42 1.35-2.07.65-.65 1.3-1.05 2.07-1.35.75-.3 1.6-.49 2.85-.55C8.4 2.2 8.8 2.2 12 2.2zm0 3.15a6.65 6.65 0 100 13.3 6.65 6.65 0 000-13.3zm0 10.97a4.32 4.32 0 110-8.64 4.32 4.32 0 010 8.64zm6.9-11.24a1.55 1.55 0 11-3.1 0 1.55 1.55 0 013.1 0z"/></svg> @5min.deconomia</a>
+        <a class="social-pill" href="https://x.com/5Deconomia" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M18.9 3H22l-7.5 8.57L23.3 21h-6.9l-5.4-6.6L4.7 21H1.6l8.05-9.2L1 3h7.1l4.9 6.05L18.9 3zm-1.2 16.2h1.7L7.4 4.7H5.6l12.1 14.5z"/></svg> @5Deconomia</a>
+        <a class="social-pill" href="https://www.facebook.com/profile.php?id=61594516364606" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"/></svg> 5 min. de Economía</a>
+        <a class="social-pill" href="https://www.tiktok.com/@5mindeconomia" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.3v13.4a2.9 2.9 0 11-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.3 6.3 0 105.3 6.2V8.6a7.9 7.9 0 004.6 1.5V6.8a4.6 4.6 0 01-4.6-4.8z"/></svg> @5mindeconomia</a>
+        <a class="social-pill" href="https://t.me/5min_deconomia" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M9.05 15.4l-.35 4.9c.5 0 .72-.22.98-.48l2.35-2.25 4.87 3.57c.9.5 1.53.24 1.77-.83L21.94 5.5c.3-1.24-.45-1.73-1.28-1.42L2.5 11.03c-1.2.47-1.2 1.15-.2 1.45l4.66 1.45L18.1 7.1c.5-.33.96-.15.58.2z"/></svg> 5min.deconomia</a>
       </div>
 
       <div class="footer-line">
@@ -982,7 +998,11 @@
 {
   "multimedia": {
     "extraVideos": [
-      { "ed": 227, "title": "Resumen de la edición 227", "video": "5min-economia-227-resumen.mp4" }
+      {
+        "ed": 227,
+        "title": "Resumen de la edición 227",
+        "video": "5min-economia-227-resumen.mp4"
+      }
     ]
   },
   "eventos": [
@@ -1009,6 +1029,284 @@
     }
   ],
   "editions": [
+    {
+      "number": 229,
+      "date": "17 de noviembre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "México",
+        "EE.UU.",
+        "China",
+        "Mundo",
+        "Inversión"
+      ],
+      "portada": {
+        "tag": "Chile",
+        "headline": "El acuerdo con camioneros costará US$700 millones",
+        "body": "El ministro de Hacienda, Jorge Quiroz, estimó en US$700 millones el costo fiscal del acuerdo que puso fin al paro de camioneros: una rebaja promedio de $142 por litro en el diésel y de $39 en las bencinas, con precios congelados hasta el 31 de marzo de 2027. Dijo que se financiará con mejor recaudación y ahorros de eficiencia, y que el gasto se concentrará en el primer trimestre de 2027. Además, anticipó que el Imacec de octubre \"probablemente\" será negativo, \"con la minería pasando la cuenta\".",
+        "stat": {
+          "value": "US$700 M",
+          "direction": "up",
+          "label": "Costo fiscal estimado del acuerdo (hasta marzo 2027)"
+        },
+        "source": "Ministerio de Hacienda vía Diario Financiero / El Mostrador",
+        "date": "15 nov 2026",
+        "analysis": "La rebaja del combustible alivia a quien llena el estanque, pero alguien la paga: es plata del fisco en un año en que la economía casi no crece. Lo que te conviene mirar es el Imacec de octubre, que se conocerá a inicios de diciembre: si sale negativo, la recuperación se atrasa otra vez.",
+        "index": "01 / 12"
+      },
+      "capsulas": [
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El acuerdo con camioneros costará US$700 millones",
+          "body": "El ministro de Hacienda, Jorge Quiroz, estimó en US$700 millones el costo fiscal del acuerdo que puso fin al paro de camioneros: una rebaja promedio de $142 por litro en el diésel y de $39 en las bencinas, con precios congelados hasta el 31 de marzo de 2027. Dijo que se financiará con mejor recaudación y ahorros de eficiencia, y que el gasto se concentrará en el primer trimestre de 2027. Además, anticipó que el Imacec de octubre \"probablemente\" será negativo, \"con la minería pasando la cuenta\".",
+          "stat": {
+            "value": "US$700 M",
+            "direction": "up",
+            "label": "Costo fiscal estimado del acuerdo (hasta marzo 2027)"
+          },
+          "source": "Ministerio de Hacienda vía Diario Financiero / El Mostrador",
+          "date": "15 nov 2026",
+          "analysis": "La rebaja del combustible alivia a quien llena el estanque, pero alguien la paga: es plata del fisco en un año en que la economía casi no crece. Lo que te conviene mirar es el Imacec de octubre, que se conocerá a inicios de diciembre: si sale negativo, la recuperación se atrasa otra vez.",
+          "index": "01/12"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "La producción de cobre de Chile cae 15% en septiembre",
+          "body": "Según Cochilco, Chile produjo 385.100 toneladas de cobre en septiembre, 15% menos que un año antes (453.300). Entre enero y septiembre la producción suma 3,63 millones de toneladas, 8,5% menos. Escondida cayó 20,9% en el mes y Codelco, 14,1%. En el mercado, la libra cerró la semana en US$6,17, con una baja semanal de 2,47%.",
+          "stat": {
+            "value": "−15%",
+            "direction": "down",
+            "label": "Producción de cobre · septiembre 2026 vs. 2025 (385.100 t)"
+          },
+          "source": "Cochilco vía Reporte Minero",
+          "date": "11–13 nov 2026",
+          "analysis": "Menos cobre significa menos dólares entrando a Chile y menos impuestos para el fisco, justo cuando el gasto sube. Por eso Hacienda culpa a la minería del frenazo. Cuando el cobre flojea, el dólar en Chile suele subir: ya lo vimos rozar los $1.000.",
+          "index": "02/12"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El dólar oficial sube a Bs. 914,02 y el salario mínimo ya vale US$0,14",
+          "body": "El Banco Central de Venezuela fijó la tasa oficial en Bs. 914,02 por dólar, vigente del sábado 14 al lunes 16 de noviembre, 0,26% más que el cierre anterior (Bs. 911,62); el euro quedó en Bs. 1.010,56. A esa tasa, el salario mínimo de Bs. 130, sin cambios desde marzo de 2022, equivale a unos US$0,14 al mes. Los trabajadores reciben además US$240 en bonos, que no tienen carácter salarial.",
+          "stat": {
+            "value": "Bs. 914,02",
+            "direction": "up",
+            "label": "Dólar oficial BCV · vigente 14–16 nov (+0,26%)"
+          },
+          "source": "Banco Central de Venezuela vía Banca y Negocios / Noticiascol / El Nacional",
+          "date": "13–14 nov 2026",
+          "analysis": "La subida diaria es pequeña, pero se suma día tras día. Como los bonos no cuentan como salario, no se reflejan en prestaciones ni vacaciones, y eso pesa en tu liquidación a largo plazo. Si cobras en bolívares, convertir pronto lo que vas a gastar sigue siendo la mejor defensa.",
+          "index": "03/12"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "Pdvsa apunta a cerrar 2026 con 1,3 millones de barriles diarios",
+          "body": "El presidente de Pdvsa, Héctor Obregón, dijo que la producción, que llegó a 1,22 millones de barriles diarios en octubre, cerrará el año en 1,3 millones. La meta es 1,5 millones en 2027, 2 millones en cinco años y 3 millones en diez, el nivel de finales de los noventa. Pdvsa informó 80 nuevos acuerdos en hidrocarburos, mientras la Agencia Internacional de Energía advirtió que la producción se ha estancado en los últimos meses.",
+          "stat": {
+            "value": "1,3 M",
+            "direction": "up",
+            "label": "Meta de barriles diarios al cierre de 2026 (octubre: 1,22 M)"
+          },
+          "source": "Pdvsa vía EFE / TalCual / Descifrado",
+          "date": "15 nov 2026",
+          "analysis": "Las metas son ambiciosas y el petróleo es la principal fuente de dólares del país, así que vale la pena seguirlas. Pero conviene contrastarlas con fuentes externas, como la AIE, que ya ve un freno. Una meta no es producción: mira los datos mensuales.",
+          "index": "04/12"
+        },
+        {
+          "tag": "México",
+          "type": "stat",
+          "title": "México baja su tasa a 6,25% y abre un debate dentro de Banxico",
+          "body": "El Banco de México recortó su tasa de referencia en 25 puntos base, hasta 6,25%. Dentro del propio banco hubo críticas: el subgobernador Jonathan Heath dijo que el recorte \"confunde\" por la diferencia de tasas con la Reserva Federal, y la subgobernadora Galia Borja advirtió que los riesgos para la inflación siguen al alza. La manufactura mexicana creció apenas 0,1% entre enero y septiembre, y el lunes 16 el dólar cerró en 18,53 pesos.",
+          "stat": {
+            "value": "6,25%",
+            "direction": "down",
+            "label": "Tasa de referencia de Banxico (recorte de 25 puntos base)"
+          },
+          "source": "Banxico vía Unifimex / Ámbito / Economex",
+          "date": "13–16 nov 2026",
+          "analysis": "Una tasa más baja abarata el crédito y busca reanimar una economía cuya industria casi no crece. El riesgo es que, con la Fed subiendo, el peso mexicano pierda atractivo y lo importado se encarezca. México es la otra gran economía de la región: si se recupera, compra más a sus vecinos.",
+          "index": "05/12"
+        },
+        {
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "Nvidia arrastra al Nasdaq, que cae 0,91%",
+          "body": "El viernes 13 el Nasdaq cayó 0,91% hasta 25.136 puntos y el S&P 500 bajó 0,40%, mientras el Dow Jones subió 0,10%. Nvidia retrocedió 2,1% tras la salida de su fundador, Jensen Huang, de la dirección de la empresa el jueves; la directora financiera, Colette Kress, asumió como CEO interina. En noviembre la compañía perdió casi un billón de dólares en valor de mercado. Además, el mercado da casi por segura un alza de tasas de la Reserva Federal en diciembre.",
+          "stat": {
+            "value": "−0,91%",
+            "direction": "down",
+            "label": "Nasdaq · cierre 13 nov 2026 (25.136 puntos)"
+          },
+          "source": "Bolsamanía / Ámbito (con datos de Bloomberg)",
+          "date": "13 nov 2026",
+          "analysis": "Cuando una sola empresa pesa tanto en la bolsa, lo que le pasa a ella se nota en tus fondos de inversión y en tu fondo de pensiones. Es un buen recordatorio de por qué no conviene concentrar todo en un sector. Nvidia presenta resultados esta semana.",
+          "index": "06/12"
+        },
+        {
+          "tag": "China",
+          "type": "stat",
+          "title": "El consumo en China casi se detiene: las ventas minoristas suben apenas 0,4%",
+          "body": "Las ventas minoristas de China crecieron solo 0,4% en octubre frente a un año antes, por debajo del 1,1% de septiembre y del 0,8% esperado. La producción industrial se frenó a 4,8% y la inversión en activos fijos cayó 8,1% entre enero y octubre; en el sector inmobiliario, 21,6%. El desempleo urbano bajó a 5,1%.",
+          "stat": {
+            "value": "0,4%",
+            "direction": "down",
+            "label": "Ventas minoristas de China · octubre 2026 vs. 2025 (sept.: 1,1%)"
+          },
+          "source": "Oficina Nacional de Estadística de China vía EFE / Infobae",
+          "date": "16 nov 2026",
+          "analysis": "China es el mayor comprador de cobre del mundo y el principal socio comercial de Chile, Perú y Brasil. Si sus consumidores y constructoras se frenan, compran menos materias primas, y eso explica en parte por qué el cobre perdió fuerza. Lo que pasa allá termina llegando a nuestros bolsillos.",
+          "index": "07/12"
+        },
+        {
+          "tag": "Mundo",
+          "type": "stat",
+          "title": "Adaptarse al cambio climático costará US$305.000 millones al año, y hoy llega una décima parte",
+          "body": "El Informe sobre la Brecha de Adaptación 2026 del PNUMA estima que los países en desarrollo necesitarán unos US$305.000 millones al año hacia 2035 para enfrentar sequías, inundaciones y olas de calor. El financiamiento público internacional para adaptación sumó entre US$28.200 y US$31.700 millones en 2024, apenas US$1.000 millones más que el año anterior; incluso triplicado, cubriría solo entre 20% y 29% de lo necesario. Es el gran tema de la COP31, que sesiona en Antalya, Turquía, hasta el 20 de noviembre.",
+          "stat": {
+            "value": "US$305.000 M",
+            "direction": "up",
+            "label": "Necesidad anual de adaptación climática de los países en desarrollo hacia 2035 (flujos 2024: ~US$30.000 M)"
+          },
+          "source": "PNUMA vía La Estrella de Panamá / La Nación (Costa Rica)",
+          "date": "nov 2026",
+          "analysis": "El cambio climático ya es un tema económico: las sequías y las lluvias extremas encarecen alimentos, energía y seguros, y golpean al agro, como le pasó a Perú con El Niño. Si la plata para adaptarse no llega, el costo lo terminan pagando los presupuestos de cada país y, al final, tu bolsillo. Mira qué acuerda la COP31 el 20 de noviembre.",
+          "index": "08/12"
+        },
+        {
+          "tag": "Inversión",
+          "type": "stat",
+          "title": "Depósito a plazo: los bancos pagan hasta 0,42% mensual, cerca de 5% al año",
+          "body": "En noviembre, los depósitos a plazo en pesos a 30 días pagan entre 0,30% y 0,42% mensual, según el banco. Con la tasa más alta, $5.000.000 generan unos $21.000 en un mes antes de impuestos; con la más baja, $15.000. Llevada a un año, la mejor tasa equivale a cerca de 5%.",
+          "stat": {
+            "value": "0,42%",
+            "direction": "flat",
+            "label": "Mejor tasa mensual de depósito a plazo a 30 días en bancos · nov 2026 (≈5% anual)"
+          },
+          "source": "Holdo / Lares (comparadores de tasas)",
+          "date": "nov 2026",
+          "analysis": "El depósito a plazo es de lo más simple para empezar a ahorrar: sabes desde el primer día cuánto vas a ganar. Entre bancos la diferencia es grande, así que comparar antes de renovar vale la pena. Pero si la tasa apenas le gana a la inflación, tu plata casi no crece en términos reales. No es una recomendación: es para que compares.",
+          "index": "09/12"
+        },
+        {
+          "tag": "Video recomendado",
+          "type": "youtube",
+          "youtube": "X7C4f9CM_Mg",
+          "channel": "DW Documental",
+          "title": "¿Quién pagará la catástrofe climática?",
+          "body": "Documental de DW en español: estudiantes del Pacífico Sur llevan hasta la Corte Internacional de Justicia la pregunta de quién debe pagar los daños del cambio climático. Complementa la cápsula sobre la COP31 y el costo de adaptarse al clima.",
+          "source": "DW Documental (YouTube)",
+          "date": "oct 2026",
+          "index": "10/12"
+        },
+        {
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "PIB, dólar observado e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "Tipo de cambio y PIB"
+            },
+            {
+              "name": "INDEC",
+              "url": "https://www.indec.gob.ar",
+              "note": "Inflación de Argentina"
+            },
+            {
+              "name": "BCRP",
+              "url": "https://www.bcrp.gob.pe",
+              "note": "Economía de Perú"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Proyecciones mundiales"
+            },
+            {
+              "name": "BLS",
+              "url": "https://www.bls.gov",
+              "note": "Precios y empleo en EE.UU."
+            },
+            {
+              "name": "FAA",
+              "url": "https://www.faa.gov",
+              "note": "Estado de los vuelos en EE.UU."
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "nov 2026",
+          "index": "11/12"
+        },
+        {
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "Solo se nos puede quitar el presente, porque es lo único que tenemos.",
+          "author": "Marco Aurelio",
+          "source_label": "Meditaciones, II, 14",
+          "source": "5 min. de economía",
+          "date": "17 nov 2026",
+          "index": "12/12"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$995",
+            "note": "Cierre · 13 nov"
+          },
+          {
+            "label": "UF",
+            "value": "$41.343,55",
+            "note": "16 nov"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 914,02",
+            "note": "Oficial · 16 nov"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,17/lb",
+            "note": "Cierre semanal · 13 nov"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$95,84",
+            "note": "Brent · cierre 13 nov"
+          }
+        ],
+        "source": "Fuentes: La Tercera (dólar), SII (UF), Banco Central de Venezuela vía Banca y Negocios (bolívar), Cochilco (cobre), EFE vía Diario de Yucatán (Brent)"
+      },
+      "video": "5min-economia-229-resumen.mp4",
+      "videoPoster": "5min-economia-229-video-portada.jpg"
+    },
     {
       "number": 228,
       "date": "16 de noviembre, 2026",
@@ -1302,7 +1600,15 @@
     },
     {
       "number": 227,
-      "destacado": { "capsula": 10, "kicker": "Destacado · 1958–2026", "titulo": "68 aniversario de FACES‑ULA", "lema": "¡Todos somos FACES!", "texto": "Semana aniversario del 16 al 21 de noviembre: programación completa, ponencia del Día del Economista y conexión en línea.", "imagen": "5min-economia-faces68-portada.jpg", "alt": "Emblema 68 aniversario ULA FACES 1958–2026 · ¡Todos somos FACES!" },
+      "destacado": {
+        "capsula": 10,
+        "kicker": "Destacado · 1958–2026",
+        "titulo": "68 aniversario de FACES‑ULA",
+        "lema": "¡Todos somos FACES!",
+        "texto": "Semana aniversario del 16 al 21 de noviembre: programación completa, ponencia del Día del Economista y conexión en línea.",
+        "imagen": "5min-economia-faces68-portada.jpg",
+        "alt": "Emblema 68 aniversario ULA FACES 1958–2026 · ¡Todos somos FACES!"
+      },
       "date": "11 de noviembre, 2026",
       "tags": [
         "Chile",
@@ -4184,13 +4490,22 @@
       if (c.type === 'links') {
         var items = (c.links || []).map(function(l){
           var host = String(l.url).replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
-          return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener"><span class="lk-name">' + esc(l.name) + '</span><span class="lk-note">' + esc(host) + '</span></a></li>';
+          return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer"><span class="lk-name">' + esc(l.name) + '</span><span class="lk-note">' + esc(host) + '</span></a></li>';
         }).join('');
         return '<div class="cap-card cap-card-links" data-i="' + idx + '" role="button" tabindex="0" aria-label="Ver cápsula en grande">' + topline +
           '<span class="cap-tag">' + esc(c.tag) + '</span>' +
           '<div class="cap-title">' + esc(c.title) + '</div>' +
           '<div class="cap-body">' + esc(c.body || '') + '</div>' +
           '<ul class="cap-links">' + items + '</ul>' + footer + '</div>';
+      }
+      if (c.type === 'youtube') {
+        return '<div class="cap-card cap-card-video" data-i="' + idx + '" role="button" tabindex="0" aria-label="Ver video recomendado">' + topline +
+          '<span class="cap-tag">' + esc(c.tag) + '</span>' +
+          '<div class="cap-title">' + esc(c.title) + '</div>' +
+          '<div class="cap-body">' + esc(c.body || '') + '</div>' +
+          '<div class="cap-vid yt"><img src="https://i.ytimg.com/vi/' + esc(c.youtube) + '/hqdefault.jpg" alt="' + esc(c.title) + '" loading="lazy"><span class="cap-play" aria-hidden="true">▶</span></div>' +
+          '<div class="cap-img-hint">Toca para ver el video</div>' +
+          footer + '</div>';
       }
       if (c.type === 'video') {
         return '<div class="cap-card cap-card-video" data-i="' + idx + '" role="button" tabindex="0" aria-label="Ver video y programación">' + topline +
@@ -4276,9 +4591,9 @@
   function shareBarHtml(label, text, url){
     var t = encodeURIComponent(text), u = encodeURIComponent(url);
     return '<span class="share-label">' + esc(label) + '</span>' +
-      '<a class="share-btn wa" href="https://wa.me/?text=' + encodeURIComponent(text + '\n' + url) + '" target="_blank" rel="noopener">' + ICONS.wa + 'WhatsApp</a>' +
-      '<a class="share-btn" href="https://twitter.com/intent/tweet?text=' + t + '&url=' + u + '" target="_blank" rel="noopener" aria-label="Compartir en X">' + ICONS.x + 'X</a>' +
-      '<a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=' + u + '" target="_blank" rel="noopener" aria-label="Compartir en Facebook">' + ICONS.fb + 'Facebook</a>' +
+      '<a class="share-btn wa" href="https://wa.me/?text=' + encodeURIComponent(text + '\n' + url) + '" target="_blank" rel="noopener noreferrer">' + ICONS.wa + 'WhatsApp</a>' +
+      '<a class="share-btn" href="https://twitter.com/intent/tweet?text=' + t + '&url=' + u + '" target="_blank" rel="noopener noreferrer" aria-label="Compartir en X">' + ICONS.x + 'X</a>' +
+      '<a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=' + u + '" target="_blank" rel="noopener noreferrer" aria-label="Compartir en Facebook">' + ICONS.fb + 'Facebook</a>' +
       '<button class="share-btn" type="button" data-copy="' + escAttr(url) + '">' + ICONS.link + '<span>Copiar enlace</span></button>' +
       (navigator.share ? '<button class="share-btn" type="button" data-native="1" data-text="' + escAttr(text) + '" data-url="' + escAttr(url) + '">' + ICONS.more + 'Más</button>' : '');
   }
@@ -4389,7 +4704,7 @@
         '<div class="dest-actions">' +
           '<a class="share-btn wa" href="' + escAttr(capHash(ed, k)) + '">Ver video y programación</a>' +
           '<button class="share-btn" type="button" data-copy="' + escAttr(url) + '">' + ICONS.link + '<span>Copiar enlace</span></button>' +
-          '<a class="share-btn" href="' + escAttr(wa) + '" target="_blank" rel="noopener">' + ICONS.wa + 'WhatsApp</a>' +
+          '<a class="share-btn" href="' + escAttr(wa) + '" target="_blank" rel="noopener noreferrer">' + ICONS.wa + 'WhatsApp</a>' +
         '</div>' +
       '</div>';
   }
@@ -4403,9 +4718,14 @@
     if (c.type === 'links') {
       var lis = (c.links || []).map(function(l){
         var host = String(l.url).replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
-        return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener"><span class="lk-name">' + esc(l.name) + '</span><span class="lk-url">' + esc(host) + '</span><span class="lk-note">' + esc(l.note || '') + '</span></a></li>';
+        return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer"><span class="lk-name">' + esc(l.name) + '</span><span class="lk-url">' + esc(host) + '</span><span class="lk-note">' + esc(l.note || '') + '</span></a></li>';
       }).join('');
       return top + '<span class="zoom-tag">' + esc(c.tag) + '</span><h3 class="zoom-title">' + esc(c.title) + '</h3><p class="zoom-body">' + esc(c.body || '') + '</p><ul class="zoom-links">' + lis + '</ul>' + foot;
+    }
+    if (c.type === 'youtube') {
+      return top + '<span class="zoom-tag">' + esc(c.tag) + '</span><h3 class="zoom-title">' + esc(c.title) + '</h3><p class="zoom-body">' + esc(c.body || '') + '</p>' +
+        '<iframe class="zoom-yt" src="https://www.youtube-nocookie.com/embed/' + esc(c.youtube) + '?rel=0" title="' + esc(c.title) + '" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
+        '<p class="zoom-ytcredit">Video de ' + esc(c.channel || 'su autor') + ', mostrado con el reproductor oficial de YouTube. <a href="https://www.youtube.com/watch?v=' + esc(c.youtube) + '" target="_blank" rel="noopener noreferrer">Verlo en YouTube ↗</a></p>' + foot;
     }
     if (c.type === 'video') {
       var its = (c.items || []).map(function(x){ return '<li>' + esc(x) + '</li>'; }).join('');
@@ -4415,7 +4735,7 @@
         (c.note ? '<p class="zoom-note">' + esc(c.note) + '</p>' : '') + foot;
     }
     if (c.type === 'image') {
-      return top + '<span class="zoom-tag">' + esc(c.tag) + '</span><h3 class="zoom-title">' + esc(c.title) + '</h3><p class="zoom-body">' + esc(c.body || '') + '</p><img class="zoom-img" src="' + esc(c.image) + '" alt="' + esc(c.alt || c.title) + '"><a class="zoom-full" href="' + esc(c.image) + '" target="_blank" rel="noopener">Abrir en tamaño completo ↗</a>' + foot;
+      return top + '<span class="zoom-tag">' + esc(c.tag) + '</span><h3 class="zoom-title">' + esc(c.title) + '</h3><p class="zoom-body">' + esc(c.body || '') + '</p><img class="zoom-img" src="' + esc(c.image) + '" alt="' + esc(c.alt || c.title) + '"><a class="zoom-full" href="' + esc(c.image) + '" target="_blank" rel="noopener noreferrer">Abrir en tamaño completo ↗</a>' + foot;
     }
     if (c.type === 'quote') {
       return top +
@@ -4489,6 +4809,7 @@
   function closeModal(){
     if (!modalEl) return;
     modalEl.querySelectorAll('video').forEach(function(v){ try { v.pause(); } catch(e){} });
+    modalEl.querySelectorAll('iframe').forEach(function(f){ f.remove(); });
     modalEl.classList.remove('open');
     document.documentElement.classList.remove('modal-open');
     setUrl(edHash(editions[currentIndex]));
@@ -4524,7 +4845,7 @@
     var A = collectArchivo(data.multimedia);
     var gi = A.imgs.map(function(x){
       var link = x.href || x.image;
-      return '<figure><a href="' + esc(link) + '"' + (x.href ? '' : ' target="_blank" rel="noopener"') + '><img src="' + esc(x.image) + '" alt="' + esc(x.alt) + '" loading="lazy"></a>' +
+      return '<figure><a href="' + esc(link) + '"' + (x.href ? '' : ' target="_blank" rel="noopener noreferrer"') + '><img src="' + esc(x.image) + '" alt="' + esc(x.alt) + '" loading="lazy"></a>' +
         '<figcaption><span>Edición ' + esc(x.ed) + '</span>' + esc(x.title) + '</figcaption></figure>';
     }).join('');
     var gv = A.vids.map(function(v){
@@ -4693,6 +5014,6 @@
 })();
 </script>
 <script data-goatcounter="https://5mindeconomia.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+        async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
