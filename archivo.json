@@ -1,0 +1,2474 @@
+{
+  "editions": [
+    {
+      "number": 226,
+      "date": "9 de noviembre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Brasil",
+        "Paraguay",
+        "Cripto",
+        "EE.UU.",
+        "Global"
+      ],
+      "portada": {
+        "tag": "Chile",
+        "headline": "El cobre cae a su nivel más bajo desde julio por las dudas sobre la inteligencia artificial",
+        "body": "En la Bolsa de Metales de Londres, el contrato de cobre a tres meses cayó 1,2% el jueves 5 y hasta 1% más el viernes 6, a unos US$13.700 la tonelada (cerca de US$6,21 la libra), su nivel más bajo desde julio, según Bloomberg. Los operadores temen que se frene la inversión en centros de datos y ven menos probables los aranceles de EE.UU. al cobre. El precio contado que informa Cochilco, una medida distinta, cerró el jueves en US$6,43 la libra.",
+        "stat": {
+          "value": "US$13.700",
+          "direction": "down",
+          "label": "Cobre LME a tres meses por tonelada · 6 nov 2026 (mínimo desde julio)"
+        },
+        "source": "Bloomberg Línea / Cochilco",
+        "date": "6 nov 2026",
+        "analysis": "El cobre se había vuelto una apuesta a la inteligencia artificial: más centros de datos, más cables, más demanda. Cuando esa apuesta se enfría, Chile lo siente de inmediato, porque el cobre es nuestra principal exportación. Si la baja se mantiene, entran menos dólares y eso suele empujar al alza el tipo de cambio.",
+        "index": "01 / 12"
+      },
+      "capsulas": [
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El cobre cae a su nivel más bajo desde julio por las dudas sobre la inteligencia artificial",
+          "body": "En la Bolsa de Metales de Londres, el contrato de cobre a tres meses cayó 1,2% el jueves 5 y hasta 1% más el viernes 6, a unos US$13.700 la tonelada (cerca de US$6,21 la libra), su nivel más bajo desde julio, según Bloomberg. Los operadores temen que se frene la inversión en centros de datos y ven menos probables los aranceles de EE.UU. al cobre. El precio contado que informa Cochilco, una medida distinta, cerró el jueves en US$6,43 la libra.",
+          "stat": {
+            "value": "US$13.700",
+            "direction": "down",
+            "label": "Cobre LME a tres meses por tonelada · 6 nov 2026 (mínimo desde julio)"
+          },
+          "source": "Bloomberg Línea / Cochilco",
+          "date": "6 nov 2026",
+          "analysis": "El cobre se había vuelto una apuesta a la inteligencia artificial: más centros de datos, más cables, más demanda. Cuando esa apuesta se enfría, Chile lo siente de inmediato, porque el cobre es nuestra principal exportación. Si la baja se mantiene, entran menos dólares y eso suele empujar al alza el tipo de cambio.",
+          "index": "01/12"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El Banco Central evaluó subir la tasa en octubre: la opción tuvo \"sólido respaldo\"",
+          "body": "Según la minuta publicada el miércoles 4, el Consejo del Banco Central consideró subir la tasa de política monetaria en 25 puntos base en su reunión del 27 de octubre, opción que \"contaba con un sólido respaldo\" entre algunos consejeros. Finalmente la mantuvo en 4,5%. El viernes 6, el INE informó que los precios subieron 0,5% en octubre y que la inflación anual llegó a 4,5%, desde 4,1% en septiembre, empujada por los combustibles y los alimentos.",
+          "stat": {
+            "value": "4,5%",
+            "direction": "flat",
+            "label": "Tasa de política monetaria · se evaluó subirla a 4,75%"
+          },
+          "source": "Banco Central de Chile / INE / Bloomberg Línea / Emol",
+          "date": "6 nov 2026",
+          "analysis": "La minuta muestra que el Banco Central estuvo más cerca de subir la tasa de lo que parecía, y la inflación de octubre le da más argumentos: 4,5% está lejos de la meta de 3%. Para ti, eso significa que los créditos y las cuotas difícilmente bajarán pronto, y podrían encarecerse. Lo que más subió fue lo que no puedes dejar de comprar: el diésel saltó 12,3% en el mes y la papa 12%.",
+          "index": "02/12"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El dólar oficial roza los Bs. 900 y ya triplica su valor de inicio de año",
+          "body": "El Banco Central de Venezuela fijó la tasa oficial para este viernes en Bs. 896,12 por dólar, 0,14% más que el día anterior. En lo que va de 2026 acumula un alza de 200,6%, y frente a hace un año sube 293,8%. El euro oficial se mantiene sobre los Bs. 1.000: quedó en Bs. 1.004,96.",
+          "stat": {
+            "value": "Bs. 896,12",
+            "direction": "up",
+            "label": "Tasa oficial BCV · 6 nov 2026 (+200,6% en el año)"
+          },
+          "source": "Banco Central de Venezuela / Finanzas Digital",
+          "date": "6 nov 2026",
+          "analysis": "Que la inflación mensual haya bajado no frena al dólar oficial, que sigue subiendo casi todos los días. Como muchos precios se calculan con esa tasa, cada alza llega a tu bolsillo aunque cobres en bolívares. Si tienes deudas o compras grandes en divisas, conviene planificarlas con margen.",
+          "index": "03/12"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El 84,9% de los venezolanos apoya reestructurar la deuda pública, según Datanálisis",
+          "body": "Una encuesta de Datanálisis para la iniciativa Capital Nacional muestra que 84,9% de los consultados respalda una reestructuración integral de la deuda pública. Además, 77% cree que las empresas petroleras nacionales deben liderar la recuperación de la producción y 69,4% que el sector privado debe financiar ese crecimiento. Se consultó a 840 personas entre el 22 de septiembre y el 2 de octubre (margen de error: ±3,38%).",
+          "stat": {
+            "value": "84,9%",
+            "direction": "up",
+            "label": "Apoyo a reestructurar la deuda pública · encuesta Datanálisis"
+          },
+          "source": "Datanálisis / Descifrado",
+          "date": "5 nov 2026",
+          "analysis": "Reestructurar la deuda es renegociar con los acreedores cuánto y cuándo se paga. Es el paso que muchos analistas ven necesario para que vuelvan el financiamiento y la inversión al país. Que haya tanto consenso ayuda, pero el proceso suele tomar años y la letra chica importa.",
+          "index": "04/12"
+        },
+        {
+          "tag": "Brasil",
+          "type": "stat",
+          "title": "Brasil frena los recortes y deja la tasa Selic en 13,75%",
+          "body": "El Comité de Política Monetaria del Banco Central de Brasil mantuvo por unanimidad la tasa Selic en 13,75% el miércoles y puso fin a cinco recortes seguidos de 0,25 punto desde marzo. La inflación llegó a 4,58% en doce meses a septiembre, sobre el techo de 4,5%, y el mercado espera 5,2% para 2026. Según un estudio de MoneYou, Brasil vuelve a tener la tasa real más alta del mundo: 9,49%.",
+          "stat": {
+            "value": "13,75%",
+            "direction": "flat",
+            "label": "Tasa Selic · sin cambios (fin de cinco recortes)"
+          },
+          "source": "Banco Central de Brasil / The Rio Times / JETSS",
+          "date": "4 nov 2026",
+          "analysis": "Brasil venía bajando su tasa y ahora pone pausa porque la inflación no cede. Una tasa real de casi 9,5% significa crédito muy caro para familias y empresas, y eso frena la economía. Para la región, muestra que el petróleo caro todavía obliga a los bancos centrales a ser prudentes.",
+          "index": "05/12"
+        },
+        {
+          "tag": "Paraguay",
+          "type": "stat",
+          "title": "La caída del banco ueno sacude a Paraguay y termina con la salida del presidente Peña",
+          "body": "El 3 de noviembre, el Banco Central del Paraguay sometió a ueno bank a un proceso de resolución, la medida más drástica antes de la liquidación, porque su índice de solvencia quedó bajo la mitad del mínimo exigido. El banco tiene unos 2,9 millones de clientes y, según Moody's, el 9% de los depósitos y el 8% de los créditos del sistema; además maneja unos US$850 millones de organismos públicos. Santiago Peña anunció su renuncia el jueves 5 y el vicepresidente Pedro Alliana asumió la presidencia el viernes 6.",
+          "stat": {
+            "value": "2,9 M",
+            "direction": "down",
+            "label": "Clientes de ueno bank · 9% de los depósitos de Paraguay"
+          },
+          "source": "Reuters / EFE / Infobae / Expansión (Moody's)",
+          "date": "6 nov 2026",
+          "analysis": "Según Moody's, el 97% de los ahorrantes está cubierto por el fondo de garantía, que tiene unos US$1.600 millones, y no espera un impacto inmediato en la nota del país. Para la región, el riesgo principal no es el contagio directo, sino la confianza: inversionistas que miran a Paraguay, socio de Brasil y Argentina en el Mercosur, pueden exigir más por prestarle. La lección vale para todos: un banco que crece rápido necesita una supervisión igual de rápida.",
+          "index": "06/12"
+        },
+        {
+          "tag": "Cripto",
+          "type": "stat",
+          "title": "Después del hackeo siguen saliendo bitcoins de Binance, aunque la fuga empezó antes",
+          "body": "Tras el robo de unos US$6.300 millones del 29 de octubre, el mayor de la historia cripto, los clientes retiraron en neto unos US$3.640 millones en las primeras 9,5 horas desde que Binance reabrió los retiros, el 1 de noviembre. Según Santiment, las billeteras de Binance acumulaban hasta el 5 de noviembre salidas netas de 28.316 bitcoins, aunque los saldos ya venían bajando desde el 25 de octubre, cuatro días antes del robo, así que no todo se explica por el hackeo. Binance dice haber repuesto cerca del 98% de los activos afectados.",
+          "stat": {
+            "value": "28.316",
+            "direction": "down",
+            "label": "Bitcoins retirados en neto de Binance · hasta el 5 nov 2026"
+          },
+          "source": "Santiment / DiarioBitcoin / Criptan / Forbes Argentina",
+          "date": "6 nov 2026",
+          "analysis": "El costo del hackeo no es solo lo robado: es la confianza que sale por la puerta. En Latinoamérica muchas personas usan plataformas como Binance para ahorrar en dólares digitales o recibir remesas, sobre todo en Venezuela y Argentina. Si guardas ahí tu dinero, recuerda que un exchange no tiene la garantía de depósitos de un banco: conviene no tener todo en un solo lugar.",
+          "index": "07/12"
+        },
+        {
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "Wall Street sufre su peor día desde abril de 2025: el S&P 500 cae 4,36%",
+          "body": "El jueves, el S&P 500 cerró en 7.353,73 puntos (−4,36%), el Nasdaq cayó 5,52% y el Dow Jones 3,44% (−1.833 puntos), su peor jornada desde abril de 2025. La venta se concentró en los fabricantes de chips: Nvidia bajó 9,26% y el índice de semiconductores más de 12%. El mercado teme que, con el nuevo Congreso demócrata, se frene la construcción de centros de datos para inteligencia artificial.",
+          "stat": {
+            "value": "−4,36%",
+            "direction": "down",
+            "label": "S&P 500 · cierre 5 nov 2026 (7.353,73 puntos)"
+          },
+          "source": "CNBC / StockTitan / Mitrade",
+          "date": "5 nov 2026",
+          "analysis": "En un día se borró el alza que había dejado la elección y bastante más. Cuando caen las grandes tecnológicas se resienten también los fondos de pensiones y de inversión de la región que las tienen en cartera. Si inviertes a largo plazo, un día así no cambia el panorama completo, pero sí recuerda por qué diversificar.",
+          "index": "08/12"
+        },
+        {
+          "tag": "Global",
+          "type": "stat",
+          "title": "El Banco de Inglaterra sube su tasa por primera vez en más de tres años",
+          "body": "El Banco de Inglaterra subió el jueves su tasa en 0,25 punto, de 3,75% a 4%, su primera alza desde agosto de 2023. Ocho de los nueve miembros votaron a favor y uno pidió subirla a 4,25%. La inflación británica fue de 3,5% en septiembre, y el banco proyecta que llegará a cerca de 5% a mediados del próximo año por el alza de la energía ligada al conflicto en Oriente Medio.",
+          "stat": {
+            "value": "4%",
+            "direction": "up",
+            "label": "Tasa del Banco de Inglaterra · primera alza desde 2023"
+          },
+          "source": "Banco de Inglaterra / EFE / PressDigital",
+          "date": "5 nov 2026",
+          "analysis": "Hasta hace poco el mundo discutía cuándo bajarían las tasas; ahora algunos bancos centrales vuelven a subirlas. Eso muestra que el petróleo caro de este año sigue pesando en la inflación. Para nosotros, tasas más altas en el mundo suelen significar dólar más fuerte y crédito más caro.",
+          "index": "09/12"
+        },
+        {
+          "index": "10/12",
+          "tag": "Infografía",
+          "type": "image",
+          "title": "¿Qué subió en octubre? El costo de vida en Chile vuelve a apretar",
+          "body": "La inflación anual llegó a 4,5%, lejos de la meta de 3%. Lo que más subió y lo que bajó en el IPC de octubre.",
+          "image": "5min-economia-infografia-ipc-octubre-web.jpg",
+          "alt": "Infografía del IPC de octubre 2026 en Chile. Inflación anual 4,5% (septiembre 4,1%), meta del Banco Central 3%, variación mensual 0,5%. Lo que más subió: pasajes aéreos internacionales +13,0%, diésel +12,3%, papas +12,0%, tomates +11,2%, gasolina +4,5%, gastos comunes +3,9%. Lo que bajó: conexión a internet −14,7%, transporte aéreo nacional −11,8%, vestuario y calzado −4,1%.",
+          "source": "INE / Banco Central de Chile",
+          "date": "oct 2026"
+        },
+        {
+          "index": "11/12",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Superintendencia de Pensiones",
+              "url": "https://www.spensiones.cl",
+              "note": "Rentabilidad y comisiones de las AFP"
+            },
+            {
+              "name": "IPS / ChileAtiende",
+              "url": "https://www.ips.gob.cl",
+              "note": "Reforma de pensiones y PGU"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "ICCO",
+              "url": "https://www.icco.org",
+              "note": "Precio y producción mundial de cacao"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "Aférrate a cada hora: dependerás menos del mañana si te adueñas del hoy.",
+          "author": "Séneca",
+          "source_label": "Cartas a Lucilio, I",
+          "source": "5 min. de economía",
+          "date": "9 nov 2026",
+          "index": "12/12"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$965",
+            "note": "Cierre · 4 nov"
+          },
+          {
+            "label": "UF",
+            "value": "$41.279,51",
+            "note": "6 nov"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 896,12",
+            "note": "Oficial · 6 nov"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,43/lb",
+            "note": "Contado LME · 5 nov"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$98,29",
+            "note": "Brent · 5 nov"
+          }
+        ],
+        "source": "Fuentes: mercado cambiario vía Emol (dólar), SII (UF), Banco Central de Venezuela, LME/Cochilco (cobre), ICE (Brent)"
+      }
+    },
+    {
+      "number": 225,
+      "date": "4 de noviembre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Perú",
+        "México",
+        "EE.UU.",
+        "Global"
+      ],
+      "portada": {
+        "tag": "Chile",
+        "headline": "El cobre cae a US$6,40 la libra y suben los inventarios en Londres",
+        "body": "El martes el cobre bajó 1,87% en la Bolsa de Metales de Londres, desde US$6,52 a US$6,40 la libra, según Cochilco. En un solo día, los inventarios de esa bolsa subieron 15.875 toneladas (+5,4%), hasta 309.650. Aun así, Cochilco elevó su proyección de precio promedio para 2026 a US$6,18 la libra, desde US$5,95.",
+        "stat": {
+          "value": "US$6,40",
+          "direction": "down",
+          "label": "Cobre LME por libra · 3 nov 2026 (−1,87%)"
+        },
+        "source": "Cochilco / CNN Chile",
+        "date": "3 nov 2026",
+        "analysis": "Más inventario en las bodegas suele significar que hay menos apuro por comprar, y eso enfría el precio. Para Chile, cada centavo cuenta: menos cobre producido y a menor precio se traduce en menos dólares entrando al país. Por eso, cuando el cobre baja, el dólar en Chile tiende a subir.",
+        "index": "01 / 10"
+      },
+      "capsulas": [
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El cobre cae a US$6,40 la libra y suben los inventarios en Londres",
+          "body": "El martes el cobre bajó 1,87% en la Bolsa de Metales de Londres, desde US$6,52 a US$6,40 la libra, según Cochilco. En un solo día, los inventarios de esa bolsa subieron 15.875 toneladas (+5,4%), hasta 309.650. Aun así, Cochilco elevó su proyección de precio promedio para 2026 a US$6,18 la libra, desde US$5,95.",
+          "stat": {
+            "value": "US$6,40",
+            "direction": "down",
+            "label": "Cobre LME por libra · 3 nov 2026 (−1,87%)"
+          },
+          "source": "Cochilco / CNN Chile",
+          "date": "3 nov 2026",
+          "analysis": "Más inventario en las bodegas suele significar que hay menos apuro por comprar, y eso enfría el precio. Para Chile, cada centavo cuenta: menos cobre producido y a menor precio se traduce en menos dólares entrando al país. Por eso, cuando el cobre baja, el dólar en Chile tiende a subir.",
+          "index": "01/10"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "La economía chilena acumula una caída de 0,4% entre enero y septiembre",
+          "body": "Con el Imacec de septiembre, economistas estiman que la actividad cayó cerca de 0,4% en los primeros nueve meses del año y que el PIB del tercer trimestre bajó alrededor de 0,8% anual. Para cumplir la proyección del Banco Central para 2026 (0,25% a 0,75%), el cuarto trimestre tendría que crecer entre 2,1% y 4%. El dato oficial del PIB se publica el 18 de noviembre.",
+          "stat": {
+            "value": "−0,4%",
+            "direction": "down",
+            "label": "Actividad · enero a septiembre 2026 (estimación)"
+          },
+          "source": "Banco Central de Chile / BioBioChile / Cooperativa",
+          "date": "3 nov 2026",
+          "analysis": "Este número resume el año: aunque septiembre no fue negativo, el país produce algo menos que en 2025. El expresidente del Banco Central José De Gregorio dijo que no ve señales de crecimientos sobre 3% hacia adelante. Para ti, eso se traduce en un mercado laboral que tarda en recuperarse, así que conviene cuidar el presupuesto y el fondo de emergencia.",
+          "index": "02/10"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "La inflación de octubre baja a 6,2%, la menor en 24 meses",
+          "body": "La presidenta encargada, Delcy Rodríguez, informó que los precios subieron 6,2% en octubre, la menor tasa mensual en dos años. En septiembre el alza había sido de 8,4% y la inflación anualizada llegaba a 465,5%, según cálculos de Reuters con datos del BCV. El Gobierno también negocia un financiamiento de US$17.000 millones a cinco años.",
+          "stat": {
+            "value": "6,2%",
+            "direction": "down",
+            "label": "Inflación mensual · octubre 2026 (septiembre: 8,4%)"
+          },
+          "source": "Reuters / GBM / Ministerio de Comunicación",
+          "date": "3 nov 2026",
+          "analysis": "Que la inflación baje no quiere decir que los precios bajen: siguen subiendo, solo que más lento. Aun así, pasar de 8,4% a 6,2% en un mes es un respiro. La prueba será diciembre, cuando el gasto de fin de año y el dólar oficial suelen presionar los precios.",
+          "index": "03/10"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "Venezuela envía casi 29% menos petróleo a EE.UU. en octubre",
+          "body": "Según datos marítimos recopilados por Reuters, los envíos a EE.UU. bajaron a unos 449.000 barriles diarios en octubre. Las exportaciones totales se mantuvieron en 1,08 millones de barriles diarios porque crecieron los envíos a Europa, de 86.000 a 235.000. Bloomberg atribuye la menor demanda a fletes más caros y al mantenimiento de refinerías.",
+          "stat": {
+            "value": "449.000",
+            "direction": "down",
+            "label": "Barriles diarios enviados a EE.UU. · octubre 2026"
+          },
+          "source": "Reuters / Bloomberg Línea",
+          "date": "3 nov 2026",
+          "analysis": "Hace una semana veíamos el récord de envíos a EE.UU.; ahora ese mercado se enfría. Lo positivo es que Europa compensó parte de la caída, y diversificar compradores reduce el riesgo. Lo que debes mirar es si los ingresos petroleros se sostienen, porque de ellos depende buena parte de la oferta de dólares.",
+          "index": "04/10"
+        },
+        {
+          "tag": "Perú",
+          "type": "stat",
+          "title": "La inflación en Lima sube a 5,25%, su nivel más alto en más de tres años",
+          "body": "Según el INEI, los precios en Lima Metropolitana subieron 0,57% en octubre y 5,25% en doce meses, el nivel más alto en 38 meses. Los alimentos subieron 1,62% en el mes, con el pescado y los mariscos 11,7% más caros, y los combustibles también subieron. La meta del Banco Central de Reserva del Perú es de 1% a 3%.",
+          "stat": {
+            "value": "5,25%",
+            "direction": "up",
+            "label": "Inflación anual en Lima · octubre 2026 (meta: 1% a 3%)"
+          },
+          "source": "INEI / Infobae / Caretas",
+          "date": "1 nov 2026",
+          "analysis": "Perú era el ejemplo regional de precios estables, y este dato muestra cuánto está pesando el petróleo caro en la región. Cuando suben el transporte y la comida, lo sienten primero los hogares de menores ingresos. Si el Banco Central responde subiendo su tasa, el crédito también se encarecerá.",
+          "index": "05/10"
+        },
+        {
+          "tag": "México",
+          "type": "stat",
+          "title": "Las remesas a México suben 1,6% en septiembre, pero tocan su nivel más bajo en cinco meses",
+          "body": "Según Banxico, México recibió US$5.362 millones en remesas en septiembre, 1,6% más que hace un año y 1,7% menos que en agosto. Fueron 12,6 millones de envíos, con un promedio de US$426. Entre enero y septiembre suman US$47.164 millones, 2,1% más que en 2025.",
+          "stat": {
+            "value": "US$5.362 M",
+            "direction": "up",
+            "label": "Remesas · septiembre 2026 (+1,6% anual)"
+          },
+          "source": "Banco de México / El Financiero",
+          "date": "3 nov 2026",
+          "analysis": "Las remesas son el salario que millones de familias en México, y en toda la región, reciben desde EE.UU. Que crezcan apenas 2% en el año muestra que la migración y el empleo allá están más difíciles. Lo mismo vale para Centroamérica, Colombia y Venezuela, donde esos envíos sostienen el consumo de muchos hogares.",
+          "index": "06/10"
+        },
+        {
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "Los demócratas ganan el Congreso y Wall Street abre con fuertes alzas",
+          "body": "Los demócratas ganaron el control del Senado y de la Cámara de Representantes en las elecciones de mitad de mandato. Al abrir el miércoles, el Dow Jones subía 1.183 puntos (+2,29%) hasta 52.970, el S&P 500 avanzaba 1,43% y el Nasdaq 1,57%. El rendimiento del bono a 10 años bajó a 4,92%, porque el mercado espera que el nuevo Congreso frene el gasto y el déficit.",
+          "stat": {
+            "value": "+2,29%",
+            "direction": "up",
+            "label": "Dow Jones · apertura 4 nov 2026 (52.970 puntos)"
+          },
+          "source": "EFE / Infobae / Yahoo Finanzas",
+          "date": "4 nov 2026",
+          "analysis": "Para los mercados, un Congreso en manos de un partido distinto al del presidente suele significar menos cambios bruscos y déficits más contenidos, y eso explica el alivio. Pero el presidente conserva el veto y el control de los aranceles, así que la política comercial no cambia de un día para otro. Para Latinoamérica, tasas más bajas en EE.UU. y un dólar más débil suelen dar un respiro a nuestras monedas.",
+          "index": "07/10"
+        },
+        {
+          "tag": "Global",
+          "type": "stat",
+          "title": "El petróleo se desploma 7,6% en un día por la posibilidad de diálogo entre EE.UU. e Irán",
+          "body": "El Brent cayó 7,63% el lunes, una de sus mayores bajas en meses, y otro 1,11% el martes, hasta cerrar en US$103,60 por barril. El WTI terminó en US$96,09. Los inversionistas apuestan por una salida diplomática al conflicto en Irán, aunque analistas advierten que sin un acuerdo formal y sin seguridad en Ormuz el riesgo no desaparece.",
+          "stat": {
+            "value": "US$103,60",
+            "direction": "down",
+            "label": "Brent por barril · cierre 3 nov (−7,6% el lunes)"
+          },
+          "source": "EFE / Infobae / El Financiero",
+          "date": "3 nov 2026",
+          "analysis": "Un petróleo más barato es la noticia que la región esperaba: alivia la bencina, el transporte y la inflación. Pero ojo, que esta caída depende de titulares, no de un acuerdo firmado, y puede revertirse rápido. Y el alivio en el surtidor suele tardar semanas en llegar.",
+          "index": "08/10"
+        },
+        {
+          "index": "09/10",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Superintendencia de Pensiones",
+              "url": "https://www.spensiones.cl",
+              "note": "Rentabilidad y comisiones de las AFP"
+            },
+            {
+              "name": "IPS / ChileAtiende",
+              "url": "https://www.ips.gob.cl",
+              "note": "Reforma de pensiones y PGU"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "ICCO",
+              "url": "https://www.icco.org",
+              "note": "Precio y producción mundial de cacao"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "Nada grande se produce de repente, ni siquiera la uva o el higo.",
+          "author": "Epicteto",
+          "source_label": "Disertaciones, I, 15",
+          "source": "5 min. de economía",
+          "date": "4 nov 2026",
+          "index": "10/10"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$980,59",
+            "note": "Observado · 4 nov"
+          },
+          {
+            "label": "UF",
+            "value": "$41.268,88",
+            "note": "4 nov"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 893,22",
+            "note": "Oficial · 4 nov"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,40/lb",
+            "note": "LME · 3 nov"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$103,60",
+            "note": "Brent · 3 nov"
+          }
+        ],
+        "source": "Fuentes: Banco Central de Chile (dólar observado), SII (UF), Banco Central de Venezuela, Cochilco/LME (cobre), ICE (Brent)"
+      }
+    },
+    {
+      "number": 224,
+      "date": "2 de noviembre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Argentina",
+        "Cripto",
+        "EE.UU.",
+        "Global"
+      ],
+      "portada": {
+        "tag": "Chile",
+        "headline": "La producción de cobre de Chile cae 15,1% en septiembre",
+        "body": "Según el INE, el país produjo 387.870 toneladas de cobre en septiembre, 15,1% menos que hace un año, por la suspensión temporal de una gran faena y menores leyes del mineral. La minería en su conjunto cayó 8,7% y arrastró a la producción industrial, que bajó 2,7%. Cochilco ya recortó su proyección para 2026 a 4,94 millones de toneladas, 8,4% menos que en 2025.",
+        "stat": {
+          "value": "−15,1%",
+          "direction": "down",
+          "label": "Producción de cobre · septiembre 2026 vs. 2025"
+        },
+        "source": "INE / Cochilco / Cooperativa",
+        "date": "30 oct 2026",
+        "analysis": "Esta es la paradoja del año: el cobre vale cerca de US$6,55 la libra, uno de los precios más altos de su historia, pero Chile produce menos. Eso significa menos dólares e impuestos de los que el país podría estar recibiendo, y ayuda a explicar por qué la economía y el empleo no despegan. Si vives en una región minera, este dato se siente primero en el trabajo y en el comercio local.",
+        "index": "01 / 10"
+      },
+      "capsulas": [
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "La producción de cobre de Chile cae 15,1% en septiembre",
+          "body": "Según el INE, el país produjo 387.870 toneladas de cobre en septiembre, 15,1% menos que hace un año, por la suspensión temporal de una gran faena y menores leyes del mineral. La minería en su conjunto cayó 8,7% y arrastró a la producción industrial, que bajó 2,7%. Cochilco ya recortó su proyección para 2026 a 4,94 millones de toneladas, 8,4% menos que en 2025.",
+          "stat": {
+            "value": "−15,1%",
+            "direction": "down",
+            "label": "Producción de cobre · septiembre 2026 vs. 2025"
+          },
+          "source": "INE / Cochilco / Cooperativa",
+          "date": "30 oct 2026",
+          "analysis": "Esta es la paradoja del año: el cobre vale cerca de US$6,55 la libra, uno de los precios más altos de su historia, pero Chile produce menos. Eso significa menos dólares e impuestos de los que el país podría estar recibiendo, y ayuda a explicar por qué la economía y el empleo no despegan. Si vives en una región minera, este dato se siente primero en el trabajo y en el comercio local.",
+          "index": "01/10"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El Imacec crece apenas 0,2% en septiembre, frenado por la caída de la minería",
+          "body": "Según el Banco Central, la actividad económica subió 0,2% en doce meses en septiembre. La minería cayó 12,1%, mientras la parte no minera creció 2%, con el comercio subiendo 4,5% y los servicios 0,9%. Frente a agosto, y descontando efectos estacionales, la economía avanzó 1,9%.",
+          "stat": {
+            "value": "0,2%",
+            "direction": "up",
+            "label": "Imacec · septiembre 2026 (12 meses)"
+          },
+          "source": "Banco Central de Chile / El Mostrador / CNN Chile",
+          "date": "2 nov 2026",
+          "analysis": "Es un respiro más que una recuperación: la economía evitó otra caída, pero crece muy poco. El problema sigue siendo el cobre, que se produce menos justo cuando vale más; sin la minería, el resto de la economía crece 2%. Con el desempleo en 9,8%, lo que te conviene mirar es si ese 2% no minero se sostiene en los próximos meses.",
+          "index": "02/10"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El pasaje urbano sube a Bs. 230: acumula 64% de alza desde junio",
+          "body": "Desde el 1 de noviembre el pasaje mínimo cuesta Bs. 230, 10 más que en octubre, y Bs. 276 los domingos, feriados y de noche por un recargo de 20%. En junio costaba Bs. 140 y desde entonces se ajusta casi cada mes. El salario mínimo sigue congelado en Bs. 130 desde marzo de 2022: unos US$0,14 al mes a la tasa oficial.",
+          "stat": {
+            "value": "Bs. 230",
+            "direction": "up",
+            "label": "Pasaje urbano mínimo · desde 1 nov 2026"
+          },
+          "source": "El Diario / La Patilla",
+          "date": "31 oct 2026",
+          "analysis": "El pasaje es uno de esos gastos que no se pueden recortar, y por eso retrata bien el costo de vida: hoy un salario mínimo no alcanza ni para un viaje. Que los ajustes sean mensuales muestra que los precios se mueven al ritmo del dólar oficial. Si dependes del transporte público, te conviene presupuestar el mes con la tarifa nueva y sus recargos.",
+          "index": "03/10"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "Venezuela ya envió a EE.UU. más petróleo en 2026 que en 2024 y 2025 juntos",
+          "body": "Según datos preliminares de la EIA, desde enero Venezuela exportó 136,7 millones de barriles de crudo a EE.UU., un promedio de 464.000 barriles diarios, 236% más que en el mismo período de 2025. En la semana al 23 de octubre envió 618.000 barriles diarios y ya suma 27 semanas seguidas como el segundo mayor proveedor de crudo de ese país.",
+          "stat": {
+            "value": "136,7 M",
+            "direction": "up",
+            "label": "Barriles exportados a EE.UU. · enero al 23 oct 2026"
+          },
+          "source": "EIA / Banca y Negocios",
+          "date": "28 oct 2026",
+          "analysis": "Con el Brent sobre US$117, cada barril que sale es una entrada importante de dólares para el país. Pero que EE.UU. concentre cada vez más las compras también hace a Venezuela más dependiente de un solo cliente. Para tu bolsillo, lo que importa es si esos ingresos se traducen en un dólar oficial más estable y en precios más tranquilos.",
+          "index": "04/10"
+        },
+        {
+          "tag": "Argentina",
+          "type": "stat",
+          "title": "El riesgo país de Argentina sube a 787 puntos, su máximo del año",
+          "body": "El viernes el indicador subió 46 puntos (+6,2%) y cerró octubre con un alza de 29,7%, su mayor escalada de 2026. Los bonos cayeron hasta 4,7% y el dólar oficial en el Banco Nación tocó $1.560, su nivel más alto del año. En paralelo, el Banco Central compró US$1.395 millones en octubre y las reservas llegaron a US$48.562 millones.",
+          "stat": {
+            "value": "787",
+            "direction": "up",
+            "label": "Riesgo país · cierre 30 oct (+180 en octubre)"
+          },
+          "source": "La Nación / Infobae",
+          "date": "30 oct 2026",
+          "analysis": "El riesgo país es lo que el mundo le cobra a Argentina por prestarle: a más puntos, más caro el crédito para el Estado y también para empresas y bancos. La suba mezcla golpes de afuera —petróleo, Wall Street, Brasil— con dudas locales sobre cómo pagar los próximos vencimientos. La señal a seguir es si el Banco Central mantiene el ritmo de compra de dólares.",
+          "index": "05/10"
+        },
+        {
+          "tag": "Cripto",
+          "type": "stat",
+          "title": "El mayor robo cripto de la historia: US$6.300 millones a Binance",
+          "body": "El 29 de octubre, hackers del grupo TraderTraitor, vinculado a Corea del Norte según el FBI, robaron unos US$6.300 millones a Binance. El bitcoin cayó 3,1% en 24 horas hasta US$76.400, su menor nivel desde el 18 de septiembre, y las liquidaciones de futuros se cuadruplicaron a US$1.570 millones. Binance repuso con fondos propios cerca del 95% de lo robado y reabrió los retiros el 1 de noviembre: ese día salieron US$3.640 millones netos.",
+          "stat": {
+            "value": "US$6.300 M",
+            "direction": "down",
+            "label": "Robado a Binance · 29 oct 2026"
+          },
+          "source": "FBI / Binance / CoinDesk / Ámbito",
+          "date": "1 nov 2026",
+          "analysis": "Este golpe importa más allá de quienes invierten en bitcoin. En Venezuela y Argentina, mucha gente usa plataformas como Binance para ahorrar en dólares digitales y protegerse de la inflación, y por eso el miedo se notó en una ola de retiros. La lección práctica: no guardes todos tus ahorros en un solo lugar y, si usas cripto, averigua quién custodia tus fondos y cómo.",
+          "index": "06/10"
+        },
+        {
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "La inflación que más mira la Fed sube a 3,6% en septiembre",
+          "body": "El índice de precios PCE subió 0,5% en el mes y 3,6% en doce meses, según el BEA. Sin alimentos ni energía, el alza fue de 3,1% anual. El gasto de los hogares creció 0,5% en el mes, más que sus ingresos (0,2%), y la tasa de ahorro quedó en 3,8%.",
+          "stat": {
+            "value": "3,6%",
+            "direction": "up",
+            "label": "Inflación PCE · septiembre 2026 (anual)"
+          },
+          "source": "BEA",
+          "date": "29 oct 2026",
+          "analysis": "Es el indicador de precios favorito de la Fed, y se aleja de su meta de 2%. Que los hogares gasten más rápido de lo que crecen sus ingresos dice que están usando su colchón. Para Latinoamérica, una Fed que sube tasas en diciembre suele significar un dólar más fuerte y crédito más caro.",
+          "index": "07/10"
+        },
+        {
+          "tag": "Global",
+          "type": "stat",
+          "title": "La industria china vuelve a contraerse: el PMI cae a 49,3 en octubre",
+          "body": "El índice de gerentes de compras manufacturero bajó desde 50,1 en septiembre y quedó bajo la previsión de 50 de los analistas, según la Oficina Nacional de Estadística. Es la tercera contracción en cuatro meses: los pedidos nuevos y los de exportación siguen bajo 50, y el índice de servicios y construcción también cayó, a 49,7.",
+          "stat": {
+            "value": "49,3",
+            "direction": "down",
+            "label": "PMI manufacturero de China · octubre 2026 (50 = estable)"
+          },
+          "source": "Oficina Nacional de Estadística de China / Reuters / Infobae",
+          "date": "31 oct 2026",
+          "analysis": "China es el mayor comprador de cobre del mundo, así que cuando sus fábricas se frenan, Chile lo siente en el precio de su principal exportación. También es una alerta para Perú, Brasil y todos los que le venden materias primas. Si la debilidad se prolonga, podría pesar más que la escasez de oferta que hoy sostiene al cobre.",
+          "index": "08/10"
+        },
+        {
+          "index": "09/10",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Superintendencia de Pensiones",
+              "url": "https://www.spensiones.cl",
+              "note": "Rentabilidad y comisiones de las AFP"
+            },
+            {
+              "name": "IPS / ChileAtiende",
+              "url": "https://www.ips.gob.cl",
+              "note": "Reforma de pensiones y PGU"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "ICCO",
+              "url": "https://www.icco.org",
+              "note": "Precio y producción mundial de cacao"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "No son las cosas las que nos perturban, sino las opiniones que tenemos sobre ellas.",
+          "author": "Epicteto",
+          "source_label": "Enquiridión, 5",
+          "source": "5 min. de economía",
+          "date": "2 nov 2026",
+          "index": "10/10"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$991,82",
+            "note": "Cierre · 30 oct"
+          },
+          {
+            "label": "UF",
+            "value": "$41.258,26",
+            "note": "2 nov"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 889,57",
+            "note": "Oficial · 2 nov"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,55/lb",
+            "note": "LME · 30 oct"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$117,64",
+            "note": "Brent · 30 oct"
+          }
+        ],
+        "source": "Fuentes: Dow Jones (dólar), SII (UF), Banco Central de Venezuela, LME (cobre), ICE (Brent)"
+      }
+    },
+    {
+      "number": 223,
+      "date": "30 de octubre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Brasil",
+        "Latinoamérica",
+        "EE.UU.",
+        "Global"
+      ],
+      "portada": {
+        "tag": "Chile",
+        "headline": "El desempleo en Chile sube a 9,8%, su nivel más alto en cinco años",
+        "body": "En el trimestre julio-septiembre, la tasa de desocupación subió 1,3 puntos en doce meses y los desocupados superaron el millón de personas por primera vez desde 2020. Los ocupados cayeron 1,1% y los desocupados aumentaron 15,3%. Entre las mujeres, la tasa llegó a 10,5%.",
+        "stat": {
+          "value": "9,8%",
+          "direction": "up",
+          "label": "Tasa de desocupación · jul-sep 2026"
+        },
+        "source": "INE / EFE",
+        "date": "29 oct 2026",
+        "analysis": "Este es el número que más pesa en la vida diaria: detrás del 9,8% hay más de un millón de personas buscando trabajo, y las mujeres son las más golpeadas, con una tasa de 10,5%. También ayuda a entender la cautela del Banco Central: la economía está fría aunque los precios suban. Sin más crecimiento, es difícil que el empleo se recupere.",
+        "index": "01 / 10"
+      },
+      "capsulas": [
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El desempleo en Chile sube a 9,8%, su nivel más alto en cinco años",
+          "body": "En el trimestre julio-septiembre, la tasa de desocupación subió 1,3 puntos en doce meses y los desocupados superaron el millón de personas por primera vez desde 2020. Los ocupados cayeron 1,1% y los desocupados aumentaron 15,3%. Entre las mujeres, la tasa llegó a 10,5%.",
+          "stat": {
+            "value": "9,8%",
+            "direction": "up",
+            "label": "Tasa de desocupación · jul-sep 2026"
+          },
+          "source": "INE / EFE",
+          "date": "29 oct 2026",
+          "analysis": "Este es el número que más pesa en la vida diaria: detrás del 9,8% hay más de un millón de personas buscando trabajo, y las mujeres son las más golpeadas, con una tasa de 10,5%. También ayuda a entender la cautela del Banco Central: la economía está fría aunque los precios suban. Sin más crecimiento, es difícil que el empleo se recupere.",
+          "index": "01/10"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El dólar vuelve a acercarse a los $1.000 tras la decisión de la Fed",
+          "body": "El dólar cerró el jueves en $990,40, con un alza de 0,26% en el día y unos $7 más que el martes. El mercado apuesta a que la Fed suba su tasa en diciembre: hoy la tasa chilena (4,5%) está solo medio punto sobre el techo de la Fed (4%), y si esa distancia se achica, el peso pierde atractivo.",
+          "stat": {
+            "value": "$990,40",
+            "direction": "up",
+            "label": "Dólar en Chile · cierre 29 oct 2026"
+          },
+          "source": "Dow Jones / Infobae / Emol",
+          "date": "29 oct 2026",
+          "analysis": "Un dólar cerca de $1.000 se nota en todo lo que viene de afuera: tecnología, autos, repuestos y, sobre todo, combustibles. También en los viajes y en las compras por internet en dólares. Si tienes un gasto grande en dólares, te conviene mirar la tendencia de varias semanas y no reaccionar al ruido de un solo día.",
+          "index": "02/10"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El BCV y el Gobierno firman un acuerdo para llevar la inflación a dos dígitos en 2027",
+          "body": "El Acuerdo Nacional de Política Económica fija para 2027 un crecimiento de entre 6% y 10% y una inflación de dos dígitos al cierre del año. El punto de partida es alto: en septiembre los precios subieron 8,4% en el mes, acumulan 225,3% en el año y 465,5% en doce meses.",
+          "stat": {
+            "value": "465,5%",
+            "direction": "up",
+            "label": "Inflación interanual · septiembre 2026"
+          },
+          "source": "Banco Central de Venezuela / Bloomberg Línea",
+          "date": "28 oct 2026",
+          "analysis": "Una meta escrita no baja los precios por sí sola, pero da una vara para medir. Pasar de tres a dos dígitos exige frenar el alza del dólar y ordenar el gasto público, y el acuerdo todavía no dice cómo ni con qué calendario. Lo que te conviene seguir es el dato mensual: si baja de forma sostenida, la meta se vuelve creíble.",
+          "index": "03/10"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "La cesta petrolera venezolana sube a US$89,56, su mayor nivel desde 2014",
+          "body": "En la semana del 18 al 24 de octubre, el crudo venezolano promedió US$89,56 por barril, según el Reporte de Energía y Petróleo de Juan Szabo y Luis Pacheco. Aun así, quedó unos US$27 por debajo del Brent, que cerró esa semana en US$116,72. PDVSA reporta una producción de más de 1,2 millones de barriles diarios.",
+          "stat": {
+            "value": "US$89,56",
+            "direction": "up",
+            "label": "Cesta venezolana por barril · 18-24 oct 2026"
+          },
+          "source": "Banca y Negocios / PDVSA",
+          "date": "28 oct 2026",
+          "analysis": "El petróleo es la principal fuente de dólares de Venezuela, así que un barril más caro le da aire a las cuentas del país y al BCV, que este año ya ha inyectado más de US$11.000 millones para contener el dólar. Pero el descuento frente al Brent recuerda que el crudo venezolano se vende más barato. La clave es cuánto de esos dólares llega a la economía real.",
+          "index": "04/10"
+        },
+        {
+          "tag": "Brasil",
+          "type": "stat",
+          "title": "El déficit de Brasil llega a 9,51% del PIB y la bolsa suma cuatro caídas",
+          "body": "El Banco Central informó que el déficit nominal del sector público sumó R$1,275 billones en doce meses a septiembre, 9,51% del PIB; solo los intereses de la deuda equivalen a 8,99%. La deuda bruta llegó a 82,9% del PIB. El jueves, la bolsa de São Paulo cayó 1,06%, su cuarta baja seguida, y el dólar subió a 5,39 reales.",
+          "stat": {
+            "value": "9,51%",
+            "direction": "up",
+            "label": "Déficit nominal / PIB · 12 meses a septiembre"
+          },
+          "source": "Banco Central do Brasil / EFE / CNN Brasil",
+          "date": "29 oct 2026",
+          "analysis": "Este dato explica buena parte del nerviosismo de esta semana: Brasil gasta bastante más de lo que recauda, y casi todo ese hueco son intereses. Con el gobierno descartando recortes de gasto, el mercado pide más rentabilidad para prestarle. Para la región importa porque Brasil es la mayor economía: cuando su moneda se debilita, suele arrastrar a las vecinas.",
+          "index": "05/10"
+        },
+        {
+          "tag": "Latinoamérica",
+          "type": "stat",
+          "title": "El clima pasa la cuenta: El Niño podría restar 2% al PIB de la región",
+          "body": "El informe 2026 de Lancet Countdown, publicado esta semana, advierte que América Latina está especialmente expuesta a las sequías extremas: en 2025, el 51,8% de la superficie terrestre tuvo al menos un mes de sequía extrema. Con El Niño intensificándose, la Cepal estima que un evento extremo restaría al menos 2% del PIB regional en tres años y sumaría 4,8 millones de personas a la pobreza antes de 2030.",
+          "stat": {
+            "value": "−2%",
+            "direction": "down",
+            "label": "PIB regional en 3 años · escenario de El Niño extremo"
+          },
+          "source": "Cepal / Lancet Countdown / Infobae / Bloomberg Línea",
+          "date": "28 oct 2026",
+          "analysis": "El clima ya no es solo un tema ambiental: es un costo económico. Las sequías encarecen la comida y también la luz en los países donde el agua genera hasta 70% de la electricidad, y las lluvias extremas rompen caminos y cosechas. Si en los próximos meses ves subir el precio de las verduras, parte de la explicación está aquí.",
+          "index": "06/10"
+        },
+        {
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "La economía de EE.UU. crece 3,4% y la Fed deja abierta la puerta a subir tasas",
+          "body": "El PIB creció a un ritmo anual de 3,4% en el tercer trimestre, desde 2,2% en el segundo, impulsado por la inversión empresarial y el consumo. Un día antes, la Fed mantuvo su tasa entre 3,75% y 4%, pero dos de sus doce miembros votaron por subirla. Antes del anuncio, el mercado asignaba cerca de 78% de probabilidad a un alza en diciembre.",
+          "stat": {
+            "value": "3,4%",
+            "direction": "up",
+            "label": "PIB EE.UU. · 3er trimestre 2026 (anualizado)"
+          },
+          "source": "BEA / Reserva Federal / Emol",
+          "date": "29 oct 2026",
+          "analysis": "Una economía que crece fuerte con la inflación en 3,7% le da a la Fed argumentos para subir tasas, no para bajarlas. Eso explica lo que vimos en la región esta semana: el dólar subió frente al peso chileno, el mexicano y el real. La próxima pista llega el 10 de noviembre, con el dato de inflación de octubre.",
+          "index": "07/10"
+        },
+        {
+          "tag": "Global",
+          "type": "stat",
+          "title": "El BCE mantiene su tasa en 2,5% y apunta a una subida en diciembre",
+          "body": "El Banco Central Europeo dejó la tasa de depósito en 2,5%, tras subirla en septiembre. La inflación de la zona euro llegó a 3,8% en septiembre, su mayor nivel en tres años, empujada por la energía. Christine Lagarde dijo que, si los datos lo confirman, \"el sentido de la dirección es bastante claro\"; la próxima decisión es el 17 de diciembre.",
+          "stat": {
+            "value": "2,5%",
+            "direction": "flat",
+            "label": "Tasa de depósito del BCE · 29 oct 2026"
+          },
+          "source": "BCE / Eurostat / Finect",
+          "date": "29 oct 2026",
+          "analysis": "Europa, EE.UU. y Chile enfrentan el mismo problema: la energía cara empuja los precios y obliga a los bancos centrales a frenar. Cuando los grandes suben tasas casi a la vez, el crédito se encarece en todo el mundo y el crecimiento se resiente. Por eso el petróleo, que sigue sobre US$114, es hoy el dato que más conviene seguir.",
+          "index": "08/10"
+        },
+        {
+          "index": "09/10",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Superintendencia de Pensiones",
+              "url": "https://www.spensiones.cl",
+              "note": "Rentabilidad y comisiones de las AFP"
+            },
+            {
+              "name": "IPS / ChileAtiende",
+              "url": "https://www.ips.gob.cl",
+              "note": "Reforma de pensiones y PGU"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "ICCO",
+              "url": "https://www.icco.org",
+              "note": "Precio y producción mundial de cacao"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "El impedimento a la acción hace avanzar la acción. Lo que se interpone en el camino se convierte en el camino.",
+          "author": "Marco Aurelio",
+          "source_label": "Meditaciones, V, 20",
+          "source": "5 min. de economía",
+          "date": "30 oct 2026",
+          "index": "10/10"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$990,40",
+            "note": "Cierre · 29 oct"
+          },
+          {
+            "label": "UF",
+            "value": "$41.242,32",
+            "note": "30 oct"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 889,26",
+            "note": "Oficial · 30 oct"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,60/lb",
+            "note": "LME · 29 oct"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$114,88",
+            "note": "Brent · 29 oct"
+          }
+        ],
+        "source": "Fuentes: Dow Jones (dólar), SII (UF), Banco Central de Venezuela, LME (cobre), ICE (Brent)"
+      }
+    },
+    {
+      "number": 222,
+      "date": "28 de octubre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Brasil",
+        "Argentina",
+        "EE.UU.",
+        "Global"
+      ],
+      "portada": {
+        "index": "01 / 10",
+        "tag": "Chile",
+        "headline": "El Banco Central mantiene la tasa en 4,5% y advierte más riesgo de inflación",
+        "body": "El Consejo decidió por unanimidad dejar la tasa en 4,5%, donde está desde diciembre. Advirtió que los riesgos para la inflación aumentaron de forma relevante: el petróleo subió cerca de 25% desde septiembre y El Niño empieza a presionar los precios de los alimentos.",
+        "stat": {
+          "value": "4,5%",
+          "direction": "flat",
+          "label": "Tasa de política monetaria · 27 oct 2026"
+        },
+        "source": "Banco Central de Chile / EFE",
+        "date": "27 oct 2026",
+        "analysis": "El Banco Central queda entre dos fuegos: la economía está débil y el desempleo en 9,6%, lo que pediría bajar la tasa; pero la energía más cara empuja los precios, lo que pide prudencia. Por ahora eligió esperar. Para quien tiene un crédito, la lectura es simple: no hay que contar con cuotas más baratas en el corto plazo."
+      },
+      "capsulas": [
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El Banco Central mantiene la tasa en 4,5% y advierte más riesgo de inflación",
+          "body": "El Consejo decidió por unanimidad dejar la tasa en 4,5%, donde está desde diciembre. Advirtió que los riesgos para la inflación aumentaron de forma relevante: el petróleo subió cerca de 25% desde septiembre y El Niño empieza a presionar los precios de los alimentos.",
+          "stat": {
+            "value": "4,5%",
+            "direction": "flat",
+            "label": "Tasa de política monetaria · 27 oct 2026"
+          },
+          "source": "Banco Central de Chile / EFE",
+          "date": "27 oct 2026",
+          "analysis": "El Banco Central queda entre dos fuegos: la economía está débil y el desempleo en 9,6%, lo que pediría bajar la tasa; pero la energía más cara empuja los precios, lo que pide prudencia. Por ahora eligió esperar. Para quien tiene un crédito, la lectura es simple: no hay que contar con cuotas más baratas en el corto plazo.",
+          "index": "01/10"
+        },
+        {
+          "tag": "Chile",
+          "type": "stat",
+          "title": "La inflación en Chile llega a 4,1% en doce meses",
+          "body": "El IPC subió 0,4% en septiembre y acumula 4,0% en el año. Empujaron el diésel (+10,2%), la gasolina (+2,7%), la electricidad (+1,6%) y las verduras: las papas subieron 8,6% y las lechugas, 10,5%. La meta del Banco Central es 3%.",
+          "stat": {
+            "value": "4,1%",
+            "direction": "up",
+            "label": "IPC Chile · 12 meses a septiembre 2026"
+          },
+          "source": "INE",
+          "date": "8 oct 2026",
+          "analysis": "Este es el dato que explica la cautela del Banco Central. Lo que más sube es lo que no se puede dejar de comprar: combustible, luz y comida. Por eso la inflación se siente más en el bolsillo de lo que dice el promedio. El dato de octubre se publica el 6 de noviembre.",
+          "index": "02/10"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El FMI proyecta que Venezuela crecerá 5% este año",
+          "body": "En su informe de octubre, el FMI estima un crecimiento de 5% para 2026 y de 7% para 2027. La otra cara es la inflación: la proyecta en 467,9% al cierre de este año y en 174% promedio el próximo. El Fondo evalúa abrir una oficina en Caracas.",
+          "stat": {
+            "value": "+5%",
+            "direction": "up",
+            "label": "Crecimiento proyectado del PIB 2026"
+          },
+          "source": "FMI (Perspectivas de la Economía Mundial) / EFE",
+          "date": "13 oct 2026",
+          "analysis": "Crecer 5% con una inflación de tres dígitos es una combinación difícil de vivir: la economía produce más, pero el sueldo rinde menos cada semana. Que el FMI vuelva a mirar a Venezuela importa por algo básico: datos oficiales confiables. Sin buenas cifras es difícil atraer inversión.",
+          "index": "03/10"
+        },
+        {
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El dólar oficial sube 197,6% en lo que va del año",
+          "body": "La tasa del BCV para el 27 de octubre quedó en Bs. 887,30 por dólar. En el año, el bolívar acumula una pérdida equivalente a 589,16 bolívares por dólar, un alza de 197,6% en la tasa; frente a la misma fecha de 2025, el aumento es de 310%.",
+          "stat": {
+            "value": "Bs. 887,30",
+            "direction": "up",
+            "label": "Tasa oficial BCV · 27 oct 2026"
+          },
+          "source": "Banco Central de Venezuela / Finanzas Digital",
+          "date": "27 oct 2026",
+          "analysis": "En Venezuela el dólar es la regla con la que se ponen casi todos los precios, así que cada alza de la tasa termina en el mercado. Que la tasa casi se triplique en diez meses ayuda a entender por qué el FMI proyecta una inflación tan alta. Lo que conviene mirar es si el ritmo se modera en noviembre.",
+          "index": "04/10"
+        },
+        {
+          "tag": "Brasil",
+          "type": "stat",
+          "title": "La bolsa de Brasil se desploma 13,9% tras la reelección de Lula",
+          "body": "El lunes 26, la bolsa de São Paulo cerró con su peor caída desde marzo de 2020 y el dólar subió 9%, a 5,41 reales, tras tocar 5,60. El martes hubo un leve rebote: la bolsa subió 0,7% y el dólar bajó a 5,34 reales. El mercado teme más gasto público y más deuda.",
+          "stat": {
+            "value": "−13,9%",
+            "direction": "down",
+            "label": "Bolsa de São Paulo · cierre 26 oct 2026"
+          },
+          "source": "Infobae",
+          "date": "27 oct 2026",
+          "analysis": "La primera reacción fue de pánico; la segunda, de calma relativa. Algunos bancos ya dicen que la caída fue exagerada, y otros recortan su apuesta por Brasil. Para Chile importa porque Brasil es un gran socio comercial: un real más débil abarata sus productos y encarece los nuestros allá.",
+          "index": "05/10"
+        },
+        {
+          "tag": "Argentina",
+          "type": "stat",
+          "title": "El efecto Brasil lleva el riesgo país argentino a 765 puntos",
+          "body": "El lunes, el riesgo país de Argentina subió 57 puntos, hasta 765, y el dólar mayorista avanzó a $1.540. Brasil es su principal socio en manufacturas y pesa 27,7% en su tipo de cambio real; la caída del real podría restarle 2,89% de competitividad.",
+          "stat": {
+            "value": "765",
+            "direction": "up",
+            "label": "Riesgo país Argentina (puntos) · 26 oct 2026"
+          },
+          "source": "JP Morgan / PPI / Infobae",
+          "date": "27 oct 2026",
+          "analysis": "Esto muestra cómo lo que pasa en un país se contagia al vecino. Si el real se abarata, los productos brasileños compiten mejor y los argentinos se venden menos en Brasil. Provincias como Córdoba o Mendoza mandan allá entre 17% y 27% de lo que exportan, así que el golpe es concreto.",
+          "index": "06/10"
+        },
+        {
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "La Fed decide este miércoles con la inflación en 3,7%",
+          "body": "La Reserva Federal anuncia este miércoles su decisión. Se espera que mantenga la tasa entre 3,75% y 4,00%, con cerca de 90% de probabilidad, pero el mercado ya apuesta a una subida en diciembre. En septiembre la inflación subió a 3,7% anual y se crearon solo 29.000 empleos.",
+          "stat": {
+            "value": "3,7%",
+            "direction": "up",
+            "label": "Inflación anual EE.UU. · septiembre 2026"
+          },
+          "source": "Investing.com / Forbes",
+          "date": "27 oct 2026",
+          "analysis": "La Fed tiene el mismo dilema que nuestro Banco Central, pero más grande: precios que suben y empleo que se enfría. Lo que decida pesa en toda la región, porque tasas más altas en EE.UU. suelen fortalecer el dólar y encarecer el crédito para países como los nuestros.",
+          "index": "07/10"
+        },
+        {
+          "tag": "Global",
+          "type": "stat",
+          "title": "El petróleo Brent baja 1,67% por esperanzas de diálogo en Medio Oriente",
+          "body": "El Brent cerró en US$113,88 por barril tras rozar los US$117 en la mañana. Pesó la primera reunión entre Irán, Arabia Saudita, Pakistán y Turquía, aunque las negociaciones siguen trabadas y octubre ha sido de los peores meses en ataques a buques en el estrecho de Ormuz.",
+          "stat": {
+            "value": "US$113,88",
+            "direction": "down",
+            "label": "Petróleo Brent por barril · 27 oct 2026"
+          },
+          "source": "EFE / Infobae",
+          "date": "27 oct 2026",
+          "analysis": "Una baja de un día no cambia el cuadro: el petróleo sigue en su nivel más alto desde abril. Mientras pase poco crudo por Ormuz, el precio seguirá alto, y eso llega directo a las bencinas, al transporte y, como vimos, a la inflación de Chile y del mundo.",
+          "index": "08/10"
+        },
+        {
+          "index": "09/10",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Superintendencia de Pensiones",
+              "url": "https://www.spensiones.cl",
+              "note": "Rentabilidad y comisiones de las AFP"
+            },
+            {
+              "name": "IPS / ChileAtiende",
+              "url": "https://www.ips.gob.cl",
+              "note": "Reforma de pensiones y PGU"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "ICCO",
+              "url": "https://www.icco.org",
+              "note": "Precio y producción mundial de cacao"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "Mientras se aplaza, la vida pasa.",
+          "author": "Séneca",
+          "source_label": "Cartas a Lucilio, 1",
+          "source": "5 min. de economía",
+          "date": "28 oct 2026",
+          "index": "10/10"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$983,30",
+            "note": "Cierre · 27 oct"
+          },
+          {
+            "label": "UF",
+            "value": "$41.231,70",
+            "note": "28 oct"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 887,30",
+            "note": "Oficial · 27 oct"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,63/lb",
+            "note": "LME · 27 oct"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$113,88",
+            "note": "Brent · 27 oct"
+          }
+        ],
+        "source": "Fuentes: Dow Jones (dólar), SII (UF), Banco Central de Venezuela, Cochilco/LME, ICE (Brent)"
+      }
+    },
+    {
+      "number": 221,
+      "date": "24 de octubre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Brasil",
+        "Argentina",
+        "EE.UU.",
+        "Global"
+      ],
+      "portada": {
+        "index": "01 / 11",
+        "tag": "Chile",
+        "headline": "El desempleo en Chile sube a 9,6%, su nivel más alto desde 2021",
+        "body": "Según el INE, la desocupación llegó a 9,6% en el trimestre junio–agosto, un punto más que hace un año. Entre las mujeres es 10,3% y entre los hombres, 9,1%. En doce meses, el número de personas ocupadas cayó 0,9%.",
+        "stat": {
+          "value": "9,6%",
+          "direction": "up",
+          "label": "Tasa de desocupación Chile · jun–ago 2026"
+        },
+        "source": "INE",
+        "date": "30 sep 2026",
+        "analysis": "Este es el dato que convierte las proyecciones en algo concreto: casi uno de cada diez chilenos que quiere trabajar no tiene empleo. Con un crecimiento cercano a cero, es difícil que esta cifra baje pronto. El próximo dato del INE llega a fines de octubre y conviene seguirlo."
+      },
+      "capsulas": [
+        {
+          "index": "01/11",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El desempleo en Chile sube a 9,6%, su nivel más alto desde 2021",
+          "body": "Según el INE, la desocupación llegó a 9,6% en el trimestre junio–agosto, un punto más que hace un año. Entre las mujeres es 10,3% y entre los hombres, 9,1%. En doce meses, el número de personas ocupadas cayó 0,9%.",
+          "stat": {
+            "value": "9,6%",
+            "direction": "up",
+            "label": "Tasa de desocupación Chile · jun–ago 2026"
+          },
+          "source": "INE",
+          "date": "30 sep 2026",
+          "analysis": "Este es el dato que convierte las proyecciones en algo concreto: casi uno de cada diez chilenos que quiere trabajar no tiene empleo. Con un crecimiento cercano a cero, es difícil que esta cifra baje pronto. El próximo dato del INE llega a fines de octubre y conviene seguirlo."
+        },
+        {
+          "index": "02/11",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "Presupuesto 2027: el gasto público crecerá apenas 1,5%",
+          "body": "El proyecto que discute el Congreso sube el gasto total en 1,5%. Seguridad (+9,1%), Crecimiento y Trabajo (+8,1%) y Vivienda (+5,8%) son las áreas que más crecen. Los mayores recortes están en programas como la Ley Cholito (−86%), Bibliotecas (−57,9%) y Liceos Bicentenario (−46,7%); Cultura baja 10,1% y Ciencia, 7,4%.",
+          "stat": {
+            "value": "+1,5%",
+            "direction": "up",
+            "label": "Crecimiento del gasto público 2027"
+          },
+          "source": "Proyecto de Ley de Presupuestos / T13",
+          "date": "5 oct 2026",
+          "analysis": "Un presupuesto que crece poco en un año de bajo crecimiento obliga a elegir, y estas cifras muestran las prioridades: seguridad y empleo arriba, cultura y ciencia abajo. Lo importante es que aún se puede cambiar: en estas semanas el Congreso negocia partida por partida."
+        },
+        {
+          "index": "03/11",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "Venezuela paga con tarjeta: los puntos de venta superan los 1,2 millones",
+          "body": "Según un estudio del BCV con datos a agosto de 2026, el país tiene 1.204.991 puntos de venta en 859.529 comercios, 8,9% más que hace un año. Los cajeros automáticos, en cambio, bajaron 8,2%, a 3.666. Las tarjetas de crédito cobran tasas de entre 17% y 60% anual.",
+          "stat": {
+            "value": "1.204.991",
+            "direction": "up",
+            "label": "Puntos de venta en Venezuela · agosto 2026"
+          },
+          "source": "BCV / Informe21",
+          "date": "20 oct 2026",
+          "analysis": "Más puntos de venta y menos cajeros cuentan una historia clara: el efectivo en bolívares casi no se usa y la gente paga con tarjeta, pago móvil o dólares. Para un comercio, tener punto de venta ya no es un lujo, es la forma de no perder clientes."
+        },
+        {
+          "index": "04/11",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "Las exportaciones de petróleo a EE.UU. suben 25% en una semana",
+          "body": "Según datos preliminares de la EIA, Venezuela envió 571.000 barriles diarios de crudo a Estados Unidos en la semana terminada el 16 de octubre, 25% más que la semana anterior. Lleva 26 semanas como segundo proveedor de crudo de EE.UU., por encima de Arabia Saudita. El promedio del año, 460.000 barriles diarios, es 243% mayor que en 2025.",
+          "stat": {
+            "value": "571.000",
+            "direction": "up",
+            "label": "Barriles diarios exportados a EE.UU. · semana al 16 oct"
+          },
+          "source": "EIA / Confirmado",
+          "date": "22 oct 2026",
+          "analysis": "Con el petróleo sobre US$110, cada barril que sale vale más, y eso significa más dólares entrando al país. La pregunta que me hago es cuánto de ese ingreso llega a la economía de todos los días. Si esos dólares no se ven en la tasa ni en los precios, el alivio se queda en el papel."
+        },
+        {
+          "index": "05/11",
+          "tag": "Brasil",
+          "type": "stat",
+          "title": "Lula gana en Brasil y el mercado reacciona con fuerza",
+          "body": "Lula ganó la segunda vuelta del domingo 25 con 51,79% de los votos válidos frente a 48,21% de Flávio Bolsonaro. El lunes, la bolsa de São Paulo abrió con una caída de 16,6% y suspendió la sesión por media hora; el real llegó a perder 12% frente al dólar. En las semanas previas, la bolsa había subido casi 7% y el real, cerca de 5%.",
+          "source": "EFE / Infobae · La Nación",
+          "date": "26 oct 2026",
+          "analysis": "No se trata de quién ganó, sino de cuánto se había adelantado el mercado: la bolsa y el real venían subiendo con la expectativa de otro resultado, y hoy deshacen esa apuesta de golpe. Brasil es la economía más grande de la región, así que el movimiento se contagia a sus vecinos. Conviene mirar cómo cierra la semana antes de sacar conclusiones.",
+          "stat": {
+            "value": "−16,6%",
+            "direction": "down",
+            "label": "Bolsa de São Paulo al abrir · 26 oct 2026"
+          }
+        },
+        {
+          "index": "06/11",
+          "tag": "Argentina",
+          "type": "stat",
+          "title": "El riesgo país de Argentina vuelve a superar los 700 puntos",
+          "body": "En la semana al 23 de octubre, el riesgo país subió unos 60 puntos hasta 707, su nivel más alto en un año, y los bonos en dólares cayeron 2,2% en promedio. El dólar mayorista marcó un récord nominal de $1.529,50. Las reservas del Banco Central rondan los US$50.200 millones.",
+          "stat": {
+            "value": "707",
+            "direction": "up",
+            "label": "Riesgo país Argentina (puntos) · 23 oct 2026"
+          },
+          "source": "JP Morgan / Infobae",
+          "date": "24 oct 2026",
+          "analysis": "El riesgo país mide cuánto más le cobran a Argentina por prestarle plata frente a EE.UU. Cuando sube, se encarece el crédito para el Estado y para las empresas. Parte del alza viene de afuera, por la caída de las tecnológicas, y parte de adentro: el mercado ya mira con nervio el próximo ciclo electoral."
+        },
+        {
+          "index": "07/11",
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "Wall Street duda del gasto en inteligencia artificial: el Nasdaq cae 2,58%",
+          "body": "El 22 de octubre el Nasdaq tuvo su peor día desde junio. Meta cayó 7% tras informar su primer flujo de caja libre negativo en más de una década por el gasto en IA; Nvidia bajó 4,4% y Lam Research, 11,8%. Los inversionistas se refugiaron en bonos del Tesoro y la tasa a 10 años bajó a 4,97%.",
+          "stat": {
+            "value": "−2,58%",
+            "direction": "down",
+            "label": "Nasdaq · 22 oct 2026"
+          },
+          "source": "Infobae",
+          "date": "22 oct 2026",
+          "analysis": "Durante dos años la inteligencia artificial empujó las bolsas hacia arriba; ahora el mercado empieza a preguntar quién paga la cuenta. Esto nos toca de cerca: muchos fondos de pensiones y fondos mutuos tienen acciones de estas empresas. No es motivo para vender por miedo, pero sí para revisar qué tan concentrado está lo que tienes."
+        },
+        {
+          "index": "08/11",
+          "tag": "Global",
+          "type": "stat",
+          "title": "El oro pierde más de 3% en la semana y ronda los US$4.000",
+          "body": "El oro cerró una semana turbulenta cerca de US$4.000 la onza, tras caer por momentos bajo US$3.990, su nivel más bajo desde mediados de julio. El alza del petróleo avivó el temor a más inflación y a tasas altas, y los inversionistas prefirieron los bonos del Tesoro.",
+          "stat": {
+            "value": "≈US$4.000",
+            "direction": "down",
+            "label": "Oro por onza · 23 oct 2026"
+          },
+          "source": "La República (Colombia)",
+          "date": "23 oct 2026",
+          "analysis": "Solemos pensar en el oro como refugio, pero esta semana no lo fue: cuando suben las tasas, un activo que no paga intereses pierde atractivo. Para Argentina, por ejemplo, la baja del oro también restó valor a sus reservas. Es un buen recordatorio de que ningún refugio es perfecto."
+        },
+        {
+          "index": "09/11",
+          "tag": "Infografía",
+          "type": "image",
+          "title": "¿Quién produce el cacao de Latinoamérica?",
+          "body": "El grano bajó a la mitad. ¿Y tu chocolate? Producción y exportaciones de seis países, frente al precio internacional del cacao.",
+          "image": "5min-economia-infografia-cacao-latam-web.jpg",
+          "alt": "Infografía del cacao en Latinoamérica. Precio por tonelada: US$10.580 a inicio de 2025, US$5.817 a inicio de 2026 y US$5.592 el 23 de octubre de 2026. Producción: Ecuador cerca de 600.000 t, Brasil 226.497 t, Perú cerca de 100.000 t, Colombia cerca de 70.000 t, México cerca de 20.000 t solo en Tabasco, Venezuela entre 16 y 26 mil t.",
+          "source": "ICCO / ICE / Anecacao / AIPC / Mincetur",
+          "date": "oct 2026"
+        },
+        {
+          "index": "09/10",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Superintendencia de Pensiones",
+              "url": "https://www.spensiones.cl",
+              "note": "Rentabilidad y comisiones de las AFP"
+            },
+            {
+              "name": "IPS / ChileAtiende",
+              "url": "https://www.ips.gob.cl",
+              "note": "Reforma de pensiones y PGU"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "ICCO",
+              "url": "https://www.icco.org",
+              "note": "Precio y producción mundial de cacao"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "index": "11/11",
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "No son las cosas las que nos perturban, sino las opiniones que tenemos sobre ellas.",
+          "author": "Epicteto",
+          "source_label": "Enquiridión, 5",
+          "source": "5 min. de economía",
+          "date": "24 oct 2026"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$994,27",
+            "note": "Cierre · 23 oct"
+          },
+          {
+            "label": "UF",
+            "value": "$41.210,47",
+            "note": "24 oct"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 886,23",
+            "note": "Oficial · 23 oct"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,54/lb",
+            "note": "LME · 23 oct"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$116,26",
+            "note": "Brent · 23 oct"
+          }
+        ],
+        "source": "Fuentes: Dow Jones (dólar), SII (UF), Banco Central de Venezuela, Cochilco/LME, ICE (Brent)"
+      },
+      "video": "5min-economia-221-resumen.mp4",
+      "videoPoster": "5min-economia-221-video-portada.jpg"
+    },
+    {
+      "number": 220,
+      "date": "21 de octubre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Latinoamérica",
+        "EE.UU.",
+        "Global"
+      ],
+      "portada": {
+        "index": "01 / 10",
+        "tag": "Chile",
+        "headline": "El FMI recorta con fuerza el crecimiento de Chile: 0,6% en 2026",
+        "body": "En su informe de octubre, el FMI bajó la proyección para Chile desde 1,8% a 0,6% (en abril esperaba 2,4%). Para 2027 prevé un repunte a 2,6%. El Banco Central estima entre 0,25% y 0,75% y el Gobierno, 0,7%.",
+        "stat": {
+          "value": "0,6%",
+          "direction": "down",
+          "label": "Crecimiento proyectado Chile 2026 (FMI)"
+        },
+        "source": "FMI / Publimetro",
+        "date": "13 oct 2026",
+        "analysis": "Tres instituciones distintas llegan a un número parecido, y eso le da peso a la señal: 2026 será un año casi plano. Lo que más me preocupa no es la cifra en sí, sino lo que trae: menos contratación y negocios más cautelosos. Lo que sostiene la esperanza para 2027 es el cobre alto y que la inflación se calme."
+      },
+      "capsulas": [
+        {
+          "index": "01/10",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El FMI recorta con fuerza el crecimiento de Chile: 0,6% en 2026",
+          "body": "En su informe de octubre, el FMI bajó la proyección para Chile desde 1,8% a 0,6% (en abril esperaba 2,4%). Para 2027 prevé un repunte a 2,6%. El Banco Central estima entre 0,25% y 0,75% y el Gobierno, 0,7%.",
+          "stat": {
+            "value": "0,6%",
+            "direction": "down",
+            "label": "Crecimiento proyectado Chile 2026 (FMI)"
+          },
+          "source": "FMI / Publimetro",
+          "date": "13 oct 2026",
+          "analysis": "Tres instituciones distintas llegan a un número parecido, y eso le da peso a la señal: 2026 será un año casi plano. Lo que más me preocupa no es la cifra en sí, sino lo que trae: menos contratación y negocios más cautelosos. Lo que sostiene la esperanza para 2027 es el cobre alto y que la inflación se calme."
+        },
+        {
+          "index": "02/10",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "La Superintendencia abre un proceso contra las siete AFP por el desplome del Fondo E",
+          "body": "El Fondo E, el más conservador, cae 10,39% real entre enero y septiembre, su peor resultado en 45 años. Las AFP habían apostado con derivados a que bajarían las tasas en EE.UU., pero las tasas subieron. Bloomberg estima pérdidas por US$7.700 millones. Este 20 de octubre, la Superintendencia de Pensiones inició un proceso sancionatorio contra las siete administradoras.",
+          "stat": {
+            "value": "−10,39%",
+            "direction": "down",
+            "label": "Fondo E: rentabilidad real enero–septiembre 2026"
+          },
+          "source": "Sup. de Pensiones / BioBioChile",
+          "date": "20 oct 2026",
+          "analysis": "Las AFP son de los mayores inversionistas de Chile, así que lo que les pase llega a toda la economía. Esto muestra que hasta el fondo más conservador puede perder cuando sube la tasa en EE.UU., la misma que vemos en la cápsula de la Fed. Al mismo tiempo, desde agosto el empleador paga 3,5% más de cotización, en un año de bajo crecimiento. No es recomendación de inversión, pero cambiarse de fondo en medio de la caída suele dejar la pérdida como definitiva."
+        },
+        {
+          "index": "03/10",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El dólar oficial llega a Bs. 883 y ya sube 196% en el año",
+          "body": "La tasa del BCV para el miércoles 21 de octubre quedó en Bs. 883,40 por dólar. En el mercado paralelo (Binance) el dólar ronda Bs. 1.007, una brecha cercana a 14% frente a la tasa oficial.",
+          "stat": {
+            "value": "Bs. 883,40",
+            "direction": "up",
+            "label": "Tasa oficial BCV por dólar · 21 oct 2026"
+          },
+          "source": "BCV / Finanzas Digital / elCaribe",
+          "date": "20 oct 2026",
+          "analysis": "La brecha de 14% es el termómetro que miro: mientras más se abre, más desconfianza hay en el bolívar. Para quien cobra en bolívares, cada semana el sueldo compra menos; para quien recibe remesas, el dólar rinde distinto según la tasa que use. Mi consejo de siempre: saber en qué tasa te están cobrando."
+        },
+        {
+          "index": "04/10",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "La inflación mensual de Venezuela baja a 8,4% en septiembre",
+          "body": "El BCV informó que los precios subieron 8,4% en septiembre, por debajo del 8,9% de agosto. Aun así, entre enero y septiembre la inflación acumulada llega a 225,3%, porque cada mes se suma sobre el anterior.",
+          "stat": {
+            "value": "8,4%",
+            "direction": "down",
+            "label": "Inflación mensual Venezuela · septiembre 2026"
+          },
+          "source": "BCV / Bloomberg Línea",
+          "date": "5 oct 2026",
+          "analysis": "Que la inflación baje es buena noticia, pero que baje de 8,9% a 8,4% al mes sigue siendo muchísimo: en Chile eso sería casi la inflación de dos años en solo treinta días. El dato que ayuda a entenderlo es el acumulado: los precios ya más que se triplicaron en nueve meses."
+        },
+        {
+          "index": "05/10",
+          "tag": "Latinoamérica",
+          "type": "stat",
+          "title": "Brasil va a segunda vuelta el 25 de octubre y el real reacciona",
+          "body": "Tras la primera vuelta del 4 de octubre, Flávio Bolsonaro (47%) y Lula (45%) se enfrentan en el balotaje. Las encuestas de Datafolha, AtlasIntel y PoderData dan una ventaja de entre 4 y 6 puntos a Bolsonaro. El real subió cerca de 4% tras el primer resultado.",
+          "stat": {
+            "value": "+4%",
+            "direction": "up",
+            "label": "Real brasileño tras la primera vuelta"
+          },
+          "source": "Bloomberg Línea",
+          "date": "9 oct 2026",
+          "analysis": "No se trata de quién gana, sino de cómo los mercados leen cada escenario. Brasil es la economía más grande de la región y lo que pase con su moneda y su política fiscal se contagia a sus vecinos, Chile incluido. El domingo 25 conviene mirar el real y la bolsa de São Paulo el lunes siguiente."
+        },
+        {
+          "index": "06/10",
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "Baja la probabilidad de que la Fed vuelva a subir la tasa en octubre",
+          "body": "Tras la presentación de Kevin Warsh en las reuniones del FMI, las apuestas por un alza en la reunión del 27 y 28 de octubre cayeron de cerca de 27% a menos de 15%. La Fed subió su tasa en septiembre por primera vez desde 2023; Goldman Sachs espera una pausa y un último aumento en diciembre.",
+          "stat": {
+            "value": "<15%",
+            "direction": "down",
+            "label": "Probabilidad de alza de tasa en octubre"
+          },
+          "source": "Bloomberg / Yahoo Finanzas",
+          "date": "16 oct 2026",
+          "analysis": "Cuando la Fed sube la tasa, el dólar se fortalece y en Chile lo sentimos en el tipo de cambio y en los créditos. Una pausa en octubre daría un respiro, pero no es el fin del ciclo: con la inflación en 3,7%, la puerta a otra alza en diciembre sigue abierta."
+        },
+        {
+          "index": "07/10",
+          "tag": "Global",
+          "type": "stat",
+          "title": "El petróleo Brent roza los US$110 por la tensión en Ormuz",
+          "body": "El Brent cerró la sesión europea del 16 de octubre en US$109,72 el barril, un alza de 3,85% en el día y su nivel más alto desde el 14 de septiembre. El WTI superó los US$101. Los analistas lo ven como una prima de riesgo geopolítico, no como escasez física.",
+          "stat": {
+            "value": "US$109,72",
+            "direction": "up",
+            "label": "Petróleo Brent por barril · 16 oct 2026"
+          },
+          "source": "ICE / Merca2",
+          "date": "16 oct 2026",
+          "analysis": "Este es el número que conecta todas las cápsulas: el petróleo caro empuja la bencina, la inflación y, con ella, las tasas. Para Venezuela puede significar más ingresos; para Chile, que importa casi todo su combustible, es un costo extra. Mientras siga la tensión en Ormuz, conviene presupuestar con prudencia."
+        },
+        {
+          "index": "08/10",
+          "tag": "Infografía",
+          "type": "image",
+          "title": "¿Cuánto cuesta un café en Latinoamérica?",
+          "body": "Misma taza, distinto bolsillo: precio de un café para llevar en seis países y su equivalente en dólares.",
+          "image": "5min-economia-infografia-cafe-latam-web.jpg",
+          "alt": "Infografía: precio de un café para llevar. Argentina US$3,37, Chile US$2,79, Venezuela US$2–4, Colombia US$1,46, México US$1,19–1,36, Brasil US$0,77.",
+          "source": "Surtidores LATAM / dolarhoy.net",
+          "date": "28 sep 2026"
+        },
+        {
+          "index": "09/10",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Superintendencia de Pensiones",
+              "url": "https://www.spensiones.cl",
+              "note": "Rentabilidad y comisiones de las AFP"
+            },
+            {
+              "name": "IPS / ChileAtiende",
+              "url": "https://www.ips.gob.cl",
+              "note": "Reforma de pensiones y PGU"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "index": "10/10",
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "No es que tengamos poco tiempo; es que perdemos mucho.",
+          "author": "Séneca",
+          "source_label": "Sobre la brevedad de la vida, I",
+          "source": "5 min. de economía",
+          "date": "21 oct 2026"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$973,95",
+            "note": "Cierre · 20 oct"
+          },
+          {
+            "label": "UF",
+            "value": "$41.194,55",
+            "note": "21 oct"
+          },
+          {
+            "label": "Bolívar (BCV)",
+            "value": "Bs. 883,40",
+            "note": "Oficial · 21 oct"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,54/lb",
+            "note": "LME · 19 oct"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$108,79",
+            "note": "Brent · 20 oct"
+          }
+        ],
+        "source": "Fuentes: Dow Jones (dólar), SII (UF), Banco Central de Venezuela, Cochilco/LME, ICE (Brent)"
+      },
+      "video": "5min-economia-220-resumen.mp4",
+      "videoPoster": "5min-economia-220-video-portada.png"
+    },
+    {
+      "number": 219,
+      "date": "16 de octubre, 2026",
+      "tags": [
+        "Chile",
+        "Global",
+        "EE.UU.",
+        "Venezuela",
+        "Latinoamérica"
+      ],
+      "portada": {
+        "index": "01 / 07",
+        "tag": "Chile",
+        "headline": "La inflación en Chile sube a 4,1% y se aleja de la meta del Banco Central",
+        "body": "El IPC de septiembre subió 0,4% en el mes y 4,1% en doce meses, sobre el 3% que busca el Banco Central. Pesaron los alimentos (+0,6%) y el transporte (+0,9%), con la gasolina 2,7% más cara y el diésel 10,2%.",
+        "stat": {
+          "value": "4,1%",
+          "direction": "up",
+          "label": "IPC Chile: variación en 12 meses a septiembre"
+        },
+        "source": "INE / El Desconcierto",
+        "date": "8 oct 2026",
+        "analysis": "Lo que más se siente en el bolsillo es lo que más sube: el combustible y la comida. Ojo con el diésel, porque termina en el precio de casi todo lo que se transporta. La buena noticia es que sin alimentos ni energía el alza fue de solo 0,1%, o sea, el problema hoy viene más de afuera que de adentro."
+      },
+      "capsulas": [
+        {
+          "index": "01/07",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "La inflación en Chile sube a 4,1% y se aleja de la meta del Banco Central",
+          "body": "El IPC de septiembre subió 0,4% en el mes y 4,1% en doce meses, sobre el 3% que busca el Banco Central. Pesaron los alimentos (+0,6%) y el transporte (+0,9%), con la gasolina 2,7% más cara y el diésel 10,2%.",
+          "stat": {
+            "value": "4,1%",
+            "direction": "up",
+            "label": "IPC Chile: variación en 12 meses a septiembre"
+          },
+          "source": "INE / El Desconcierto",
+          "date": "8 oct 2026",
+          "analysis": "Lo que más se siente en el bolsillo es lo que más sube: el combustible y la comida. Ojo con el diésel, porque termina en el precio de casi todo lo que se transporta. La buena noticia es que sin alimentos ni energía el alza fue de solo 0,1%, o sea, el problema hoy viene más de afuera que de adentro."
+        },
+        {
+          "index": "02/07",
+          "tag": "Global",
+          "type": "stat",
+          "title": "El cobre se mantiene en US$6,69 la libra y sigue en niveles de récord",
+          "body": "El metal cerró en US$6,69 por libra en Londres (unos US$14.750 la tonelada). El promedio de 2026 va en US$6,12, un 40,4% sobre el mismo momento de 2025. Para Chile, principal productor del mundo, es un respiro fiscal y de inversión.",
+          "stat": {
+            "value": "+40,4%",
+            "direction": "up",
+            "label": "Cobre: promedio 2026 vs. mismo punto de 2025"
+          },
+          "source": "Cochilco / Redimin",
+          "date": "14 oct 2026",
+          "analysis": "Un cobre tan alto es una buena noticia para las cuentas de Chile, pero conviene no acostumbrarse. Los precios de los metales suben y bajan con el humor de China y de los mercados, así que lo prudente es ahorrar el buen momento y no gastarlo como si fuera permanente."
+        },
+        {
+          "index": "03/07",
+          "tag": "EE.UU.",
+          "type": "stat",
+          "title": "La inflación de EE.UU. sube a 3,7% y complica a la Reserva Federal",
+          "body": "El IPC de septiembre llegó a 3,7% anual (3,4% en agosto) y 0,6% en el mes. La gasolina subió 9,1% y explicó más de la mitad del alza. Sin alimentos ni energía, la inflación es 2,6%. Todo esto, a pocas semanas de las elecciones legislativas del 3 de noviembre.",
+          "stat": {
+            "value": "3,7%",
+            "direction": "up",
+            "label": "IPC EE.UU.: variación anual a septiembre"
+          },
+          "source": "La Nación / AFP",
+          "date": "14 oct 2026",
+          "analysis": "Cuando EE.UU. tiene inflación alta, el dinero se encarece en todo el mundo, y eso también nos toca a nosotros: créditos, dólar y precios de las materias primas. Lo que me llama la atención es que el empuje viene de la energía, no de una economía recalentada, y eso cambia la receta para la Fed."
+        },
+        {
+          "index": "04/07",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "La economía de Venezuela creció 7,14% en el segundo trimestre",
+          "body": "Según el Banco Central de Venezuela, el PIB acumula 21 trimestres seguidos de crecimiento. La actividad petrolera subió 9,10% y la no petrolera 5,79%. El FMI, en abril, proyectaba una inflación cercana a 387% para este año.",
+          "stat": {
+            "value": "+7,14%",
+            "direction": "up",
+            "label": "PIB Venezuela: segundo trimestre de 2026 (anual)"
+          },
+          "source": "BCV / Bloomberg Línea",
+          "date": "18 ago 2026",
+          "analysis": "Crecer rápido después de caer tanto es en parte rebote, y el desafío es que ese crecimiento llegue a los precios, los sueldos y el día a día. Con una inflación todavía altísima, el número del PIB se lee con alegría, pero también con cautela."
+        },
+        {
+          "index": "05/07",
+          "tag": "Latinoamérica",
+          "type": "stat",
+          "title": "El FMI recorta el crecimiento de Latinoamérica a 2,3% para 2026",
+          "body": "En su informe de octubre, el FMI bajó la proyección regional desde 2,4% y la de 2027 a 2,5%. Brasil crecería 2,2%, México 1,5% y Argentina 2,1%. A nivel global, el organismo espera 3,1% este año y una inflación mundial de 4,7%.",
+          "stat": {
+            "value": "2,3%",
+            "direction": "down",
+            "label": "Crecimiento proyectado Latinoamérica 2026 (FMI)"
+          },
+          "source": "FMI / Bloomberg Línea",
+          "date": "13 oct 2026",
+          "analysis": "La región vuelve a crecer menos que el mundo, y eso no es nuevo. Lo importante es la razón: tasas altas y menos apoyo fiscal. Para quien emprende o invierte, la lectura es que el crédito seguirá caro y que cada punto de crecimiento va a costar más conseguirlo."
+        },
+        {
+          "index": "06/07",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "index": "07/07",
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "El tiempo es la única moneda que gastas sin nunca saber el saldo. Úsalo con sabiduría.",
+          "author": "5 min. de Economía",
+          "source_label": "Cierre de la edición 219",
+          "source": "5 min. de economía",
+          "date": "16 oct 2026"
+        }
+      ],
+      "indicators": {
+        "items": [
+          {
+            "label": "Dólar",
+            "value": "$987,03",
+            "note": "Observado · 15 oct"
+          },
+          {
+            "label": "UF",
+            "value": "$41.168,03",
+            "note": "16 oct"
+          },
+          {
+            "label": "Cobre",
+            "value": "US$6,69/lb",
+            "note": "LME · 14 oct"
+          },
+          {
+            "label": "Petróleo",
+            "value": "US$105,92",
+            "note": "Brent · 15 oct"
+          }
+        ],
+        "source": "Fuentes: Banco Central de Chile, Cochilco, ICE (Brent)"
+      },
+      "video": "5min-economia-219-resumen.mp4",
+      "videoPoster": "5min-economia-219-capsula-01.png"
+    },
+    {
+      "number": 218,
+      "date": "8 de octubre, 2026",
+      "tags": [
+        "Brasil",
+        "Latinoamérica",
+        "Venezuela",
+        "Chile",
+        "México"
+      ],
+      "portada": {
+        "index": "01 / 07",
+        "tag": "Brasil",
+        "headline": "La sorpresa electoral en Brasil lleva la Bolsa a un récord histórico",
+        "body": "Flávio Bolsonaro ganó la primera vuelta con 47,03% frente al 45,16% de Lula, contra lo que anticipaban las encuestas. El Ibovespa subió 7,7% hasta un récord de 206.911 puntos y el real se apreció más de 4%. La segunda vuelta es el 25 de octubre.",
+        "stat": {
+          "value": "+7,7%",
+          "direction": "up",
+          "label": "Ibovespa: mayor alza diaria desde marzo de 2020"
+        },
+        "source": "La Nación / Infobae",
+        "date": "6 oct 2026",
+        "analysis": "Esto muestra lo conectados que estamos: una elección en Brasil mueve el real, la bolsa y hasta las cuentas de las exportaciones argentinas. Yo tomaría la euforia con calma — la primera vuelta no define nada, y hasta el 25 de octubre el mercado va a mirar cada señal del programa económico."
+      },
+      "capsulas": [
+        {
+          "index": "01/07",
+          "tag": "Brasil",
+          "type": "stat",
+          "title": "La sorpresa electoral en Brasil lleva la Bolsa a un récord histórico",
+          "body": "Flávio Bolsonaro ganó la primera vuelta (47,03% vs. 45,16% de Lula), contra las encuestas. El real se apreció más de 4% y el balotaje es el 25 de octubre.",
+          "stat": {
+            "value": "+7,7%",
+            "direction": "up",
+            "label": "Ibovespa: mayor alza diaria desde marzo de 2020"
+          },
+          "source": "La Nación / Infobae",
+          "date": "6 oct 2026",
+          "analysis": "Esto muestra lo conectados que estamos: una elección en Brasil mueve el real, la bolsa y hasta las cuentas de las exportaciones argentinas. Yo tomaría la euforia con calma — la primera vuelta no define nada, y hasta el 25 de octubre el mercado va a mirar cada señal del programa económico."
+        },
+        {
+          "index": "02/07",
+          "tag": "Latinoamérica",
+          "type": "stat",
+          "title": "La región se juega su lugar en la carrera de las tierras raras",
+          "body": "Brasil sancionó una ley para crear su Política Nacional de Minerales Críticos, mientras Chile ya tiene 21 proyectos mineros por US$24.500 millones en evaluación. El desafío: la región apenas refina lo que extrae.",
+          "stat": {
+            "value": "20%",
+            "direction": "down",
+            "label": "Minerales críticos que la región refina localmente"
+          },
+          "source": "KPMG / Reporte Minero",
+          "date": "sep-oct 2026",
+          "analysis": "Tener la materia prima no alcanza — el dinero grande está en el procesamiento, y ahí China sigue mandando. Si la región no invierte en refinación propia, corre el riesgo de repetir la historia del cobre: exportar barato la piedra y comprar caro el producto terminado."
+        },
+        {
+          "index": "03/07",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "Los apagones le cuestan a Venezuela hasta 44% de las horas productivas",
+          "body": "El déficit eléctrico ronda los 3.000 MW y los cortes llegan a 12 horas diarias en varios estados. El gobierno apuesta a una alianza con GE Vernova para sumar 1.300 MW este trimestre.",
+          "stat": {
+            "value": "44%",
+            "direction": "down",
+            "label": "Horas productivas perdidas por la industria en 2026"
+          },
+          "source": "El Nacional",
+          "date": "oct 2026",
+          "analysis": "Acá la cuenta es simple: sin electricidad confiable, no hay inversión que rinda. Las promesas de modernizar el sistema son una buena señal, pero mientras tanto cada apagón es una fábrica parada y una oportunidad que se pierde."
+        },
+        {
+          "index": "04/07",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "Chile no cede en aranceles con EE.UU., pero sí avanza en minerales",
+          "body": "EE.UU. aplica un arancel de 12,5% a salmón, fruta, vino y madera chilenos; el cobre quedó fuera. Chile no firmó el acuerdo ART que lo habría dejado en 10% para defender el TLC vigente desde 2004, y sigue cooperando con Washington en minerales críticos.",
+          "stat": {
+            "value": "12,5%",
+            "direction": "up",
+            "label": "Arancel de EE.UU. a 20 de las 34 principales exportaciones chilenas"
+          },
+          "source": "Infobae / BioBioChile",
+          "date": "ago 2026",
+          "analysis": "Es una relación de dos velocidades: firme en comercio, donde Chile prefiere pagar 12,5% antes que ceder el TLC, y mucho más fluida en minerales, donde a EE.UU. le interesa un proveedor que no sea China. Falta ver cuál de las dos caras pesa más."
+        },
+        {
+          "index": "05/07",
+          "tag": "México",
+          "type": "stat",
+          "title": "El FMI mejora su pronóstico de crecimiento para México",
+          "body": "El organismo elevó la proyección del PIB mexicano de 1,2% a 1,5% para 2026, apoyado en políticas menos restrictivas y el impulso exportador, aunque advierte que persisten incertidumbres comerciales.",
+          "stat": {
+            "value": "1,5%",
+            "direction": "up",
+            "label": "Crecimiento del PIB proyectado 2026 (FMI)"
+          },
+          "source": "El Economista",
+          "date": "oct 2026",
+          "analysis": "Una mejora de pronóstico del FMI no es un festejo, es un respiro. México sigue dependiendo de qué pase con la relación comercial con EE.UU. — la mejora ayuda, pero no despeja las dudas de fondo que el propio organismo reconoce."
+        },
+        {
+          "index": "06/07",
+          "tag": "Sitios de interés",
+          "type": "links",
+          "title": "Visita estos sitios que te pueden interesar",
+          "body": "Las fuentes oficiales que usamos para armar las cápsulas. Entra y mira los datos de primera mano.",
+          "links": [
+            {
+              "name": "Banco Central de Chile",
+              "url": "https://www.bcentral.cl",
+              "note": "Tasa de política, PIB e IPoM"
+            },
+            {
+              "name": "INE Chile",
+              "url": "https://www.ine.gob.cl",
+              "note": "Empleo e inflación"
+            },
+            {
+              "name": "Cochilco",
+              "url": "https://www.cochilco.cl",
+              "note": "Cobre y minería"
+            },
+            {
+              "name": "CEPAL",
+              "url": "https://www.cepal.org",
+              "note": "Proyecciones de la región"
+            },
+            {
+              "name": "Banco Central de Venezuela",
+              "url": "https://www.bcv.org.ve",
+              "note": "PIB e inflación"
+            },
+            {
+              "name": "FMI",
+              "url": "https://www.imf.org/es",
+              "note": "Pronósticos mundiales"
+            },
+            {
+              "name": "Reserva Federal",
+              "url": "https://www.federalreserve.gov",
+              "note": "Tasas de interés de EE.UU."
+            }
+          ],
+          "source": "5 min. de economía",
+          "date": "oct 2026"
+        },
+        {
+          "index": "07/07",
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "Todo nos es ajeno; solo el tiempo es nuestro.",
+          "author": "Séneca",
+          "source_label": "Cartas a Lucilio · Carta 1",
+          "source": "5 min. de economía",
+          "date": "8 oct 2026"
+        }
+      ]
+    },
+    {
+      "number": 217,
+      "date": "28 de septiembre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Argentina",
+        "Estados Unidos",
+        "Global"
+      ],
+      "portada": {
+        "index": "01 / 06",
+        "tag": "Chile",
+        "headline": "El Banco Central de Chile recorta a la mitad su proyección de crecimiento",
+        "body": "El IPoM de septiembre bajó el rango de expansión del PIB 2026 de 1,0%-1,75% a solo 0,25%-0,75%, por la debilidad del gasto interno y una menor producción minera. La tasa de interés se mantuvo en 4,5%.",
+        "stat": {
+          "value": "0,25-0,75%",
+          "direction": "down",
+          "label": "Nuevo rango de crecimiento del PIB 2026"
+        },
+        "source": "Banco Central de Chile",
+        "date": "sep 2026",
+        "analysis": "Esto es lo que se siente en el día a día: menos horas extra, ascensos que se enfrían y un crédito que sigue caro. Al Banco Central no le queda mucho margen para bajar la tasa si las cosas se complican más, así que yo no esperaría un respiro rápido en el bolsillo."
+      },
+      "capsulas": [
+        {
+          "index": "01/06",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El Banco Central recorta a la mitad su proyección de crecimiento",
+          "body": "El IPoM de septiembre bajó el rango de expansión del PIB 2026 de 1,0%-1,75% a solo 0,25%-0,75%. La tasa de interés se mantuvo en 4,5%.",
+          "stat": {
+            "value": "0,25-0,75%",
+            "direction": "down",
+            "label": "Nuevo rango de crecimiento del PIB 2026"
+          },
+          "source": "Banco Central de Chile",
+          "date": "sep 2026",
+          "analysis": "Esto es lo que se siente en el día a día: menos horas extra, ascensos que se enfrían y un crédito que sigue caro. Al Banco Central no le queda mucho margen para bajar la tasa si las cosas se complican más, así que yo no esperaría un respiro rápido en el bolsillo."
+        },
+        {
+          "index": "02/06",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "La inflación venezolana sigue en caída libre",
+          "body": "La medición independiente de Steve Hanke ubicó la inflación anual en 273,9% al 21 de septiembre, la tercera baja semanal consecutiva.",
+          "stat": {
+            "value": "273,9%",
+            "direction": "down",
+            "label": "Inflación anual (medición Hanke)"
+          },
+          "source": "El Diario",
+          "date": "21 sep 2026",
+          "analysis": "Que la inflación baje es un alivio real, y se agradece — pero no nos confundamos: seguimos hablando de casi 274% al año, así que el sueldo sigue rindiendo menos cada mes que pasa. Va en la dirección correcta; el bolsillo todavía no lo nota del todo."
+        },
+        {
+          "index": "03/06",
+          "tag": "Argentina",
+          "type": "stat",
+          "title": "El riesgo país argentino supera los 600 puntos",
+          "body": "El indicador de JP Morgan trepó a 609 puntos básicos, su nivel más alto en meses, mientras el tipo de cambio mayorista tocó un máximo histórico.",
+          "stat": {
+            "value": "609",
+            "direction": "up",
+            "label": "Riesgo país (EMBI+), puntos básicos"
+          },
+          "source": "Infobae",
+          "date": "26 sep 2026",
+          "analysis": "Cuando el riesgo país sube, es básicamente el mercado diciendo 'le presto a Argentina, pero más caro'. Eso termina empujando al dólar y a las tasas de todos los días — no es un número abstracto, es lo que hace más difícil planificar a mediano plazo."
+        },
+        {
+          "index": "04/06",
+          "tag": "Estados Unidos",
+          "type": "stat",
+          "title": "La Fed sube tasas por primera vez en tres años",
+          "body": "El FOMC elevó el rango objetivo a 3,75%-4,00% en una decisión unánime, y la mayoría de sus miembros proyecta al menos un alza más antes de fin de año.",
+          "stat": {
+            "value": "3,75-4,00%",
+            "direction": "up",
+            "label": "Rango objetivo de la tasa de la Fed"
+          },
+          "source": "CNBC / Infobae",
+          "date": "16 sep 2026",
+          "analysis": "Esto nos toca más de lo que parece: cuando la Fed sube tasas, el crédito en dólares se encarece en toda la región, y monedas como el peso chileno suelen sentir el golpe en las semanas siguientes. Vale la pena seguirlo de cerca — no es solo un tema de Wall Street."
+        },
+        {
+          "index": "05/06",
+          "tag": "Economía global",
+          "type": "stat",
+          "title": "Los bonos del Tesoro de EE.UU. tocan máximos de casi 20 años",
+          "body": "El rendimiento a 10 años llegó a 5,18%, el nivel más alto desde 2007, mientras Wall Street cerró la semana en verde pese a la presión de las tasas.",
+          "stat": {
+            "value": "5,18%",
+            "direction": "up",
+            "label": "Rendimiento del bono del Tesoro a 10 años"
+          },
+          "source": "Reuters / CNBC",
+          "date": "25 sep 2026",
+          "analysis": "Cuando el Tesoro de EE.UU. paga más, a los inversores les conviene quedarse ahí en vez de arriesgar en mercados como el nuestro. Para nosotros eso suele significar monedas más débiles y deuda más cara — una señal silenciosa, pero que termina sintiéndose."
+        },
+        {
+          "index": "06/06",
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "El espacio que vivimos no es vida, sino tiempo.",
+          "author": "Séneca",
+          "source_label": "Pensamiento estoico",
+          "source": "5 min. de economía",
+          "date": "28 sep 2026"
+        }
+      ]
+    },
+    {
+      "number": 216,
+      "date": "22 de septiembre, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Argentina",
+        "Uruguay",
+        "Global"
+      ],
+      "portada": {
+        "index": "01 / 08",
+        "tag": "Chile",
+        "headline": "El cobre toca máximos históricos en 2026",
+        "body": "El precio promedio del metal rojo se dispara a US$6,03 la libra, un alza de 40% interanual, impulsada por la fuerte demanda de centros de datos de IA y una oferta minera más ajustada.",
+        "stat": {
+          "value": "+40%",
+          "direction": "up",
+          "label": "Alza interanual del precio del cobre · 2026"
+        },
+        "source": "Cochilco",
+        "date": "10 de septiembre, 2026"
+      },
+      "capsulas": [
+        {
+          "index": "01/08",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El cobre toca máximos históricos en 2026",
+          "body": "El precio promedio llega a US$6,03 la libra, 40% más que en 2025, impulsado por la demanda de IA y una oferta más ajustada.",
+          "stat": {
+            "value": "+40%",
+            "direction": "up",
+            "label": "Alza interanual del cobre"
+          },
+          "source": "Cochilco",
+          "date": "10 sep 2026"
+        },
+        {
+          "index": "02/08",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "El desempleo llega al nivel más alto en 5 años",
+          "body": "La tasa de desocupación subió a 9,4% en el trimestre marzo-mayo, el nivel más alto en casi cinco años y 41 meses seguidos sobre el 8%.",
+          "stat": {
+            "value": "9,4%",
+            "direction": "up",
+            "label": "Desocupación · trimestre móvil mar-may 2026"
+          },
+          "source": "INE Chile",
+          "date": "30 jun 2026"
+        },
+        {
+          "index": "03/08",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "Venezuela reactiva su alianza petrolera con EE.UU.",
+          "body": "Washington flexibilizó las sanciones y habilitó licencias para que empresas ligadas a EE.UU. extraigan y refinen crudo venezolano, reorientando un comercio que por años favoreció a China.",
+          "stat": {
+            "value": "300 mil",
+            "direction": "up",
+            "label": "Barriles diarios que proyecta Chevron en Venezuela"
+          },
+          "source": "El Colombiano",
+          "date": "sep 2026"
+        },
+        {
+          "index": "04/08",
+          "tag": "Argentina",
+          "type": "stat",
+          "title": "El Tesoro de EE.UU. respalda a Argentina",
+          "body": "El secretario Scott Bessent confirmó que Washington está listo para sostener financieramente al país, en medio de una escalada del riesgo país en las últimas semanas.",
+          "stat": {
+            "value": "578",
+            "direction": "up",
+            "label": "Riesgo país (EMBI+), puntos básicos"
+          },
+          "source": "Perfil",
+          "date": "24 sep 2026"
+        },
+        {
+          "index": "05/08",
+          "tag": "Uruguay",
+          "type": "stat",
+          "title": "Uruguay proyecta un crecimiento moderado para 2026",
+          "body": "BBVA Research estima una expansión del PIB de 1,3%, por debajo de su potencial, y apunta al acuerdo Mercosur-Unión Europea como la llave para atraer más inversión.",
+          "stat": {
+            "value": "1,3%",
+            "direction": "up",
+            "label": "Crecimiento del PIB proyectado 2026"
+          },
+          "source": "BBVA Research",
+          "date": "16 jun 2026"
+        },
+        {
+          "index": "06/08",
+          "tag": "Economía global",
+          "type": "stat",
+          "title": "El petróleo se dispara por la guerra en Medio Oriente",
+          "body": "El Brent ronda los US$101 por barril, la mayor presión energética en cuatro años según el Banco Mundial, con riesgo de mayor inflación mundial.",
+          "stat": {
+            "value": "US$101",
+            "direction": "up",
+            "label": "Precio del barril de petróleo Brent"
+          },
+          "source": "Banco Mundial",
+          "date": "sep 2026"
+        },
+        {
+          "index": "07/08",
+          "tag": "Economía global",
+          "type": "stat",
+          "title": "China domina el refinado de minerales críticos en Latinoamérica",
+          "body": "Aunque la región concentra buena parte de las reservas de litio, cobre y tierras raras, Pekín mantiene el control del procesamiento. EE.UU. ya firmó un acuerdo con Argentina para asegurar suministro alternativo.",
+          "stat": {
+            "value": "90%",
+            "direction": "up",
+            "label": "Del refinado mundial de tierras raras está en manos de China"
+          },
+          "source": "El Economista / BMI",
+          "date": "2026"
+        },
+        {
+          "index": "08/08",
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "El presente es corto, el futuro es dudoso, el pasado es cierto.",
+          "author": "Séneca",
+          "source_label": "Pensamiento estoico",
+          "source": "5 min. de economía",
+          "date": "22 sep 2026"
+        }
+      ]
+    },
+    {
+      "number": 215,
+      "date": "31 de agosto, 2026",
+      "tags": [
+        "Chile",
+        "Venezuela",
+        "Latam",
+        "EE.UU.",
+        "Global"
+      ],
+      "portada": {
+        "index": "01 / 06",
+        "tag": "Chile",
+        "headline": "Chile ajusta su proyección de crecimiento a 1% para 2026",
+        "body": "Tras la caída de 0,2% del PIB en el segundo trimestre, economistas corrigen a la baja las expectativas para el cierre del año.",
+        "stat": {
+          "value": "-0,2%",
+          "direction": "down",
+          "label": "Variación del PIB · segundo trimestre 2026"
+        },
+        "source": "Banco Central de Chile / La Tercera",
+        "date": "19 de agosto, 2026"
+      },
+      "capsulas": [
+        {
+          "index": "01/06",
+          "tag": "Chile",
+          "type": "stat",
+          "title": "Chile ajusta su proyección de crecimiento a 1% para 2026",
+          "body": "Tras la caída de 0,2% del PIB en el segundo trimestre, economistas corrigen a la baja las expectativas para el cierre del año.",
+          "stat": {
+            "value": "-0,2%",
+            "direction": "down",
+            "label": "Variación del PIB · 2T 2026"
+          },
+          "source": "Banco Central de Chile",
+          "date": "19 ago 2026"
+        },
+        {
+          "index": "02/06",
+          "tag": "Venezuela",
+          "type": "stat",
+          "title": "El PIB venezolano encadena 21 trimestres de expansión",
+          "body": "El BCV reportó un alza de 7,14% en el segundo trimestre, impulsada por un crecimiento de 9,1% en la actividad petrolera.",
+          "stat": {
+            "value": "+7,14%",
+            "direction": "up",
+            "label": "Variación del PIB · 2T 2026"
+          },
+          "source": "Banco Central de Venezuela",
+          "date": "18 ago 2026"
+        },
+        {
+          "index": "03/06",
+          "tag": "Latinoamérica",
+          "type": "stat",
+          "title": "Cepal ajusta a la baja el crecimiento regional de 2026",
+          "body": "El organismo proyecta una expansión de 2,2% para la región, una décima menos que su estimación previa, y advierte que el ritmo es insuficiente para cerrar brechas de desarrollo.",
+          "stat": {
+            "value": "2,2%",
+            "direction": "up",
+            "label": "Crecimiento regional proyectado 2026"
+          },
+          "source": "Cepal",
+          "date": "20 ago 2026"
+        },
+        {
+          "index": "04/06",
+          "tag": "Estados Unidos",
+          "type": "stat",
+          "title": "El déficit comercial de EE.UU. se dispara a US$118.800 millones",
+          "body": "Pese a los aranceles de Trump, las exportaciones cayeron 2,9% en julio mientras las importaciones subieron 3,7%, ampliando la brecha frente a junio.",
+          "stat": {
+            "value": "US$118.800M",
+            "direction": "up",
+            "label": "Déficit comercial · julio 2026"
+          },
+          "source": "Depto. de Comercio de EE.UU. / La Jornada",
+          "date": "27 ago 2026"
+        },
+        {
+          "index": "05/06",
+          "tag": "Economía global",
+          "type": "stat",
+          "title": "Los mercados caen por la escalada entre EE.UU. e Irán",
+          "body": "El petróleo subió más de 3% y Wall Street abrió en rojo tras nuevos ataques en Medio Oriente, mientras crecen las apuestas por una suba de tasas de la Fed en septiembre.",
+          "stat": {
+            "value": "US$90,91",
+            "direction": "up",
+            "label": "Precio del barril de petróleo Brent"
+          },
+          "source": "Bloomberg Línea",
+          "date": "31 ago 2026"
+        },
+        {
+          "index": "06/06",
+          "tag": "Cierre",
+          "type": "quote",
+          "quote": "El presente es corto, el futuro es dudoso, el pasado es cierto.",
+          "author": "Séneca",
+          "source_label": "Pensamiento estoico",
+          "source": "5 min. de economía",
+          "date": "31 ago 2026"
+        }
+      ]
+    }
+  ]
+}
