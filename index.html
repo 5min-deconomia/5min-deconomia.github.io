@@ -1007,25 +1007,16 @@
   },
   "eventos": [
     {
-      "id": "faces-68",
-      "tag": "Evento",
-      "title": "FACES‑ULA celebra su 68 aniversario: esta es la programación",
-      "body": "La Facultad de Ciencias Económicas y Sociales de la Universidad de Los Andes (Mérida) celebra 68 años con una semana de actividades, del 16 al 21 de noviembre. El martes 17, Día del Economista, la ponencia central aborda el desafío de recuperar la industria de petróleo y gas en Venezuela.",
-      "video": "5min-economia-faces68-semana.mp4",
-      "poster": "5min-economia-faces68-portada.jpg",
-      "items": [
-        "Lunes 16 · 8:00 a.m. · Izado de la Bandera · Anfiteatro FACES",
-        "Lunes 16 · 9:00 a.m. · Misa de Acción de Gracias · Auditorio B",
-        "Lunes 16 · 10:30 a.m. · Reconocimiento a Estudiantes de Alto Rendimiento · Auditorio B",
-        "Martes 17 · 9:00 a.m. · Premiación del Concurso Adam Smith 250 · Auditorio B",
-        "Martes 17 · 10:30 a.m. · Ponencia Central, Día del Economista: «La Industria de Petróleo y Gas en Venezuela: El Desafío de una Recuperación Sostenida» · Auditorio B",
-        "Miércoles 18 · 10:00 a.m. · Trayectorias Compartidas: encuentro de profesores y egresados · Auditorio B",
-        "Jueves 19 y viernes 20 · Emprendimiento en Acción: un espacio para aprender, conectar y transformar ideas en oportunidades · Auditorio B",
-        "Sábado 21 · 8:00 a.m. · FACES FEST (punto de encuentro) · Estacionamiento FACES ULA"
-      ],
-      "note": "Conexión en línea: reunión 8404933847 · código Faces68",
+      "id": "faces-68-invitacion",
+      "tag": "Invitación",
+      "title": "FACES‑ULA cumple 68 años: conoce su web",
+      "body": "La Facultad de Ciencias Económicas y Sociales de la Universidad de Los Andes, en Mérida, celebra 68 años formando economistas, administradores, contadores y estadísticos (1958–2026). Te invitamos a visitar su página web para conocer sus carreras, postgrados, centros de investigación y próximas actividades.",
+      "video": "5min-economia-faces68-invitacion.mp4",
+      "poster": "5min-economia-faces68-invitacion-portada.jpg",
+      "link": "http://www.ula.ve/ciencias-economicas-sociales/",
+      "linkLabel": "Visitar la web de FACES‑ULA",
       "source": "FACES · Universidad de Los Andes",
-      "date": "16–21 nov 2026"
+      "date": "nov 2026"
     }
   ],
   "editions": [
@@ -5372,6 +5363,7 @@
         '<div class="cap-body">' + esc(c.body || '') + '</div>' +
         (its ? '<div class="zoom-program"><span class="label">Programación</span><ul>' + its + '</ul></div>' : '') +
         (c.note ? '<p class="zoom-note">' + esc(c.note) + '</p>' : '') +
+        (c.link ? '<p style="margin-top:18px"><a class="btn btn-primary" href="' + esc(c.link) + '" target="_blank" rel="noopener">' + esc(c.linkLabel || 'Visitar sitio') + '</a></p>' : '') +
         '<div class="cap-footer"><span>' + esc(c.source || '') + '</span><span>' + esc(c.date || '') + '</span></div></div>' +
         '</article>';
     }).join('');
