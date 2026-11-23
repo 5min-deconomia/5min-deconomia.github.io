@@ -382,6 +382,9 @@
   .relanz-feature{ position:relative; flex-direction:column; margin:0; border:2px solid var(--brass); box-shadow:0 18px 50px rgba(0,0,0,.45); }
   .relanz-feature figcaption{ width:100%; padding:14px 18px; font-size:15px; color:var(--parchment-dim); border-top:1px solid var(--brass-dim); text-align:center; }
   .relanz-badge{ position:absolute; top:14px; left:14px; z-index:2; background:var(--brass); color:#151010; font-weight:700; font-size:13px; letter-spacing:.12em; text-transform:uppercase; padding:6px 14px; border-radius:30px; }
+  .relanz-vertical{ flex-direction:column; background:var(--void); }
+  .relanz-vertical video{ width:auto; max-width:100%; height:min(640px, 80vh); aspect-ratio:9/16; object-fit:contain; margin:0 auto; }
+  .relanz-vertical figcaption{ width:100%; padding:14px 18px; font-size:15px; color:var(--parchment-dim); border-top:1px solid var(--brass-dim); text-align:center; }
   @media (max-width:860px){ .relanz-grid{ grid-template-columns:1fr; } }
 
   .section-portada{ background:var(--ink); }
@@ -930,6 +933,10 @@
         <div class="relanz-media">
           <video src="5min-economia-promo-cine.mp4" poster="5min-economia-promo-cine-portada.jpg" controls playsinline preload="none"></video>
         </div>
+        <figure class="relanz-media relanz-wide relanz-vertical" style="margin:0">
+          <video src="5min-economia-nuestro-oficio.mp4" poster="5min-economia-nuestro-oficio-portada.jpg" controls playsinline preload="none"></video>
+          <figcaption>Sobre nuestro oficio: detrás de cada dato hay personas. Te esperamos cada semana.</figcaption>
+        </figure>
       </div>
     </div>
   </section>
