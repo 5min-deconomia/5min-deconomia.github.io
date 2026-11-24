@@ -591,7 +591,7 @@
   @media (max-width:860px){ .evento{ grid-template-columns:1fr; } }
   .arch-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:16px; }
   .arch-grid figure{ margin:0; }
-  .arch-grid img{ display:block; width:100%; aspect-ratio:4/5; object-fit:cover; object-position:top; border-radius:6px; border:1px solid var(--brass-dim); transition:border-color .2s ease; }
+  .arch-grid img{ display:block; width:100%; height:auto; aspect-ratio:4/5; object-fit:cover; object-position:top; border-radius:6px; border:1px solid var(--brass-dim); transition:border-color .2s ease; }
   .arch-grid a:hover img{ border-color:var(--brass); }
   .arch-grid video{ display:block; width:100%; aspect-ratio:9/16; background:#000; border-radius:6px; border:1px solid var(--brass-dim); }
   .arch-grid figcaption{ margin-top:8px; font-size:14px; line-height:1.4; color:rgba(241,231,214,0.85); }
@@ -727,6 +727,69 @@
     .section{ padding:64px 0; }
     .dateline{ flex-direction:column; align-items:flex-start; }
   }
+
+  /* ============ MEJORAS DE DISEÑO · nov 2026 ============ */
+  /* Portada más corta: la noticia de la semana llega antes */
+  .hero{ padding-top:84px; }
+  .hero-inner{ padding-bottom:40px; }
+  .eyebrow{ margin-bottom:30px; }
+  .rule-thin{ margin:30px 0 18px; }
+  .cta-row{ margin-top:28px; }
+  .dateline{ margin-top:44px; }
+  details.ind-src summary{ cursor:pointer; list-style:none; display:inline-flex; align-items:center; gap:6px; color:rgba(241,231,214,0.55); }
+  details.ind-src summary::-webkit-details-marker{ display:none; }
+  details.ind-src summary::after{ content:"+"; color:var(--brass); }
+  details.ind-src[open] summary::after{ content:"–"; }
+  details.ind-src summary:hover{ color:var(--brass); }
+  details.ind-src p{ margin-top:6px; line-height:1.5; }
+  @media (max-width:640px){
+    .hero{ padding-top:56px; }
+    .hero-inner{ gap:0; padding-bottom:28px; }
+    .eyebrow{ font-size:12px; letter-spacing:0.18em; margin-bottom:22px; }
+    .num5{ font-size:84px; }
+    .minde{ font-size:30px; }
+    .economia{ font-size:44px; }
+    .rule-thin{ margin:22px 0 14px; }
+    .tagline{ font-size:18px; }
+    .hero-support{ font-size:15px; margin-top:12px; }
+    .cta-row{ margin-top:22px; gap:10px; }
+    .cta-row .btn{ padding:13px 20px; }
+    .glass-signature{ display:none; }
+    .dateline{ margin-top:28px; padding:14px 0; }
+    /* indicadores: franja que se desliza de lado en vez de una grilla alta */
+    .ind-strip{ padding:14px 0 10px; }
+    .ind-grid{ display:flex; gap:10px; overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; padding-bottom:6px; margin-right:-20px; padding-right:20px; scrollbar-width:none; }
+    .ind-grid::-webkit-scrollbar{ display:none; }
+    .ind-grid .ind{ flex:0 0 auto; min-width:42%; scroll-snap-align:start; }
+    .ind-grid .ind:last-child:nth-child(odd){ grid-column:auto; }
+    .ind .v{ font-size:21px; }
+  }
+
+  /* Archivo: en celular la fecha va arriba y el titular usa todo el ancho */
+  @media (max-width:640px){
+    .archive-list{ gap:10px; }
+    .archive-item{ flex-direction:column-reverse; align-items:flex-start; gap:6px; padding:16px 18px; }
+    .archive-headline{ font-size:17px; line-height:1.3; }
+  }
+
+  /* Cápsulas: en celular y tablet, tarjeta resumida (tema, titular y cifra); se lee completa al tocarla */
+  .cap-more{ display:none; }
+  @media (max-width:860px){
+    .cap-card{ min-height:0; }
+    .cap-card-text .cap-body, .cap-card-text .cap-analysis{ display:none; }
+    .cap-card-text .cap-title{ margin-bottom:2px; }
+    .cap-more{ display:block; margin-top:16px; position:relative; font-size:13px; font-weight:600; letter-spacing:0.06em; color:var(--brass); }
+    .cap-card-text .cap-footer{ margin-top:14px; }
+  }
+
+  /* Quiénes somos (antes "De vuelta"): un bloque corto con un solo video */
+  .somos-grid{ display:grid; grid-template-columns:minmax(0,1.25fr) minmax(0,1fr); gap:40px; align-items:center; position:relative; }
+  .somos-grid .relanz-feature{ margin:0; }
+  .somos-points{ list-style:none; margin:0; padding:0; }
+  .somos-points li{ padding:16px 0 16px 18px; border-left:2px solid var(--brass); margin-bottom:14px; background:rgba(241,231,214,0.03); border-radius:0 4px 4px 0; }
+  .somos-points strong{ display:block; font-family:var(--serif); font-size:20px; color:var(--parchment); margin-bottom:4px; }
+  .somos-points span{ color:var(--parchment-dim); font-size:15px; }
+  @media (max-width:860px){ .somos-grid{ grid-template-columns:1fr; gap:24px; } }
 </style>
 <!-- Datos para Google: qué es este sitio y quién lo publica -->
 <script type="application/ld+json">
@@ -784,7 +847,6 @@
       <a href="#capsulas">Cápsulas</a>
       <a href="#archivo">Archivo</a>
       <a href="#infografias">Infografías</a>
-      <a href="#relanzamiento">De vuelta</a>
       <a href="#autor">Autor</a>
       <a href="#seguir" class="nav-cta">Seguir</a>
     </nav>
@@ -819,7 +881,7 @@
 
         <div class="cta-row">
           <a href="#seguir" class="btn btn-primary">Seguir la cápsula informativa</a>
-          <a href="#capsulas" class="btn btn-ghost">Ver la última edición</a>
+          <a href="#portada" class="btn btn-ghost">Ver la última edición</a>
         </div>
       </div>
 
@@ -864,7 +926,7 @@
       <div class="section-head">
         <span class="kicker">Últimas cápsulas</span>
         <h2 class="section-title" id="gallery-title">Siete diapositivas, un café, cero relleno</h2>
-        <p class="section-sub">Así se ve la edición completa. Toca una cápsula para verla en grande.</p>
+        <p class="section-sub" id="gallery-sub">Así se ve la edición completa. Toca una cápsula para leerla completa.</p>
       </div>
 
       <div class="gallery-grid" id="gallery-grid">
@@ -912,31 +974,25 @@
     </div>
   </section>
 
-  <!-- ============ RELANZAMIENTO (después del archivo: la noticia de la semana va primero) ============ -->
+  <!-- ============ QUIÉNES SOMOS (antes "De vuelta"; se conserva el id para enlaces antiguos) ============ -->
   <section class="section section-relanzamiento" id="relanzamiento">
     <div class="wrap">
       <div class="section-head">
-        <span class="kicker">De vuelta</span>
-        <h2 class="section-title">Nueva imagen, misma esencia</h2>
-        <p class="section-sub">Rediseñamos la cápsula de punta a punta. Dale play al nuevo video: en 40 segundos te mostramos qué cubrimos, nuestras tres reglas y cómo se ve una cápsula.</p>
+        <span class="kicker">Quiénes somos</span>
+        <h2 class="section-title">Nuestras tres reglas</h2>
+        <p class="section-sub">En 40 segundos: qué cubrimos y cómo se arma cada cápsula.</p>
       </div>
 
-      <div class="relanz-grid">
-        <figure class="relanz-media relanz-wide relanz-feature">
-          <span class="relanz-badge">Nuevo video</span>
-          <video src="5min-economia-promo-2026.mp4" poster="5min-economia-promo-2026-portada.jpg" controls playsinline preload="metadata"></video>
-          <figcaption>Datos con fuente, sin opinión política y al grano. Nuevas cápsulas cada semana.</figcaption>
+      <div class="somos-grid">
+        <figure class="relanz-media relanz-feature">
+          <video src="5min-economia-promo-2026.mp4" poster="5min-economia-promo-2026-portada.jpg" controls playsinline preload="none"></video>
+          <figcaption>Nuevas cápsulas cada semana.</figcaption>
         </figure>
-        <div class="relanz-media">
-          <img src="5min-economia-relanzamiento.png" alt="Volvimos, con nueva imagen — 5 min. de Economía" loading="lazy">
-        </div>
-        <div class="relanz-media">
-          <video src="5min-economia-promo-cine.mp4" poster="5min-economia-promo-cine-portada.jpg" controls playsinline preload="none"></video>
-        </div>
-        <figure class="relanz-media relanz-wide relanz-vertical" style="margin:0">
-          <video src="5min-economia-nuestro-oficio.mp4" poster="5min-economia-nuestro-oficio-portada.jpg" controls playsinline preload="none"></video>
-          <figcaption>Sobre nuestro oficio: detrás de cada dato hay personas. Te esperamos cada semana.</figcaption>
-        </figure>
+        <ul class="somos-points">
+          <li><strong>Datos con fuente</strong><span>Cada cifra dice de dónde sale: bancos centrales, institutos de estadística y organismos oficiales.</span></li>
+          <li><strong>Sin opinión política</strong><span>Explicamos qué pasó y cómo te afecta; no tomamos partido.</span></li>
+          <li><strong>Al grano</strong><span>El dato, la cifra y por qué te importa, en lo que dura tu café.</span></li>
+        </ul>
       </div>
     </div>
   </section>
@@ -1008,7 +1064,8 @@
       {
         "ed": 227,
         "title": "Resumen de la edición 227",
-        "video": "5min-economia-227-resumen.mp4"
+        "video": "5min-economia-227-resumen.mp4",
+        "poster": "5min-economia-227-video-portada.jpg"
       }
     ]
   },
@@ -2431,7 +2488,7 @@
       '<div class="ind-grid">' + ind.items.map(function(x){
         return '<div class="ind"><div class="k">' + esc(x.label) + '</div><div class="v">' + esc(x.value) + '</div><div class="n">' + esc(x.note || '') + '</div></div>';
       }).join('') + '</div>' +
-      (ind.source ? '<div class="ind-src">' + esc(ind.source) + '</div>' : '');
+      (ind.source ? '<details class="ind-src"><summary>Ver fuentes</summary><p>' + esc(ind.source) + '</p></details>' : '');
   }
 
   function renderEditionVideo(ed){
@@ -2512,7 +2569,15 @@
     currentCaps = ed.capsulas;
     var gt = document.getElementById('gallery-title');
     if (gt) gt.textContent = numWord(ed.capsulas.length) + ' diapositivas, un café, cero relleno';
+    // La cápsula que ya se muestra como portada no se repite en la galería (sigue en la ventana grande y en los enlaces)
+    var portadaTitle = ed.portada && ed.portada.headline ? String(ed.portada.headline).trim() : '';
+    var skipFirst = !!portadaTitle && ed.capsulas.length > 1 && ed.capsulas[0] && String(ed.capsulas[0].title || '').trim() === portadaTitle;
+    var gs = document.getElementById('gallery-sub');
+    if (gs) gs.textContent = skipFirst
+      ? 'La primera es la portada de arriba; aquí van las demás. Toca una cápsula para leerla completa.'
+      : 'Así se ve la edición completa. Toca una cápsula para leerla completa.';
     grid.innerHTML = ed.capsulas.map(function(c, idx){
+      if (skipFirst && idx === 0) return '';
       var topline = '<div class="cap-topline"><span class="mark">' + HOURGLASS_SMALL + ' 5 min. de economía</span><span>' + esc(c.index || '') + '</span></div>';
       var footer = '<div class="cap-footer"><span>' + esc(c.source || '') + '</span><span>' + esc(c.date || '') + '</span></div>';
 
@@ -2572,11 +2637,13 @@
         '<div class="cap-analysis"><span class="label">Breve lectura</span><p>' + esc(c.analysis) + '</p></div>'
       ) : '';
 
-      return '<div class="cap-card" data-i="' + idx + '" role="button" tabindex="0" aria-label="Ver cápsula en grande">' + topline +
+      return '<div class="cap-card cap-card-text" data-i="' + idx + '" role="button" tabindex="0" aria-label="Leer la cápsula completa: ' + escAttr(c.title || '') + '">' + topline +
         '<span class="cap-tag">' + esc(c.tag) + '</span>' +
         '<div class="cap-title">' + esc(c.title) + '</div>' +
         '<div class="cap-body">' + esc(c.body || '') + '</div>' +
-        statBlock + analysisBlock + footer + '</div>';
+        statBlock + analysisBlock +
+        '<div class="cap-more" aria-hidden="true">Leer la cápsula completa →</div>' +
+        footer + '</div>';
     }).join('');
   }
 
@@ -2874,7 +2941,11 @@
     var A = collectArchivo(data.multimedia);
     var gi = A.imgs.map(function(x){
       var link = x.href || x.image;
-      return '<figure><a href="' + esc(link) + '"' + (x.href ? '' : ' target="_blank" rel="noopener noreferrer"') + '><img src="' + esc(x.image) + '" alt="' + esc(x.alt) + '" loading="lazy"></a>' +
+      // Miniatura liviana (*-mini.jpg, 560 px); si no existe, se usa la imagen original
+      var mini = /-web\.jpg$/.test(x.image) ? x.image.replace(/-web\.jpg$/, '-mini.jpg') : x.image;
+      return '<figure><a href="' + esc(link) + '"' + (x.href ? '' : ' target="_blank" rel="noopener noreferrer"') + '><img src="' + esc(mini) + '"' +
+        (mini !== x.image ? ' data-full="' + escAttr(x.image) + '" onerror="this.onerror=null;this.src=this.getAttribute(\'data-full\')"' : '') +
+        ' width="560" height="700" alt="' + esc(x.alt) + '" loading="lazy" decoding="async"></a>' +
         '<figcaption><span>Edición ' + esc(x.ed) + '</span>' + esc(x.title) + '</figcaption></figure>';
     }).join('');
     var gv = A.vids.map(function(v){
