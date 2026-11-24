@@ -742,6 +742,11 @@
   details.ind-src[open] summary::after{ content:"–"; }
   details.ind-src summary:hover{ color:var(--brass); }
   details.ind-src p{ margin-top:6px; line-height:1.5; }
+  /* La columna de la portada nunca se ensancha más que la pantalla (la franja de indicadores se desliza por dentro) */
+  @media (max-width:860px){
+    .hero-inner{ grid-template-columns:minmax(0,1fr); }
+    .hero-inner > *{ min-width:0; }
+  }
   @media (max-width:640px){
     .hero{ padding-top:56px; }
     .hero-inner{ gap:0; padding-bottom:28px; }
