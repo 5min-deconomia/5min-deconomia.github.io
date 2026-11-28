@@ -1,0 +1,3 @@
+Playfair Display y Space Grotesk, de Google Fonts (github.com/google/fonts).
+Licencia SIL Open Font License 1.1: https://openfontlicense.org
+Se usan solo para dibujar las imágenes ediciones/<N>/og.jpg.

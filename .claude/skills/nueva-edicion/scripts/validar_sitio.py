@@ -165,6 +165,13 @@ def main():
         if fecha and (not lm or lm.group(1) < fecha):
             err(f"sitemap.xml: lastmod «{lm.group(1) if lm else '—'}» es anterior a la última edición ({fecha})")
 
+    for e in inline + viejas:
+        pag = os.path.join(RAIZ, "ediciones", str(e.get("number")), "index.html")
+        if not os.path.isfile(pag):
+            err(f"falta ediciones/{e.get('number')}/index.html: corre generar_ediciones.py")
+        elif os.path.getmtime(pag) + 1 < os.path.getmtime(os.path.join(RAIZ, "index.html")) and e in inline:
+            aviso(f"ediciones/{e.get('number')}/ es más vieja que index.html: vuelve a correr generar_ediciones.py")
+
     grandes = [f for f in os.listdir(RAIZ) if f.endswith(".mp4") and os.path.getsize(f) > 8 * 1024 * 1024]
     for f in grandes:
         aviso(f"{f} pesa más de 8 MB; comprímelo (ver skill agregar-multimedia)")

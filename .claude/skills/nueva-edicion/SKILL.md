@@ -11,6 +11,7 @@ Sitio estático en GitHub Pages, sin build. Todo el contenido vive en JSON:
 
 - `index.html` → `<script type="application/json" id="site-data">` (entre la línea `"editions": [` y `<!-- DATA END -->`). Contiene `multimedia`, `eventos`, `editions` (las **6 más recientes**, de la más nueva a la más vieja) y `"archivo": "archivo.json"`.
 - `archivo.json` → `{"editions": [...]}` con las ediciones más viejas (misma forma). La página lo carga después de mostrar la portada.
+- `ediciones/<N>/`: una página estática por edición, generada desde el JSON. Es la URL que se comparte y la que Google indexa.
 - El JS del sitio genera solo: portada, archivo, «Infografías y videos», enlaces `#ed-232-c3` y el NewsArticle para Google. **No edites el JS ni el HTML para publicar contenido.**
 
 ## Forma de una edición (contrato)
@@ -55,10 +56,10 @@ Sitio estático en GitHub Pages, sin build. Todo el contenido vive en JSON:
 
 1. Inserta la edición nueva **al inicio** de `editions` en `index.html` (justo después de `"editions": [`). Edita con un script Python que cargue y vuelva a escribir el bloque JSON con `json.dumps(..., ensure_ascii=False, indent=2)` sangrado igual que el archivo, o con Edit; nunca con `sed`.
 2. Si quedan más de 6 ediciones en `index.html`, mueve las más viejas al **inicio** de `archivo.json` (orden descendente).
-3. `sitemap.xml`: `<lastmod>` = fecha ISO de la edición nueva.
-4. Valida: `python3 .claude/skills/nueva-edicion/scripts/validar_sitio.py`. Debe terminar con **0 errores**. Revisa los avisos de `index.html` (los de `archivo.json` son de formato antiguo).
+3. Genera las páginas propias: `python3 .claude/skills/nueva-edicion/scripts/generar_ediciones.py`. Crea o actualiza `ediciones/<N>/index.html` y `ediciones/<N>/og.jpg` (la vista previa de WhatsApp/X/Facebook) para **todas** las ediciones, y reescribe `sitemap.xml`. **No edites esos archivos a mano**: se sobrescriben. Córrelo después de **cualquier** cambio en `index.html` o `archivo.json`, también en correcciones.
+4. Valida: `python3 .claude/skills/nueva-edicion/scripts/validar_sitio.py`. Debe terminar con **0 errores**. Revisa los avisos de `index.html` (los de `archivo.json` son de formato antiguo). Abre `ediciones/<N>/og.jpg` y confirma que el titular y la cifra se leen bien.
 5. Mira la página: `python3 -m http.server 8000` y ábrela con Playwright en escritorio (1280 px) y celular (390 px). Revisa que la portada no se corte y que el modal de cada cápsula abra.
-6. Commit con el formato del repo: `Edición 233 (1 dic 2026): nueva edición y sitemap`. Para cambios posteriores: `Edición 233: <qué cambió>`.
+6. Commit (incluye `ediciones/`) con el formato del repo: `Edición 233 (1 dic 2026): nueva edición y sitemap`. Para cambios posteriores: `Edición 233: <qué cambió>`.
 
 ## Agregar o quitar una cápsula en una edición ya publicada
 
@@ -71,5 +72,5 @@ Renumera **todos** los `index` de esa edición y el de la portada (`TT` cambia).
 | `index` desfasado tras insertar una cápsula | Renumera todo; corre el validador |
 | Portada distinta de la cápsula 1 | Cópiala de nuevo desde la cápsula 1 |
 | JSON roto por comillas tipográficas o coma final | Usa `«»` dentro de textos o escapa `\"`; el validador avisa |
-| Olvidar el sitemap | `lastmod` = fecha de la edición |
+| Olvidar el sitemap o la página de la edición | Correr `generar_ediciones.py` |
 | Editar ediciones viejas en `index.html` cuando están en `archivo.json` | Busca el número en ambos archivos |

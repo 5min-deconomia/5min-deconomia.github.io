@@ -2993,6 +2993,10 @@
   function escAttr(s){ return esc(s).replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
   function edHash(ed){ return '#ed-' + ed.number; }
   function capHash(ed, k){ return '#ed-' + ed.number + '-c' + (k + 1); }
+  // Para compartir se usa la página propia de cada edición (ediciones/232/): Google la indexa y
+  // WhatsApp, X y Facebook muestran el titular. La genera generar_ediciones.py desde estos mismos datos.
+  function edShareUrl(ed){ return SITE_URL + 'ediciones/' + ed.number + '/'; }
+  function capShareUrl(ed, k){ return edShareUrl(ed) + '#c' + (k + 1); }
 
   function shareBarHtml(label, text, url){
     var t = encodeURIComponent(text), u = encodeURIComponent(url);
@@ -3009,7 +3013,7 @@
     if (!el) return;
     var h = ed.portada ? ed.portada.headline : '';
     var text = '☕ ' + h + ' — 5 min. de Economía, edición N.º ' + ed.number + ' (' + ed.date + ')';
-    el.innerHTML = shareBarHtml('Compartir esta edición', text, SITE_URL + edHash(ed));
+    el.innerHTML = shareBarHtml('Compartir esta edición', text, edShareUrl(ed));
   }
 
   function capShareHtml(c, k){
@@ -3017,7 +3021,7 @@
     var head = c.title || c.quote || '';
     var stat = c.stat && c.stat.value ? ' · ' + c.stat.value : '';
     var text = '📊 ' + (c.tag ? c.tag + ': ' : '') + head + stat + ' — vía 5 min. de Economía';
-    return '<div class="share-bar">' + shareBarHtml('Compartir esta cápsula', text, SITE_URL + capHash(ed, k)) + '</div>';
+    return '<div class="share-bar">' + shareBarHtml('Compartir esta cápsula', text, capShareUrl(ed, k)) + '</div>';
   }
 
   function setUrl(hash){
@@ -3097,7 +3101,7 @@
     if (!el) return;
     var d = ed.destacado;
     if (!d || !d.capsula || !ed.capsulas || !ed.capsulas[d.capsula - 1]) { el.hidden = true; el.innerHTML = ''; if (wrap) wrap.hidden = true; return; }
-    var k = d.capsula - 1, url = SITE_URL + capHash(ed, k), cap = ed.capsulas[k];
+    var k = d.capsula - 1, url = capShareUrl(ed, k), cap = ed.capsulas[k];
     var wa = 'https://wa.me/?text=' + encodeURIComponent('📅 ' + (d.titulo || cap.title) + (d.lema ? ' · ' + d.lema : '') + ' — ' + (d.texto || '') + '\n' + url);
     el.hidden = false; if (wrap) wrap.hidden = false;
     el.innerHTML =
@@ -3344,7 +3348,7 @@
     var MESES = {enero:1,febrero:2,marzo:3,abril:4,mayo:5,junio:6,julio:7,agosto:8,septiembre:9,setiembre:9,octubre:10,noviembre:11,diciembre:12};
     var m = /(\d{1,2})\s+de\s+([a-záéíóú]+),?\s+(\d{4})/i.exec(ed.date || '');
     var iso = m && MESES[m[2].toLowerCase()] ? m[3] + '-' + ('0' + MESES[m[2].toLowerCase()]).slice(-2) + '-' + ('0' + m[1]).slice(-2) : undefined;
-    var url = 'https://5min-deconomia.github.io/#ed-' + ed.number;
+    var url = 'https://5min-deconomia.github.io/ediciones/' + ed.number + '/';
     var ld = {
       '@context': 'https://schema.org',
       '@type': 'NewsArticle',
@@ -3352,7 +3356,7 @@
       'description': ed.portada.body,
       'url': url,
       'mainEntityOfPage': url,
-      'image': ['https://5min-deconomia.github.io/5min-economia-og.png'],
+      'image': ['https://5min-deconomia.github.io/ediciones/' + ed.number + '/og.jpg'],
       'inLanguage': 'es',
       'author': { '@type': 'Person', 'name': 'Rafael Jerez' },
       'publisher': { '@id': 'https://5min-deconomia.github.io/#org' },
