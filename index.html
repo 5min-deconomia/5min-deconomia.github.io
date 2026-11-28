@@ -785,6 +785,30 @@
     .glass-signature svg{ width:62px; height:88px; }
   }
 
+  /* Titular de la semana en la portada principal: en celular y tablet la noticia se ve sin bajar */
+  .hero-lead{ display:none; }
+  @media (max-width:860px){
+    .hero-lead:not([hidden]){ display:block; margin-top:20px; padding:16px 18px; border:1px solid var(--brass-dim); border-left:3px solid var(--brass); background:rgba(21,16,16,0.35); color:var(--parchment); text-decoration:none; border-radius:2px; }
+    .hero-lead:hover, .hero-lead:focus-visible{ border-color:var(--brass); }
+    .hero-lead span{ display:block; }
+    .hl-kicker{ font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--brass); }
+    .hl-title{ font-family:'Playfair Display',Georgia,serif; font-weight:700; font-size:21px; line-height:1.25; margin-top:6px; }
+    .hl-stat{ margin-top:8px; font-family:'Playfair Display',Georgia,serif; font-size:26px; color:var(--coral); }
+    .hl-stat i{ font-style:normal; font-size:20px; font-family:'Space Grotesk',system-ui,sans-serif; }
+    .glass-signature{ display:none; }
+    .hl-more{ margin-top:8px; font-size:13px; font-weight:600; color:var(--brass); }
+    /* el titular ya invita a leer: el texto de apoyo y el segundo botón sobran aquí */
+    .hero-support, .cta-row .btn-ghost{ display:none; }
+    .cta-row{ margin-top:18px; }
+  }
+  @media (max-width:640px){
+    .eyebrow{ margin-bottom:16px; }
+    .num5{ font-size:72px; }
+    .economia{ font-size:40px; }
+    .rule-thin{ margin:16px 0 10px; }
+    .tagline{ font-size:17px; }
+  }
+
   /* Enlace para saltar el menú con el teclado: invisible hasta que recibe el foco */
   .skip-link{ position:absolute; left:16px; top:-60px; z-index:200; background:var(--brass); color:var(--ink); font-weight:700; font-size:14px; padding:10px 16px; border-radius:2px; text-decoration:none; transition:top .15s ease; }
   .skip-link:focus{ top:12px; outline:2px solid var(--parchment); outline-offset:2px; }
@@ -902,6 +926,7 @@
 
         <div class="rule-thin"></div>
         <p class="tagline">La economía, explicada en el tiempo que dura tu café.</p>
+        <a class="hero-lead" id="hero-lead" href="#portada" hidden></a>
         <p class="hero-support">Una cápsula informativa — el dato que importa, la cifra exacta y por qué te afecta. Chile, Venezuela y el resto de Latinoamérica, leído en cinco minutos.</p>
 
         <div class="cta-row">
@@ -2736,7 +2761,24 @@
     return d.innerHTML;
   }
 
+  // Titular de la edición dentro de la portada principal (solo celular y tablet, ver CSS .hero-lead)
+  function renderHeroLead(ed){
+    var el = document.getElementById('hero-lead');
+    if (!el) return;
+    var p = ed.portada;
+    if (!p || !p.headline){ el.hidden = true; el.innerHTML = ''; return; }
+    var st = p.stat || {};
+    var arrow = st.direction === 'down' ? '↓' : st.direction === 'flat' ? '→' : '↑';
+    el.hidden = false;
+    el.innerHTML =
+      '<span class="hl-kicker">Edición N.º ' + esc(ed.number) + ' · ' + esc(p.tag || '') + '</span>' +
+      '<span class="hl-title">' + esc(p.headline) + '</span>' +
+      (st.value ? '<span class="hl-stat"><b>' + esc(st.value) + '</b> <i aria-hidden="true">' + arrow + '</i></span>' : '') +
+      '<span class="hl-more">Leer la edición →</span>';
+  }
+
   function renderDateline(ed){
+    renderHeroLead(ed);
     var dl = document.getElementById('dateline-content');
     if (!dl) return;
     var tags = (ed.tags || []).map(function(t){ return '<span class="chip">' + esc(t) + '</span>'; }).join('');
